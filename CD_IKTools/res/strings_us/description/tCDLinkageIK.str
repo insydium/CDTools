@@ -1,0 +1,26 @@
+STRINGTABLE tCDLinkageIK
+{
+	tCDLinkageIK					"Cactus Dan's IK Tools ";
+	
+	LNKIK_PURCHASE				" Purchase CD IK Tools  at  www.cactus3d.com ";
+
+	LNKIK_SHOW_LINES			"Show Lines ";
+	
+	LNKIK_LINE_COLOR			"Line Color ";
+
+	LNKIK_POLE_AXIS				"Pole Axis ";
+		LNKIK_POLE_Y			"+Y Axis";
+		LNKIK_POLE_X			"+X Axis";
+		LNKIK_POLE_NX			"-X Axis";
+		LNKIK_POLE_NY			"-Y Axis";
+	
+	LNKIK_POLE_GROUP			"Pole";
+		LNKIK_POLE_LINK			"Pole Object ";
+
+	LNKIK_GOAL_GROUP			"Goal";
+		LNKIK_GOAL_LINK			"Goal Object   ";
+	
+	LNKIK_CONNECT_BONES			"Keep Bones Connected";
+	LNKIK_CONNECT_NEXT			"Keep Next Connected";
+	
+}

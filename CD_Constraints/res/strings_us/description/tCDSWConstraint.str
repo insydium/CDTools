@@ -1,0 +1,22 @@
+STRINGTABLE tCDSWConstraint
+{
+	tCDSWConstraint				"Cactus Dan's Constraints ";
+	
+	SWC_PURCHASE				" Purchase CD Constraints  at  www.cactus3d.com ";
+
+	SWC_SHOW_LINES				" Show Guides";
+	SWC_LINE_COLOR				"Line Color ";
+	
+	SWC_COORD_SPACE				"Coord. Space";
+
+	SWC_USE_START_FRAME			"Start Frame";
+	SWC_SET_START_FRAME			"  Set  ";
+	SWC_RELEASE_START_FRAME		"Release";
+
+	SWC_ID_TARGET				"Target";
+	
+	SWC_ADD_SPC					"  Add   ";
+	SWC_SUB_SPC					" Delete ";
+	
+	SWC_REF					"Ref Matrix";
+}

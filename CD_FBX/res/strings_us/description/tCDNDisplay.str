@@ -1,0 +1,7 @@
+STRINGTABLE tCDNDisplay
+{
+	tCDNDisplay			"CD Display Phong Normals";
+
+	ND_NORMAL_SHOW			"Show Normals";
+	ND_NORMAL_SIZE			"Normals Size";
+}

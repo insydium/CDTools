@@ -1,0 +1,43 @@
+#ifndef _tCDPSRConstraint_H_
+#define _tCDPSRConstraint_H_
+
+enum
+{
+	PSRC_PURCHASE			= 1000,
+	
+	PSRC_SHOW_LINES			= 1010,
+	PSRC_LINE_COLOR			= 1011,
+	
+	PSRC_USE_P			= 1012,
+	PSRC_USE_R			= 1013,
+	PSRC_USE_S			= 1014,
+	
+	PSRC_AB_MIX				= 1017,
+	
+	PSRC_STRENGTH			= 1018,
+	
+	PSRC_LOCAL_PSR			= 1022,
+	PSRC_USE_AB_MIX			= 1023,
+	
+	PSRC_ADD_PSR				= 1031,
+	PSRC_SUB_PSR				= 1032,
+	
+	PSRC_INTERPOLATION		= 1040,
+		PSRC_AVERAGE			= 1041,
+		PSRC_SHORTEST		= 1042,					
+	
+	PSRC_ID_TARGET			= 1050,
+	
+	PSRC_LINK_GROUP			= 2000,
+	PSRC_LINE_ADD			= 3000,
+
+	PSRC_TARGET				= 4000,
+	
+	PSRC_PSR_MIX				= 5000
+
+};
+
+#endif
+
+
+

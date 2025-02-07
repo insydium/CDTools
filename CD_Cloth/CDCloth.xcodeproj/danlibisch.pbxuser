@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	4013D3FC17DA577B000D955C /* CDPaintSkin.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1210, 1760}}";
+			sepNavSelRange = "{480, 0}";
+			sepNavVisRange = "{0, 938}";
+			sepNavWindowFrame = "{{38, 191}, {1257, 841}}";
+		};
+	};
+	401478AC17C171B7003FD709 /* CDSkinTag.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 4032}}";
+			sepNavSelRange = "{3375, 1}";
+			sepNavVisRange = "{2580, 1001}";
+			sepNavWindowFrame = "{{84, 38}, {751, 952}}";
+		};
+	};
+	401712411296D0450032E09D /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 3104}}";
+			sepNavSelRange = "{3782, 61}";
+			sepNavVisRange = "{0, 919}";
+			sepNavWindowFrame = "{{521, 206}, {1122, 784}}";
+		};
+	};
+	40226B58183E722800E75083 /* CDClothFuncLib.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1184, 1104}}";
+			sepNavSelRange = "{162, 29}";
+			sepNavVisRange = "{0, 1601}";
+			sepNavWindowFrame = "{{15, 194}, {1231, 859}}";
+		};
+	};
+	4042E53E1820840500CE9AEA /* CDArray.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {792, 1680}}";
+			sepNavSelRange = "{645, 0}";
+			sepNavVisRange = "{897, 925}";
+			sepNavWindowFrame = "{{99, 45}, {839, 967}}";
+		};
+	};
+	4056263B17B4397300C14711 /* CDSkinRef.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1159, 12832}}";
+			sepNavSelRange = "{5339, 98}";
+			sepNavVisRange = "{19659, 1060}";
+			sepNavWindowFrame = "{{345, 128}, {1206, 800}}";
+		};
+	};
+	4056264017B439EE00C14711 /* CDSkinRefTag.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1093, 1136}}";
+			sepNavSelRange = "{1876, 0}";
+			sepNavVisRange = "{1122, 942}";
+			sepNavWindowFrame = "{{154, 98}, {1206, 800}}";
+		};
+	};
+	4056266117B43E0700C14711 /* CDClusterTag.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1079, 2704}}";
+			sepNavSelRange = "{2981, 7}";
+			sepNavVisRange = "{2631, 430}";
+			sepNavWindowFrame = "{{15, 230}, {1275, 823}}";
+		};
+	};
+	4056266717B43E7A00C14711 /* CDQuaternion.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1147, 2608}}";
+			sepNavSelRange = "{197, 0}";
+			sepNavVisRange = "{0, 1799}";
+			sepNavWindowFrame = "{{153, 23}, {1194, 904}}";
+		};
+	};
+	4056266917B43E8900C14711 /* CDQuaternion.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1093, 5904}}";
+			sepNavSelRange = "{2367, 0}";
+			sepNavVisRange = "{2061, 824}";
+			sepNavWindowFrame = "{{490, 65}, {1194, 904}}";
+		};
+	};
+	40696A0F17B2FBD100C0294A /* CDRopeTag.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 1440}}";
+			sepNavSelRange = "{2935, 0}";
+			sepNavVisRange = "{723, 2309}";
+			sepNavWindowFrame = "{{60, 64}, {1164, 920}}";
+		};
+	};
+	407088D217CD33F400B9F6F7 /* CDClothCollider.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1079, 1552}}";
+			sepNavSelRange = "{1076, 21}";
+			sepNavVisRange = "{1065, 1615}";
+			sepNavWindowFrame = "{{746, 138}, {1126, 801}}";
+		};
+	};
+	4073D95717AC5CCE005D40BD /* CDCloth.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {851, 1936}}";
+			sepNavSelRange = "{1220, 15}";
+			sepNavVisRange = "{0, 981}";
+			sepNavWindowFrame = "{{904, 48}, {898, 927}}";
+		};
+	};
+	4075BBA117B2D3E800D74A62 /* CDAddCloth.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1129, 2896}}";
+			sepNavSelRange = "{1962, 0}";
+			sepNavVisRange = "{0, 971}";
+			sepNavWindowFrame = "{{518, 95}, {1176, 842}}";
+		};
+	};
+	407A870317B96BA0008CE39C /* CDRemoveCloth.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1122, 3136}}";
+			sepNavSelRange = "{1815, 0}";
+			sepNavVisRange = "{1037, 1077}";
+			sepNavWindowFrame = "{{334, 170}, {1169, 786}}";
+		};
+	};
+	407A874217B9ABEF008CE39C /* CDClothCollider.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1211, 13328}}";
+			sepNavSelRange = "{155, 0}";
+			sepNavVisRange = "{0, 1179}";
+			sepNavWindowFrame = "{{350, 94}, {1258, 833}}";
+		};
+	};
+	409583E317B00E0100EFA11A /* Executable */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 409583E417B00E0100EFA11A /* CINEMA 4D.app */;
+		libgmallocEnabled = 0;
+		name = Executable;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+			"/Users/danlibisch/Applications/MAXON/CINEMA 4D R12/plugins/CD_Cloth1.0/source",
+			"/Users/danlibisch/Applications/MAXON/CINEMA 4D R12/plugins/CD_Globals",
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eflags = 1;
+			$es = 1;
+			$fctrl = 1;
+			$fioff = 1;
+			$fiseg = 1;
+			$fooff = 1;
+			$fop = 1;
+			$foseg = 1;
+			$fs = 1;
+			$fstat = 1;
+			$ftag = 1;
+			$gs = 1;
+			$mxcsr = 1;
+			$r10 = 1;
+			$r11 = 1;
+			$r12 = 1;
+			$r13 = 1;
+			$r14 = 1;
+			$r15 = 1;
+			$r8 = 1;
+			$r9 = 1;
+			$rax = 1;
+			$rbp = 1;
+			$rbx = 1;
+			$rcx = 1;
+			$rdi = 1;
+			$rdx = 1;
+			$rip = 1;
+			$rsi = 1;
+			$rsp = 1;
+			$ss = 1;
+		};
+	};
+	409583E417B00E0100EFA11A /* CINEMA 4D.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = "CINEMA 4D.app";
+		path = "/Users/danlibisch/Applications/MAXON/CINEMA 4D R12/CINEMA 4D.app";
+		sourceTree = "<absolute>";
+	};
+	40A64E0817B3105F002C9F1D /* CDAddRope.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 2736}}";
+			sepNavSelRange = "{641, 8}";
+			sepNavVisRange = "{767, 1194}";
+			sepNavWindowFrame = "{{84, 70}, {1164, 920}}";
+		};
+	};
+	40B089B91232D52200D15F30 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				../../.. = "";
+			};
+		};
+	};
+	40B089BA1232D52200D15F30 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	40C312F117AD695B00A5AFC5 /* CDClothMessage.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1058, 745}}";
+			sepNavSelRange = "{585, 39}";
+			sepNavVisRange = "{0, 727}";
+			sepNavWindowFrame = "{{129, 68}, {1105, 873}}";
+		};
+	};
+	40CE104317ADCB5E0037E6C6 /* CDGeneral.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1079, 30032}}";
+			sepNavSelRange = "{23497, 8}";
+			sepNavVisRange = "{23238, 471}";
+			sepNavWindowFrame = "{{51, 104}, {1214, 788}}";
+		};
+	};
+	40CE104417ADCB5E0037E6C6 /* CDSelLog.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 3648}}";
+			sepNavSelRange = "{77, 23}";
+			sepNavVisRange = "{0, 871}";
+			sepNavWindowFrame = "{{107, 181}, {1214, 788}}";
+		};
+	};
+	40CE104917ADCB5E0037E6C6 /* CDCompatibility.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1164, 11536}}";
+			sepNavSelRange = "{12969, 1}";
+			sepNavVisRange = "{12741, 262}";
+			sepNavWindowFrame = "{{522, 143}, {1242, 868}}";
+		};
+	};
+	40CE105217ADCB6F0037E6C6 /* CDaabb.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 1152}}";
+			sepNavSelRange = "{284, 40}";
+			sepNavVisRange = "{0, 1134}";
+			sepNavWindowFrame = "{{84, 41}, {985, 949}}";
+		};
+	};
+	40CE105417ADCBAE0037E6C6 /* CDaabb.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 821}}";
+			sepNavSelRange = "{412, 32}";
+			sepNavVisRange = "{0, 600}";
+			sepNavWindowFrame = "{{412, 77}, {985, 949}}";
+		};
+	};
+	40CE105617ADCBAE0037E6C6 /* CDGeneral.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1159, 2256}}";
+			sepNavSelRange = "{5150, 4}";
+			sepNavVisRange = "{3616, 2172}";
+			sepNavWindowFrame = "{{97, 79}, {1206, 800}}";
+		};
+	};
+	40CE105717ADCBAE0037E6C6 /* CDMessages.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {975, 544}}";
+			sepNavSelRange = "{97, 0}";
+			sepNavVisRange = "{0, 293}";
+			sepNavWindowFrame = "{{15, 154}, {1255, 899}}";
+		};
+	};
+	40CE105817ADCBAE0037E6C6 /* CDSellog.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1036, 800}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1328}";
+			sepNavWindowFrame = "{{38, 104}, {785, 928}}";
+		};
+	};
+	40CE105917ADCBAE0037E6C6 /* CDTagData.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1148, 1232}}";
+			sepNavSelRange = "{829, 132}";
+			sepNavVisRange = "{21, 2494}";
+			sepNavWindowFrame = "{{218, 59}, {1173, 854}}";
+		};
+	};
+	40CE105A17ADCBAE0037E6C6 /* CDToolData.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1252, 1184}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2410}";
+			sepNavWindowFrame = "{{15, 199}, {1173, 854}}";
+		};
+	};
+	40CE105C17ADCBAE0037E6C6 /* CLConstraint.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {872, 1856}}";
+			sepNavSelRange = "{2173, 0}";
+			sepNavVisRange = "{1466, 926}";
+			sepNavWindowFrame = "{{627, 92}, {919, 858}}";
+		};
+	};
+	40CE105D17ADCBAE0037E6C6 /* CLParticle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1066, 1040}}";
+			sepNavSelRange = "{76, 10}";
+			sepNavVisRange = "{0, 700}";
+			sepNavWindowFrame = "{{86, 144}, {1113, 804}}";
+		};
+	};
+	40CE105F17ADCBAE0037E6C6 /* CDCompatibility.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1036, 8864}}";
+			sepNavSelRange = "{2231, 0}";
+			sepNavVisRange = "{1452, 976}";
+			sepNavWindowFrame = "{{611, 67}, {1003, 964}}";
+		};
+	};
+	40CE106E17ADD7400037E6C6 /* CDClothSerial.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {953, 2896}}";
+			sepNavSelRange = "{1062, 0}";
+			sepNavVisRange = "{676, 762}";
+			sepNavWindowFrame = "{{366, 203}, {1028, 817}}";
+		};
+	};
+	40D4F12417AE8E9E006BDFF0 /* CDClothAbout.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1292, 4784}}";
+			sepNavSelRange = "{4899, 0}";
+			sepNavVisRange = "{511, 1109}";
+			sepNavWindowFrame = "{{235, 119}, {1214, 788}}";
+		};
+	};
+	40D4F13417AE9113006BDFF0 /* CDClothTag.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1055, 27264}}";
+			sepNavSelRange = "{29133, 0}";
+			sepNavVisRange = "{28632, 1192}";
+			sepNavWindowFrame = "{{287, 105}, {1102, 908}}";
+		};
+	};
+	40D4F15F17AEA00E006BDFF0 /* CDClothTag.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1179, 1600}}";
+			sepNavSelRange = "{3347, 0}";
+			sepNavVisRange = "{906, 2539}";
+			sepNavWindowFrame = "{{100, 53}, {1226, 923}}";
+		};
+	};
+	40DB306D183D82F1002460BE /* CDJSFuncLib.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 752}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{150, 1749}";
+			sepNavWindowFrame = "{{84, 209}, {1115, 781}}";
+		};
+	};
+	40DB3070183D835F002460BE /* CDJSFuncLib.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1068, 1536}}";
+			sepNavSelRange = "{163, 26}";
+			sepNavVisRange = "{0, 1205}";
+			sepNavWindowFrame = "{{107, 188}, {1115, 781}}";
+		};
+	};
+	40E0B8A9183C305A00F4C4E7 /* CDClothFuncLib.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1148, 656}}";
+			sepNavSelRange = "{836, 0}";
+			sepNavVisRange = "{149, 1500}";
+			sepNavWindowFrame = "{{61, 99}, {1195, 679}}";
+		};
+	};
+	40F214E717B2F20300CAA9BE /* CDRopeTag.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1057, 18576}}";
+			sepNavSelRange = "{13721, 0}";
+			sepNavVisRange = "{13230, 1039}";
+			sepNavWindowFrame = "{{486, 149}, {1104, 791}}";
+		};
+	};
+	65E5168A083D10D0005BFD9A /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 409583E317B00E0100EFA11A /* Executable */;
+		activeTarget = 65E51692083D10D0005BFD9A /* CDClothR12 */;
+		addToTargets = (
+			65E51692083D10D0005BFD9A /* CDClothR12 */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 40B089BA1232D52200D15F30 /* Code sense */;
+		executables = (
+			409583E317B00E0100EFA11A /* Executable */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					261,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 418254723;
+			PBXWorkspaceStateSaveDate = 418254723;
+		};
+		sourceControlManager = 40B089B91232D52200D15F30 /* Source Control */;
+		userBuildSettings = {
+			SYMROOT = /Developer/Cinema4DR12dev;
+		};
+	};
+	65E51692083D10D0005BFD9A /* CDClothR12 */ = {
+		activeExec = 0;
+	};
+}

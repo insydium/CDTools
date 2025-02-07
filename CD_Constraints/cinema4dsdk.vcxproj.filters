@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="global">
+      <UniqueIdentifier>{3f734e85-68fb-4e78-9351-cf28bdaed115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command">
+      <UniqueIdentifier>{01c2dffc-db48-4ff9-803b-12a0924cf725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{6c1ffcb6-c354-4bcf-9205-e49563dc7908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="message">
+      <UniqueIdentifier>{4c7e94c9-fa90-4763-ae25-a59e01df2cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tag">
+      <UniqueIdentifier>{6f988f94-87dc-47ae-b146-edb48493841f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{cfb20fca-7c64-4957-b8a0-41e6808a3427}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CD_Globals\CDGeneral.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDQuaternion.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDSelLog.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\R10Animation.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDaabb.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddAConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddCConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddDConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddLConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddMConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddNConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddPConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddPRConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddPSRConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddPTConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddRConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddSConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddSFConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddSPLConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddSPRConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddSWConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddTAConst.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAutoRedraw.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDCAbout.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\CDCSerial.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\message\CDCMessage.cpp">
+      <Filter>message</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDAConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDCConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDDConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDLConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDMConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDNConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDPConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDPRConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDPSRConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDPTConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDRConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDSConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDSFConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDSPLConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDSPRConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDSWConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDTAConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Main.cpp" />
+    <ClCompile Include="..\CD_Globals\CDCompatibility.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDTagData.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDUserArea.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\CDConstraint.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\CDaabb.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\CDGeneral.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\CDQuaternion.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\CDSellog.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\R10Animation.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\R12Compatibility.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\CDMessages.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

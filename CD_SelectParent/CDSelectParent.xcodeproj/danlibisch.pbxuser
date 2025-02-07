@@ -1,0 +1,165 @@
+// !$*UTF8*$!
+{
+	40788A421765557A00F07529 /* CDCompatibility.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1130, 9248}}";
+			sepNavSelRange = "{11527, 23}";
+			sepNavVisRange = "{11238, 681}";
+			sepNavWindowFrame = "{{411, 85}, {1306, 882}}";
+		};
+	};
+	40788A471765558A00F07529 /* SelectParent.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1130, 608}}";
+			sepNavSelRange = "{817, 19}";
+			sepNavVisRange = "{223, 621}";
+			sepNavWindowFrame = "{{292, 131}, {1306, 882}}";
+		};
+	};
+	40A4D96F13DB92F5007B4E4D /* Executable */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 40A4D97013DB92F5007B4E4D /* CINEMA 4D Demo.app */;
+		libgmallocEnabled = 0;
+		name = Executable;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	40A4D97013DB92F5007B4E4D /* CINEMA 4D Demo.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = "CINEMA 4D Demo.app";
+		path = "/Users/danlibisch/Applications/ Demos/CINEMA 4D R12 Demo/CINEMA 4D Demo.app";
+		sourceTree = "<absolute>";
+	};
+	40B089B91232D52200D15F30 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				../../.. = "";
+			};
+		};
+	};
+	40B089BA1232D52200D15F30 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	40F9406D176AAD3C005A29A5 /* CDGeneral.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1341, 26384}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1105}";
+			sepNavWindowFrame = "{{56, 73}, {1388, 922}}";
+		};
+	};
+	40F94075176AAE67005A29A5 /* R10Animation.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1130, 8864}}";
+			sepNavSelRange = "{10911, 23}";
+			sepNavVisRange = "{10539, 608}";
+		};
+	};
+	65636BEF08E5922100FBAB34 /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1341, 794}}";
+			sepNavSelRange = "{0, 83}";
+			sepNavVisRange = "{0, 806}";
+			sepNavWindowFrame = "{{38, 110}, {1388, 922}}";
+		};
+	};
+	65E5168A083D10D0005BFD9A /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 40A4D96F13DB92F5007B4E4D /* Executable */;
+		activeTarget = 65E51692083D10D0005BFD9A /* CDSelectParentR12 */;
+		addToTargets = (
+			65E51692083D10D0005BFD9A /* CDSelectParentR12 */,
+		);
+		codeSenseManager = 40B089BA1232D52200D15F30 /* Code sense */;
+		executables = (
+			40A4D96F13DB92F5007B4E4D /* Executable */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					189,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					315,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 418252737;
+			PBXWorkspaceStateSaveDate = 418252737;
+		};
+		sourceControlManager = 40B089B91232D52200D15F30 /* Source Control */;
+		userBuildSettings = {
+			SYMROOT = /Developer/Cinema4DR12dev;
+		};
+	};
+	65E51692083D10D0005BFD9A /* CDSelectParentR12 */ = {
+		activeExec = 0;
+	};
+}

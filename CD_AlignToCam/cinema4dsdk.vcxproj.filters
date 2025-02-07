@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="global">
+      <UniqueIdentifier>{a3973946-243a-4ad1-b043-e74c5cbe8cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="message">
+      <UniqueIdentifier>{1ebf647e-0662-4b52-90fc-8898d3d6cb6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tag">
+      <UniqueIdentifier>{b1e2b23d-c2ce-445f-a58d-50a11d068d82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\tag\CDAlignCam.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\message\CDATCMsg.cpp">
+      <Filter>message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDaabb.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDGeneral.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\R10Animation.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="..\CD_Globals\CDCompatibility.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDTagData.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

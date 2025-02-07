@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="command">
+      <UniqueIdentifier>{7208cd3e-92f9-4d4d-8250-2c7e85a1b010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="global">
+      <UniqueIdentifier>{17f6c218-7e8f-436e-b4f0-9941ec28cb4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{1a683a98-d71b-49a1-aded-7ab571e291e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="message">
+      <UniqueIdentifier>{d1eeda9b-453d-46ea-80dd-67561227e62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool">
+      <UniqueIdentifier>{e2565c36-9a71-454d-8e74-e5b6347d808b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tag">
+      <UniqueIdentifier>{2141cc4c-f5fa-4cf5-94a2-d6570bea6538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{224b8ea3-d6a9-43ba-a278-6b5c2aa8f8c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\command\About.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\AddRootNull.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\AddTipEffector.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\AddTipNull.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddHand.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDIKSetup.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\ZeroGRot.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\ZeroLRot.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDaabb.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDGeneral.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDQuaternion.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDSelLog.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\R10Animation.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\Serial.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\message\CDIKMessage.cpp">
+      <Filter>message</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDDualTarget.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDFinger.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDFootIK.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDHand.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDIKHandle.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDLimbIK.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDMechIK.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDQuadLeg.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDRotator.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDSmoothRot.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDSpinal.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDSplineIK.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDThumb.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tool\CDIKHandleTool.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Main.cpp" />
+    <ClCompile Include="source\command\CDHandPoseCopy.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDHandPoseLoad.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDHandPoseSave.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDLinkageIK.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDPistonIK.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDCompatibility.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDTagData.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDToolData.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDUserArea.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\CDIKtools.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

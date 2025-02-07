@@ -1,0 +1,34 @@
+CONTAINER tCDTranSel
+{
+	NAME tCDTranSel;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON TRNSEL_PURCHASE {}
+	}
+	INCLUDE Tbase;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL TRNSEL_TRANSFER_ON { }
+			LINK  TRNSEL_TARGET
+			{ 
+				ANIM MIX; ACCEPT { } 
+				REFUSE { Osky; Oforeground; } 
+			}
+		}	
+		SEPARATOR {}
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BOOL TRNSEL_USE_BUTTON { ANIM OFF; }
+			LONG TRNSEL_BUTTON_SELECT { CYCLE {} ANIM OFF; }
+		}	
+	}
+}

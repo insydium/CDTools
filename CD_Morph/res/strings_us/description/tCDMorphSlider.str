@@ -1,0 +1,27 @@
+STRINGTABLE tCDMorphSlider
+{
+	tCDMorphSlider			"Cactus Dan's Morph ";
+	
+	MS_PURCHASE				" Purchase CD Morph  at  www.cactus3d.com ";
+	
+	MS_BOX_POSITION		"Box Position ";
+	MS_BOX_SIZE_X			"Box Size X ";
+	MS_BOX_SIZE_Y			"Box Size Y ";
+	MS_SHOW_BOX			"Show Box";
+	MS_SHOW_DIAGONAL		"Show Diagonal";
+	MS_BOX_COLOR			"Box Color ";
+
+	MS_MORPH_CONTROL		"Morph Tags";
+	MS_HOME_POSITION		" Home Position ";
+
+	MS_OUTPUT_VALUES		"Output";
+	MS_OUTPUT_X			"Output X";
+	MS_OUTPUT_Y			"Output Y";
+	MS_POSITIVE_X			"1 Direction";
+	MS_POSITIVE_Y			"1 Direction";
+	MS_NEGATIVE_X			"Flip";
+	MS_NEGATIVE_Y			"Flip";
+	
+	MS_MIX_X_Y				"Mix X and Y";
+	
+}

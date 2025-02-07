@@ -1,0 +1,10 @@
+DIALOGSTRINGS DLG_CDIK_REGISTER
+{
+  TITLE 				"Register CD IK Tools";
+  CDIK_PLUGININFO 			"Version 0.00 (c) 2004 Cactus Dan Libisch";
+  WEBINFO				"www.cactus3d.com";
+  CDIKTOOLS_SERIAL		"Serial Number";
+  CDIK_CANCEL			"Cancel";
+  CDIK_REGISTER			"Register";
+  CDIK_PURCHASE			"Purchase";
+}

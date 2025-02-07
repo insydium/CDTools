@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Intel|Win32">
+      <Configuration>Intel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Intel|x64">
+      <Configuration>Intel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7AAFFB96-803D-4512-B343-06D5EB4E51A4}</ProjectGuid>
+    <RootNamespace>cinema4dsdk</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Intel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>Intel C++ Compiler XE 12.1</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Intel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>Intel C++ Compiler XE 12.1</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\resource\_api_lib\ReleaseWin32.props" />
+    <Import Project="projectsettings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Intel|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\resource\_api_lib\IntelWin32.props" />
+    <Import Project="projectsettings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\resource\_api_lib\DebugWin32.props" />
+    <Import Project="projectsettings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\resource\_api_lib\ReleaseWin64.props" />
+    <Import Project="projectsettings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Intel|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\resource\_api_lib\IntelWin64.props" />
+    <Import Project="projectsettings.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\resource\_api_lib\DebugWin64.props" />
+    <Import Project="projectsettings.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(C4D_API_PATH)\modules\sculpt\res\description;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MAXON\CINEMA 4D R14\plugins\CD_JointSkin1.5\source;C:\Maxon\CINEMA 4D R14\plugins\CD_Globals;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <ExceptionHandling>Sync</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <OutputFile>CDIKToolsR14.cdl</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MAXON\CINEMA 4D R14\plugins\CD_JointSkin1.5\source;C:\Maxon\CINEMA 4D R14\plugins\CD_Globals;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <ExceptionHandling>Sync</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <OutputFile>CDIKToolsR14.cdl64</OutputFile>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\resource\_api_lib\_api.vcxproj">
+      <Project>{b3e105e9-09bb-4dca-b58d-3432eb8e88e5}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CD_Globals\CDaabb.cpp" />
+    <ClCompile Include="..\CD_Globals\CDCompatibility.cpp" />
+    <ClCompile Include="..\CD_Globals\CDGeneral.cpp" />
+    <ClCompile Include="..\CD_Globals\CDQuaternion.cpp" />
+    <ClCompile Include="..\CD_Globals\CDSelLog.cpp" />
+    <ClCompile Include="..\CD_Globals\CDTagData.cpp" />
+    <ClCompile Include="..\CD_Globals\CDToolData.cpp" />
+    <ClCompile Include="..\CD_Globals\CDUserArea.cpp" />
+    <ClCompile Include="..\CD_Globals\R10Animation.cpp" />
+    <ClCompile Include="source\command\About.cpp" />
+    <ClCompile Include="source\command\AddRootNull.cpp" />
+    <ClCompile Include="source\command\AddTipEffector.cpp" />
+    <ClCompile Include="source\command\AddTipNull.cpp" />
+    <ClCompile Include="source\command\CDAddHand.cpp" />
+    <ClCompile Include="source\command\CDHandPoseCopy.cpp" />
+    <ClCompile Include="source\command\CDHandPoseLoad.cpp" />
+    <ClCompile Include="source\command\CDHandPoseSave.cpp" />
+    <ClCompile Include="source\command\CDIKSetup.cpp" />
+    <ClCompile Include="source\command\ZeroGRot.cpp" />
+    <ClCompile Include="source\command\ZeroLRot.cpp" />
+    <ClCompile Include="source\gui\Serial.cpp" />
+    <ClCompile Include="source\Main.cpp" />
+    <ClCompile Include="source\message\CDIKMessage.cpp" />
+    <ClCompile Include="source\tag\CDDualTarget.cpp" />
+    <ClCompile Include="source\tag\CDFinger.cpp" />
+    <ClCompile Include="source\tag\CDFootIK.cpp" />
+    <ClCompile Include="source\tag\CDHand.cpp" />
+    <ClCompile Include="source\tag\CDIKHandle.cpp" />
+    <ClCompile Include="source\tag\CDLimbIK.cpp" />
+    <ClCompile Include="source\tag\CDLinkageIK.cpp" />
+    <ClCompile Include="source\tag\CDMechIK.cpp" />
+    <ClCompile Include="source\tag\CDPistonIK.cpp" />
+    <ClCompile Include="source\tag\CDQuadLeg.cpp" />
+    <ClCompile Include="source\tag\CDRotator.cpp" />
+    <ClCompile Include="source\tag\CDSmoothRot.cpp" />
+    <ClCompile Include="source\tag\CDSpinal.cpp" />
+    <ClCompile Include="source\tag\CDSplineIK.cpp" />
+    <ClCompile Include="source\tag\CDThumb.cpp" />
+    <ClCompile Include="source\tool\CDIKHandleTool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\CDIKtools.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

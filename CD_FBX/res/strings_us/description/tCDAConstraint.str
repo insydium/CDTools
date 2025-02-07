@@ -1,0 +1,27 @@
+STRINGTABLE tCDAConstraint
+{
+	tCDAConstraint				"Cactus Dan's Constraints ";
+	
+	AC_PURCHASE				" Purchase CD Constraints  at  www.cactus3d.com ";
+
+	AC_TARGET			"Target ";
+	AC_UP_VECTOR		"Up Vector ";
+	AC_STRENGTH		"Strength ";
+	AC_USE_AB_MIX		"Use AB Mixer";
+	AC_AB_MIX			"Mix  A<->B";
+
+	AC_SHOW_LINES		" Show Guides";
+	AC_LINE_COLOR		"Line Color ";
+
+	AC_POLE_AXIS		"Up Vector ";
+		AC_POLE_OFF	"Off";
+		AC_POLE_Y		"+Y Axis";
+		AC_POLE_X		"+X Axis";
+		AC_POLE_NX		"-X Axis";
+		AC_POLE_NY		"-Y Axis";
+
+	AC_ADD_AIM			"  Add   ";
+	AC_SUB_AIM			" Delete ";
+
+	AC_ID_TARGET		"Target";
+}

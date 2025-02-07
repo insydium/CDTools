@@ -1,0 +1,289 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_CDTSCOMMAND			"CD Transfer Selected Command";
+	
+	IDS_TRANSELTAG			"CD Transfer Selected";
+	IDS_CDZTRANS			"CD Zero Transformation";
+	IDS_CDADDZT				"CD Add Zero Tranformation";
+	IDS_CDADDTSL			"CD Add Transfer Selected";
+	IDS_ZEROGROT			"CD Zero Global Rotation";
+	IDS_ZEROLROT			"CD Zero Local Rotation";
+	IDS_CDCOORDS			"CD Coordinates";
+	IDS_CDTRANSFER			"CD Transfer";
+	IDS_CDSELSAME			"CD Select All Same";
+	IDS_CDMIRTRANS			"CD Transfer Mirror";
+	IDS_CDREPLTRANS			"CD Transfer Replace";
+	IDS_ABOUTCDT			"About CD Transfer Tools";
+	IDS_CDSWPTRANS			"CD Transfer Swap";
+	IDS_CDLINK				"CD Link Objects";
+	IDS_CDUNLINK			"CD Unlink Object";
+	IDS_CDTRANSGOAL			"CD Transfer Links";
+	IDS_CDFTRANS			"CD Freeze Transformation";
+	IDS_CDSETZHOME			"CD Return Zero Home";
+	IDS_CDAIMTRANS			"CD Transfer Align";
+	IDS_CDTRANSANIM			"CD Transfer Animation";
+	IDS_CDUDTRANS			"CD Transfer User Data";
+	IDS_CDTRANSAXIS			"CD Transfer Axes";
+	IDS_TRANSACTTAG			"CD Transfer Activated";
+	
+	IDS_HLP_CNTRL_CLICK		" - Control click command to open options dialog";
+	
+	C_SYMBOL				"\u00A9";
+
+	IDC_CDTR_AGREE			"Agree";
+	IDC_CDTR_DISAGREE		"Disagree";
+
+	CDTR_TITLE 				"CD Transfer";
+	
+	CDTR_TRANSFER			"Transfer";
+	CDTR_POS				"Enable Position   ";
+	CDTR_POS_X				"X   ";
+	CDTR_POS_Y				"Y   ";
+	CDTR_POS_Z				"Z   ";
+	CDTR_SCA				"Enable Scale";
+	CDTR_ROT				"Enable Rotation";
+	CDTR_GROUP				"Group Transfer";
+	CDTR_TO_GROUP			"First to Group";
+	CDTR_TO_LAST			"Group to Last";
+	
+	CDTR_A_GROUP			"Group Align";
+	CDTR_AIM				"Align Axis";
+	
+	CDTR_MIRROR				"Mirror";
+	CDTR_MIR_GLOBAL			"Global Axis";
+	CDTR_MIR_LOCAL			"Local Axis";
+	CDTR_AXIS				"Axis";
+	CDTR_MIR_X				"X Axis";
+	CDTR_MIR_Y				"Y Axis";
+	CDTR_MIR_Z				"Z Axis";
+	
+	CDTR_LOCK_M_AXIS		"Clamp Swap Axis";
+	
+	CDTR_REPLACE			"Replace";
+	CDTR_SWAP				"Swap";
+	
+	CDTR_FREEZE				"Freeze";
+	CDTR_FRZ_PRIM			"Convert Primitives";
+	CDTR_FRZ_CHILD			"Include Children";
+	
+	CDTR_AUTO_KEY			"Enable Auto Keyframing";
+	CDTR_KEEP_SELECTION		"Keep Current Selection";
+	CDTR_KEYS				"Auto Key";
+	
+	CDTR_ANIM_HRCHY			"Hierarchy";
+	CDTR_ANIM_POS			"Position Track";
+	CDTR_ANIM_SCA			"Scale Track";
+	CDTR_ANIM_ROT			"Rotation Track";
+	CDTR_ANIM_AM			"Attribute Tracks";
+	CDTR_ANIM_UD			"User Data Tracks";
+	
+	HIERARCHAL_ALIGN		"Hierarchal Align";
+
+	CDTR_SINGLE				"Single Object  ";
+	CDTR_MULTIPLE			"Multiple Objects";
+	
+	CDTR_NORMAL_AXIS		"Normal Axis  ";
+	
+	CDTR_COMPONENTS_ONLY	"Components Only";
+	CDTR_NAME				"Use Target Name";
+	
+	CDTR_AXES				"Axes";
+	CDTR_ZXY				"Transfer Z To X";
+	CDTR_YZX				"Transfer Z To Y";
+	CDTR_YXZ				"Transfer Y to X";
+	CDTR_XYZ				"Transfer X to Y";
+
+	CDCM_TITLE 				"CD Coordinates";
+	CDCM_UNITS				"Unit";
+	CDCM_UNIT_SCALE			"     Scale Factor 1mm = ";
+	CDCM_KM					"Kilometer";
+	CDCM_M					"Meter";
+	CDCM_CM					"Centimeter";
+	CDCM_MM					"Millimeter";
+	CDCM_MI					"Mile";
+	CDCM_YD					"Yard";
+	CDCM_FT					"Foot";
+	CDCM_IN					"Inch";
+	
+	CDTR_MODE				"Transfer Mode";
+	
+	CDCM_P_GROUP			"Position";
+	CDCM_X_POS				"X";
+	CDCM_Y_POS				"Y";
+	CDCM_Z_POS				"Z";
+	
+	CDCM_X_SCA				"X";
+	CDCM_Y_SCA				"Y";
+	CDCM_Z_SCA				"Z";
+	
+	CDCM_R_GROUP			"Rotation";
+	CDCM_H_ROT				"H";
+	CDCM_P_ROT				"P";
+	CDCM_B_ROT				"B";
+
+	CDCM_LOCAL				"Local";
+	CDCM_GLOBAL				"Global";
+	CDCM_OBJECT_PLUS		"Object+";
+	
+	CDCM_SCALE				"Scale";
+	CDCM_SIZE				"Size";
+	CDCM_SIZE_PLUS			"Size+";
+	CDCM_SCALE_THREE		"Scale3";
+	CDCM_SIZE_THREE			"Size3";
+	
+	CDCM_RADIAN				"Radian";
+	CDCM_DEGREE				"Degree";
+	
+	CDTR_NONE				"None";
+
+	CDCM_APPLY				"   Apply   ";
+	
+	MD_TOO_MANY_OBJECTS				"Too many objects are selected to perform the operation.";
+	MD_AT_LEAST_TWO					"At least 2 objects must be selected to perform the operation.";
+	MD_SELECT_SINGLE				"Please select a single object or tag.";
+	MD_PLEASE_REGISTER				"Please register your copy of CD TransferTools.";
+	MD_INVALID_NUMBER				"That number is invalid.\u000D \u000D Check the number and try again.";
+	MD_THANKYOU						"Thank you for registering. \u000D \u000D  To use the plugin you must quit and restart Cinema 4D.";
+	MD_ALL_OPTIONS_OFF				"All of the transfer options are turned off.\u000D \u000D To access the transfer options dialog, hold down the Control key when selecting the command."; 
+	MD_HIERARCHY_NOT_SAME			"The Selected Hierarchies are not identical.\u000D \u000D Do you wish to continue with the transfer?"; 
+	MD_USER_DATA_NOT_SAME			"The Selected Objects do not have identical User Data.\u000D \u000D Do you wish to continue transferring User Data tracks?"; 
+
+	IDS_WEB_SITE					"http://www.cactus3d.com/Plugins.html";
+	
+	IDC_CDTR_EULA					"SOFTWARE LICENSING AGREEMENT
+
+IMPORTANT Ð READ CAREFULLY: THIS LICENSING AGREEMENT (AGREEMENT)
+IS A LEGAL AGREEMENT BETWEEN YOU, AN INDIVIDUAL OR A SINGLE ENTERPRISE
+ENTITY, AND D. K. LIBISCH DBA CACTUS DAN (HEREINAFTER THE LICENSOR).
+
+BY DOWNLOADING THE PRODUCT, OR USING THE EQUIPMENT THAT CONTAINS THIS 
+PRODUCT, YOU ARE CONSENTING TO BE BOUND BY THIS AGREEMENT. IF YOU DO NOT 
+AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, DO NOT DOWNLOAD THE PRODUCT.
+
+
+LICENSE GRANT
+
+Licensor hereby grants to You, and You accept, a non-exclusive license to use
+the software, including the software contained therein in object-code-only
+form (Software), and Documentation, only as authorized in this License.
+The Software may be used only on a single computer or local area network (System)
+owned, leased, or otherwise controlled by You; or, in the event of the inoperability
+of that system, on a backup system selected by You. You agree that You will not
+assign, sub-license, transfer, pledge, lease, rent, or share Your rights under this
+License, except as set forth herein.  Specifically, it is understood that You may
+use the Software to create files (such as a character for animation) that are
+transferred to another individual or entity and which may require access to a version
+of this Software with limited functionality that is inherently transferred therewith
+(such as character rigging made using the software).
+
+
+COPYING
+
+You may make one (1) archival copy of the Software, provided You affix to such copy
+all copyright, confidentiality, and proprietary notices that appear on the original.
+
+EXCEPT AS EXPRESSLY AUTHORIZED ABOVE, YOU SHALL NOT: COPY, IN WHOLE OR
+IN PART, SOFTWARE OR DOCUMENTATION; MODIFY THE SOFTWARE; REVERSE COMPILE
+OR REVERSE ASSEMBLE ALL OR ANY PORTION OF THE SOFTWARE; OR RENT, LEASE,
+DISTRIBUTE, SELL, OR CREATE DERIVATIVE WORKS OF THE SOFTWARE.
+
+LICENSOR'S RIGHTS
+
+You acknowledge and agree that the Software and Documentation consists of
+proprietary, published and unpublished property of Licensor, protected under
+United States copyright law and trade secret laws of general applicability.
+You further acknowledge and agree that all right, title, and interest in and
+to the Software and Documentation are and shall remain with Licensor.
+This License does not convey to you an interest in or to the Software and
+Documentation, but only a limited right of use revocable in accordance with
+the terms of this License.  With the exception of the laws specifically prescribed
+by the Digital Millennium Act, you are not to reverse engineer the software for
+any purpose.
+
+LICENSE FEES
+
+The license fees paid by You are paid in consideration of the licenses granted
+under this License.
+
+SOFTWARE INSTALLATION
+
+It shall be Your sole responsibility to install and make operational the Software
+on Your system.  In the event you need installation assistance, such services may
+be available from Licensor at an additional cost to You.
+
+TERM
+
+This License is effective upon Your installing the software on any machine, and
+shall continue until terminated. You may terminate all copies of the software
+that may be located on any systems owned or controlled by You or upon which You
+know a copy of the Software has been placed.  Licensor may terminate this License
+upon the breach by You of any term hereof.  Upon such termination by Licensor, You
+agree to erase all copies of the Software that may be located on any systems owned
+or controlled by You or upon which You know a copy of the Software has been placed.
+
+LIMITED WARRANTY
+
+Licensor warrants, for Your benefit alone, that the Software shall, for a period of
+ninety (90) days from the date of Your purchase of the Software (referred to as the
+Warranty Period), be free from defects in material and workmanship.  Licensor
+further warrants, for Your benefit alone, that during the Warranty Period the
+Software shall operate substantially in accordance with the Documentation.
+If, during the Warranty Period, a defect in the Software appears, You may contact
+Licensor to arrange for replacement.
+
+YOU AGREE THAT THE FOREGOING CONSTITUTES YOUR SOLE AND EXCLUSIVE REMEDY
+FOR BREACH BY LICENSOR OF ANY WARRANTIES MADE UNDER THIS LICENSE.  EXCEPT
+FOR THE WARRANTIES SET FORTH ABOVE, THE SOFTWARE AND DOCUMENTATION ARE
+LICENSED AS IS, AND LICENSOR DISCLAIMS ANY AND ALL OTHER WARRANTIES,
+WHETHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY AND ALL
+IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR
+PURPOSE.
+
+LIMITATION OF LIABILITY
+
+LICENSOR'S CUMULATIVE LIABILITY TO YOU OR ANY OTHER PARTY FOR ANY LOSS OR 
+DAMAGES RESULTING FROM ANY CLAIMS, DEMANDS, OR ACTIONS ARISING OUT OF OR 
+RELATING TO THIS LICENSE OR THE USE OF THE SOFTWARE SHALL BE LIMITED TO 
+REPLACEMENT OF THE SOFTWARE AND, IN ANY EVENT, SHALL NOT EXCEED THE
+LICENSE FEE PAID TO LICENSOR FOR THE USE OF THE SOFTWARE.  IN NO EVENT
+SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL,
+SPECIAL, OR EXEMPLARY DAMAGES OR LOST PROFITS OR ANY SIMILAR CLAIMS, EVEN
+IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  BECAUSE
+SOME STATES/JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF
+LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION
+MAY NOT APPLY TO YOU.
+
+GOVERNING LAW
+
+This License shall be construed and governed in accordance with the laws of the
+State of Utah.  Any dispute arising out of or with respect to this License between
+You and Licensor shall be solely adjudicated by the competent Federal or State
+court situated in Salt Lake City, Utah.  You and Licensor consent to the venue
+and jurisdiction of such court for purposes of any such dispute.
+
+
+SEVERABILITY
+
+Should any term of this License be declared void or unenforceable by any court
+of competent jurisdiction, such declaration shall have no effect on the
+remaining terms hereof.
+
+SOVEREIGN IMMUNITY
+
+Where you are an agency or instrumentality of a state foreign to the United States
+of America, You hereby waive, with respect to actions relating to the subject matter
+of this License any immunity from the personal and subject matter jurisdiction of
+courts of the United States of America or of the several states thereof, and any
+immunity from attachment in aid of execution or from execution upon its property.
+
+
+NO WAIVER
+
+The failure of Licensor to enforce any rights hereunder or to take action against
+You in the event of any breach hereunder shall not be deemed a waiver by Licensor
+as to subsequent enforcement of rights or subsequent actions in the event
+of future breach.";
+}

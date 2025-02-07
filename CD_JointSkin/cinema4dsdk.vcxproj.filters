@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{ee384d49-54b1-418a-8665-e964486186d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\tool">
+      <UniqueIdentifier>{1231bb42-7dcf-4af5-9667-c08601e950a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\tag">
+      <UniqueIdentifier>{8e0a9573-dd6b-40c7-892f-76f41e5f7901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\scene">
+      <UniqueIdentifier>{6773cca6-7f96-4486-bb43-eda9bfa37c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\object">
+      <UniqueIdentifier>{ff411a3a-e113-4dc4-ae97-72366242cc42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\message">
+      <UniqueIdentifier>{610a6f98-6799-4adc-97b4-f623b8c7becb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\gui">
+      <UniqueIdentifier>{c619f5bb-1b5a-4cf2-b122-450861dfd57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\global">
+      <UniqueIdentifier>{87347388-9040-4380-a75f-539bb99bf4cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\command">
+      <UniqueIdentifier>{c8c8651e-cbb1-4c83-8777-6c2ae336d24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{709f1b6d-e450-45f9-b730-8d0f606d229e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\command\CDAddCluster.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddJoints.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddSkin.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDClusterMir.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDColorJoints.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDDeleteJoints.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDFreezeSkin.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDFreezeTrans.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDJMAssign.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDJntEnvToggle.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDJointMirror.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDJointProxy.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDJointSize.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDJointsToPolys.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDJointXRay.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDJSAbout.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDLinkObjects.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDMergeSkin.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDMirrorSW.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDNormalizeWt.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDOrientJoints.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDRemoveSkin.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDRerootJoints.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDSkinTrans.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDTogglePaint.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDUnLinkObjects.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDaabb.cpp">
+      <Filter>source\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDGeneral.cpp">
+      <Filter>source\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDQuaternion.cpp">
+      <Filter>source\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDSelLog.cpp">
+      <Filter>source\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\R10Animation.cpp">
+      <Filter>source\global</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\CDJSSerial.cpp">
+      <Filter>source\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\message\CDJSMessage.cpp">
+      <Filter>source\message</Filter>
+    </ClCompile>
+    <ClCompile Include="source\object\CDJoint.cpp">
+      <Filter>source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scene\CDJSSceneHook.cpp">
+      <Filter>source\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDBindPose.cpp">
+      <Filter>source\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDCluster.cpp">
+      <Filter>source\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDSkin.cpp">
+      <Filter>source\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDSkinRef.cpp">
+      <Filter>source\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tool\CDJointTool.cpp">
+      <Filter>source\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tool\CDPaintSkin.cpp">
+      <Filter>source\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDCnvFrmCDJoints.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDCnvFrmCDSkin.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDCnvToCDJoints.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDCnvToCDSkin.cpp">
+      <Filter>source\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDCompatibility.cpp">
+      <Filter>source\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDObjectData.cpp">
+      <Filter>source\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDTagData.cpp">
+      <Filter>source\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDToolData.cpp">
+      <Filter>source\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDUserArea.cpp">
+      <Filter>source\global</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Cloth1.0\source\CDClothFuncLib.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CDJSFuncLib.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Morph 1.5\source\CDMorphFuncLib.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Symmetry1.0\source\CDSymFuncLib.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\CDClusterTag.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\cdjoint.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CDJointSkin.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CDJSStructures.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CDSkinRefTag.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CDSkinTag.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

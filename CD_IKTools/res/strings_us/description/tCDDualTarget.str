@@ -1,0 +1,42 @@
+STRINGTABLE tCDDualTarget
+{
+	tCDDualTarget			"Cactus Dan's IK Tools ";
+	
+	DT_PURCHASE				" Purchase CD IK Tools  at  www.cactus3d.com ";
+
+	DT_IK_SHOW_LINES			"Show Lines ";
+	
+	DT_LINE_COLOR				"Line Color ";
+	DT_STRENGTH				"Strength";
+
+	DT_IK_POLE_AXIS			"Up Vector Axis ";
+		DT_IK_POLE_OFF			"Off";
+		DT_IK_POLE_Y			"+Y Axis";
+		DT_IK_POLE_X			"+X Axis";
+		DT_IK_POLE_NX			"-X Axis";
+		DT_IK_POLE_NY			"-Y Axis";
+	
+	DT_AB_TARGET_GROUP			"Targets";
+		DT_TARGET_A_LINK		"Target";
+		DT_TARGET_B_LINK		"Up Vector  ";
+
+	DT_IK_STRETCH_GROUP		"Stretch";
+	DT_SET_LENGTH				"Set Length";
+	DT_CLEAR_LENGTH			"Clear Length";
+	DT_RESET_LENGTH			"Reset Length";
+
+	DT_SQUASH_N_STRETCH		"Squash & Stretch";
+	DT_CHANGE_VOLUME			"Change Skin Volume (CD Joints & Skin Only)";
+	DT_VOLUME_STRENGTH			"Skin Volume";
+	
+	DT_USE_BIAS_CURVE			"Use Curve";
+	DT_BIAS_CURVE				"S&S Curve";
+	DT_MIX_VOLUME				"Mix Curve Volume";
+	
+	DT_CLAMP_SQUASH			"Clamp Squash";
+	DT_SQUASH_DIST				"Distance";
+	DT_SET_SQUASH_DIST			" Set ";
+	DT_CLAMP_STRETCH			"Clamp Stretch";
+	DT_STRETCH_DIST			"Distance";
+	DT_SET_STRETCH_DIST		" Set ";
+}

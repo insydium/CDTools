@@ -1,0 +1,30 @@
+STRINGTABLE tCDLConstraint
+{
+	tCDLConstraint		"Cactus Dan's Constraints ";
+	
+	LC_PURCHASE				" Purchase CD Constraints  at  www.cactus3d.com ";
+
+	LC_SHOW_LINES			" Show Guide";
+	LC_LINE_COLOR			"Line Color ";
+	LC_BOX_SIZE			" Guide Size";
+
+	LC_LOCK_ENABLE			" Enable Lock";
+	LC_LOCK_BLEND			"Lock Blend ";
+	LC_GLOBAL_COORDS		" Global Coordinates";
+	LC_USE_ORIENTATION		" Lock to Orientation";
+	LC_USE_CUR_POS			" Use Current Position";
+	
+	LC_P_LOCK_X			" Lock X Position ";
+	LC_P_LOCK_Y			" Lock Y Position ";
+	LC_P_LOCK_Z			" Lock Z Position ";
+	
+	LC_A_LOCK_ALL			" Lock All";
+	LC_A_LOCK_X			" Lock X Axis";
+	LC_A_LOCK_Y			" Lock Y Axis";
+	LC_A_LOCK_Z			" Lock Z Axis";
+	
+	LC_LOCK_POINTS			" Lock Points";
+	
+	LC_ID_LOCK				" Lock ";
+
+}

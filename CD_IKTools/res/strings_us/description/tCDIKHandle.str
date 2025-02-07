@@ -1,0 +1,45 @@
+STRINGTABLE tCDIKHandle
+{
+	tCDIKHandle				"Cactus Dan's IK Tools ";
+	
+	IKH_PURCHASE				" Purchase CD IK Tools  at  www.cactus3d.com ";
+	
+	IKH_USE					"Use IK ";
+	IKH_BLEND				"IK Blend";
+	
+	IKH_SHOW_LINES			"Show Lines ";
+	
+	IKH_LINE_COLOR				"Line Color ";
+
+	IKH_LINE_TARGET			"Pole ";
+		IKH_LINE_ROOT		"Target Root";
+		IKH_LINE_TIP			"Target Tip";
+		
+	IKH_POLE_AXIS			"Pole Axis ";
+		IKH_POLE_Y			"+Y Axis";
+		IKH_POLE_X			"+X Axis";
+		IKH_POLE_NX			"-X Axis";
+		IKH_POLE_NY			"-Y Axis";
+	
+	IKH_HANDLE_GROUP			"IK Handle" "Handle";
+	IKH_POLE_GROUP			"IK Pole Vector" "Pole";
+	
+	IKH_SOLVER				"IK Solver";
+		IKH_IKRP				"IKRP Solver";
+		IKH_IKSC				"IKSC Solver";
+		IKH_IKHD				"IKHD Solver";
+		
+	IKH_UNLOCK_ROOT				"Unlock Root";
+	IKH_RESTORE_REST			"Use Rest Pose";
+				
+	IKH_POLE_LINK			"Pole Vector Object ";
+	IKH_IKSC_POLE_VECTOR		"Pole Vector";
+	
+	IKH_GOAL_LINK			"IK Handle Object   ";
+	
+	IKH_CONNECT_BONES			"Keep Bones Connected";
+	IKH_CONNECT_NEXT			"Keep Next Connected";
+	
+	IKH_BONES_IN_GROUP			"No. of Bones ";
+	IKH_TWIST					"Twist ";
+}

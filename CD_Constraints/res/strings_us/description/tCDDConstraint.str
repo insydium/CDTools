@@ -1,0 +1,22 @@
+STRINGTABLE tCDDConstraint
+{
+	tCDDConstraint				"Cactus Dan's Constraints ";
+	
+	DC_PURCHASE				" Purchase CD Constraints  at  www.cactus3d.com ";
+
+	DC_TARGET				"Target ";
+	DC_DISTANCE			"Distance ";
+	DC_STRENGTH			"Strength ";
+	DC_SHOW_LINES			" Show Guides";
+	DC_LINE_COLOR			"Line Color ";
+	
+	DC_CLAMP_DISTANCE		"Clamp ";
+		DC_CLAMP_MIN		"Clamp Min";
+		DC_CLAMP_MAX		"Clamp Max";
+		DC_CLAMP_BOTH		"Clamp Both";
+	
+	DC_ID_TARGET			"Target";
+
+	DC_ADD_DIST			"  Add   ";
+	DC_SUB_DIST			" Delete ";
+}

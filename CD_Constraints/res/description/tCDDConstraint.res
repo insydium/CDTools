@@ -1,0 +1,37 @@
+CONTAINER tCDDConstraint
+{
+	NAME tCDDConstraint;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON DC_PURCHASE {}
+	}
+	INCLUDE Texpression;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL DC_SHOW_LINES {}
+			COLOR DC_LINE_COLOR {}
+		}
+		SEPARATOR {}
+	}
+	GROUP DC_ID_TARGET
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BUTTON DC_ADD_DIST {}
+			BUTTON DC_SUB_DIST {}
+		}
+		SEPARATOR { }
+	}
+}

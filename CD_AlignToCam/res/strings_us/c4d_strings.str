@@ -1,0 +1,7 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+  IDS_CDALIGNCAM		"CD Align to Camera";
+}

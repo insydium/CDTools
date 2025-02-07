@@ -1,0 +1,15 @@
+STRINGTABLE tCDSkin
+{
+	tCDSkin						"Cactus Dan's Joints & Skin ";
+	
+	SKN_PURCHASE				" Purchase CD Joints & Skin  at  www.cactus3d.com ";
+
+	SKN_BIND_SKIN				"Bind Skin";
+	SKN_UNBIND_SKIN				"Unbind Skin";
+	SKN_GO_TO_BIND_POSE			"Return to Bind Pose";
+	
+	SKN_ID_SKIN_REFERENCE		"Reference";
+	SKN_EDIT_REF				"Edit Reference";
+	SKN_RESET_REF				"Reset Reference";
+
+}

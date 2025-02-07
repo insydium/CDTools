@@ -1,0 +1,8 @@
+STRINGTABLE tCDSmoothRot
+{
+	tCDSmoothRot				"Cactus Dan's IK Tools ";
+	
+	SMR_PURCHASE				" Purchase CD IK Tools  at  www.cactus3d.com ";
+	
+	SMR_USE_SMOOTHROT			"Use Smooth Rotation";
+}

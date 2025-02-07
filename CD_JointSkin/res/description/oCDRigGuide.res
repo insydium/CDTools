@@ -1,0 +1,37 @@
+CONTAINER oCDRigGuide
+{
+	NAME oCDRigGuide;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON RG_PURCHASE {}
+	}
+	INCLUDE Obase;
+
+	GROUP ID_OBJECTPROPERTIES
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BOOL RG_SHOW_LINES {}
+			REAL RG_RADIUS { UNIT REAL; MIN 0.0; }
+		}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			COLOR RG_LINE_COLOR {}
+		}
+		SEPARATOR { LINE; }
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BUTTON RG_ADJUST {}
+			BUTTON RG_SET {}
+		}
+	}
+}

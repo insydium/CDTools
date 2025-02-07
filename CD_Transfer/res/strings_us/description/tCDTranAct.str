@@ -1,0 +1,10 @@
+STRINGTABLE tCDTranAct
+{
+	tCDTranAct					"CD Transfer Tools ";
+	
+	TRNSA_PURCHASE				" Purchase CD Transfer Tools  at  www.cactus3d.com ";
+
+	TRNSA_TRANSFER_ON			"Transfer On";
+	TRNSA_TARGET				"Target";
+	
+}

@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40788A461765557A00F07529 /* CDCompatibility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40788A421765557A00F07529 /* CDCompatibility.cpp */; };
+		40788A481765558A00F07529 /* SelectParent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40788A471765558A00F07529 /* SelectParent.cpp */; };
+		40F9406E176AAD3C005A29A5 /* CDGeneral.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40F9406D176AAD3C005A29A5 /* CDGeneral.cpp */; };
+		40F94076176AAE67005A29A5 /* CDaabb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40F94074176AAE67005A29A5 /* CDaabb.cpp */; };
+		40F94077176AAE67005A29A5 /* R10Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40F94075176AAE67005A29A5 /* R10Animation.cpp */; };
+		65636C1E08E5922100FBAB34 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65636BEF08E5922100FBAB34 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		65805F2D0851B32A0065CE1B /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		26EDA6230FA303CF00050D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653A926E0858FEB50017BCBC /* _api.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 26B036990E672B8000A14379;
+			remoteInfo = _api_stdmem;
+		};
+		657FF108085913EC00750201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653A926E0858FEB50017BCBC /* _api.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65B7742C083D084C00F90C2D;
+			remoteInfo = _api;
+		};
+		657FF1C80859150C00750201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653A926E0858FEB50017BCBC /* _api.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B7742B083D084C00F90C2D;
+			remoteInfo = _api;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4066E1F11768CE610095C100 /* CDSelectParentR12.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = CDSelectParentR12.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		40788A421765557A00F07529 /* CDCompatibility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CDCompatibility.cpp; path = ../CD_Globals/CDCompatibility.cpp; sourceTree = SOURCE_ROOT; };
+		40788A471765558A00F07529 /* SelectParent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SelectParent.cpp; sourceTree = "<group>"; };
+		40F9406D176AAD3C005A29A5 /* CDGeneral.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CDGeneral.cpp; path = ../CD_Globals/CDGeneral.cpp; sourceTree = SOURCE_ROOT; };
+		40F94074176AAE67005A29A5 /* CDaabb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CDaabb.cpp; path = ../CD_Globals/CDaabb.cpp; sourceTree = SOURCE_ROOT; };
+		40F94075176AAE67005A29A5 /* R10Animation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = R10Animation.cpp; path = ../CD_Globals/R10Animation.cpp; sourceTree = SOURCE_ROOT; };
+		653A926E0858FEB50017BCBC /* _api.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = _api.xcodeproj; path = ../../resource/_api_lib/_api.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6553A1DA0926F00F0034739A /* _api_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; name = _api_debug.xcconfig; path = ../../resource/_api_lib/_api_debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		6553A1DB0926F00F0034739A /* _api_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; name = _api_release.xcconfig; path = ../../resource/_api_lib/_api_release.xcconfig; sourceTree = SOURCE_ROOT; };
+		65636BEF08E5922100FBAB34 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65E51690083D10D0005BFD9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40788A3D1765552900F07529 /* global */ = {
+			isa = PBXGroup;
+			children = (
+				40F94074176AAE67005A29A5 /* CDaabb.cpp */,
+				40F9406D176AAD3C005A29A5 /* CDGeneral.cpp */,
+				40788A421765557A00F07529 /* CDCompatibility.cpp */,
+				40F94075176AAE67005A29A5 /* R10Animation.cpp */,
+			);
+			name = global;
+			sourceTree = "<group>";
+		};
+		40788A3E1765553A00F07529 /* command */ = {
+			isa = PBXGroup;
+			children = (
+				40788A471765558A00F07529 /* SelectParent.cpp */,
+			);
+			name = command;
+			sourceTree = "<group>";
+		};
+		65636BD708E5922100FBAB34 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				65636BEF08E5922100FBAB34 /* main.cpp */,
+				40788A3D1765552900F07529 /* global */,
+				40788A3E1765553A00F07529 /* command */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		657FF105085913EC00750201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				657FF109085913EC00750201 /* lib_api_debug.a */,
+				26EDA6240FA303CF00050D59 /* lib_api_stdmem_debug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65E51686083D10D0005BFD9A = {
+			isa = PBXGroup;
+			children = (
+				65636BD708E5922100FBAB34 /* source */,
+				65E516A4083D10D1005BFD9A /* _libs */,
+				65E51694083D10D0005BFD9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65E51694083D10D0005BFD9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4066E1F11768CE610095C100 /* CDSelectParentR12.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65E516A4083D10D1005BFD9A /* _libs */ = {
+			isa = PBXGroup;
+			children = (
+				6553A1DA0926F00F0034739A /* _api_debug.xcconfig */,
+				6553A1DB0926F00F0034739A /* _api_release.xcconfig */,
+				653A926E0858FEB50017BCBC /* _api.xcodeproj */,
+			);
+			name = _libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		65E5168D083D10D0005BFD9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65E51692083D10D0005BFD9A /* CDSelectParentR12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65450B66085517D80099394F /* Build configuration list for PBXNativeTarget "CDSelectParentR12" */;
+			buildPhases = (
+				65E5168D083D10D0005BFD9A /* Headers */,
+				65E5168E083D10D0005BFD9A /* Sources */,
+				65E5168F083D10D0005BFD9A /* Resources */,
+				65E51690083D10D0005BFD9A /* Frameworks */,
+				65E51691083D10D0005BFD9A /* Rez */,
+			);
+			buildRules = (
+				65805F2D0851B32A0065CE1B /* PBXBuildRule */,
+			);
+			dependencies = (
+				657FF1C90859150C00750201 /* PBXTargetDependency */,
+			);
+			name = CDSelectParentR12;
+			productName = "xtensions (Debug)";
+			productReference = 4066E1F11768CE610095C100 /* CDSelectParentR12.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65E5168A083D10D0005BFD9A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 65450B6A085517D90099394F /* Build configuration list for PBXProject "CDSelectParent" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 0;
+			mainGroup = 65E51686083D10D0005BFD9A;
+			productRefGroup = 65E51694083D10D0005BFD9A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 657FF105085913EC00750201 /* Products */;
+					ProjectRef = 653A926E0858FEB50017BCBC /* _api.xcodeproj */;
+				},
+			);
+			projectRoot = ../../..;
+			targets = (
+				65E51692083D10D0005BFD9A /* CDSelectParentR12 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		26EDA6240FA303CF00050D59 /* lib_api_stdmem_debug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = lib_api_stdmem_debug.a;
+			remoteRef = 26EDA6230FA303CF00050D59 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		657FF109085913EC00750201 /* lib_api_debug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = lib_api_debug.a;
+			remoteRef = 657FF108085913EC00750201 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65E5168F083D10D0005BFD9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		65E51691083D10D0005BFD9A /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65E5168E083D10D0005BFD9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65636C1E08E5922100FBAB34 /* main.cpp in Sources */,
+				40788A461765557A00F07529 /* CDCompatibility.cpp in Sources */,
+				40788A481765558A00F07529 /* SelectParent.cpp in Sources */,
+				40F9406E176AAD3C005A29A5 /* CDGeneral.cpp in Sources */,
+				40F94076176AAE67005A29A5 /* CDaabb.cpp in Sources */,
+				40F94077176AAE67005A29A5 /* R10Animation.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		657FF1C90859150C00750201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = _api;
+			targetProxy = 657FF1C80859150C00750201 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65450B67085517D80099394F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		65450B68085517D80099394F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+		65450B6B085517D90099394F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6553A1DA0926F00F0034739A /* _api_debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				C4D_ROOTDIR = ../..;
+				HEADER_SEARCH_PATHS = (
+					"$(C4D_ROOTDIR)/resource/_api/**",
+					"$(C4D_ROOTDIR)/resource/res/**",
+					"res/**",
+					"$(C4D_ROOTDIR)/resource/modules/objects/res/description",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_PROJECT_1)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_PROJECT_2)",
+					"$(C4D_ROOTDIR)/modules/dynamics/res/description",
+					"$(C4D_ROOTDIR)/resource/modules/modeling/res/description",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_PROJECT_3)",
+				);
+				HEADER_SEARCH_PATHS_QUOTED_FOR_PROJECT_1 = "$(C4D_ROOTDIR)/modules/advanced\\\\\\ render/advanced\\\\\\ render/res/description";
+				HEADER_SEARCH_PATHS_QUOTED_FOR_PROJECT_2 = "$(C4D_ROOTDIR)/modules/thinking\\\\\\ particles/thinking\\\\\\ particles/res/description";
+				HEADER_SEARCH_PATHS_QUOTED_FOR_PROJECT_3 = "\\\"$(SRCROOT)/../CD_Globals\\\"";
+				OTHER_LDFLAGS = "$(C4D_ROOTDIR)/resource/_api_lib/lib_api_debug.a";
+				PREBINDING = NO;
+				PRODUCT_NAME = CDSelectParentR12;
+			};
+			name = Debug;
+		};
+		65450B6C085517D90099394F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6553A1DB0926F00F0034739A /* _api_release.xcconfig */;
+			buildSettings = {
+				C4D_ROOTDIR = ../..;
+				HEADER_SEARCH_PATHS = (
+					"$(C4D_ROOTDIR)/resource/_api/**",
+					"$(C4D_ROOTDIR)/resource/res/**",
+					"res/**",
+					"$(C4D_ROOTDIR)/resource/modules/objects/res/description",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_PROJECT_1)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_PROJECT_2)",
+					"$(C4D_ROOTDIR)/modules/dynamics/res/description",
+					"$(C4D_ROOTDIR)/resource/modules/modeling/res/description",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_PROJECT_3)",
+				);
+				HEADER_SEARCH_PATHS_QUOTED_FOR_PROJECT_1 = "$(C4D_ROOTDIR)/modules/advanced\\\\\\ render/advanced\\\\\\ render/res/description";
+				HEADER_SEARCH_PATHS_QUOTED_FOR_PROJECT_2 = "$(C4D_ROOTDIR)/modules/thinking\\\\\\ particles/thinking\\\\\\ particles/res/description";
+				HEADER_SEARCH_PATHS_QUOTED_FOR_PROJECT_3 = "\\\"$(SRCROOT)/../CD_Globals\\\"";
+				OTHER_LDFLAGS = "$(C4D_ROOTDIR)/resource/_api_lib/lib_api_release.a";
+				PREBINDING = NO;
+				PRODUCT_NAME = CDSelectParentR12;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65450B66085517D80099394F /* Build configuration list for PBXNativeTarget "CDSelectParentR12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65450B67085517D80099394F /* Debug */,
+				65450B68085517D80099394F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65450B6A085517D90099394F /* Build configuration list for PBXProject "CDSelectParent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65450B6B085517D90099394F /* Debug */,
+				65450B6C085517D90099394F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65E5168A083D10D0005BFD9A /* Project object */;
+}

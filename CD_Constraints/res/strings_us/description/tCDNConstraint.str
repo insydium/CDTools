@@ -1,0 +1,17 @@
+STRINGTABLE tCDNConstraint
+{
+	tCDNConstraint				"Cactus Dan's Constraints ";
+	
+	NC_PURCHASE				" Purchase CD Constraints  at  www.cactus3d.com ";
+
+	NC_STRENGTH			"Strength ";
+	NC_SHOW_LINES		" Show Guides";
+	NC_LINE_COLOR		"Line Color ";
+
+	NC_ID_TARGET		"Target";
+	
+	NC_TARGET			"Target";
+	NC_N_SET			"   Set   ";
+	NC_N_RELEASE		" Release ";
+	NC_POS_ONLY			"Position Only";
+}

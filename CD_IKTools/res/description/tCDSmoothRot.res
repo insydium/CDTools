@@ -1,0 +1,22 @@
+CONTAINER tCDSmoothRot
+{
+	NAME tCDSmoothRot;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON SMR_PURCHASE {}
+	}
+	INCLUDE Tbase;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL SMR_USE_SMOOTHROT { }
+		}
+	}
+}

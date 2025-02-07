@@ -1,0 +1,29 @@
+STRINGTABLE tCDPSRConstraint
+{
+	tCDPSRConstraint		"Cactus Dan's Constraints ";
+	
+	PSRC_PURCHASE				" Purchase CD Constraints  at  www.cactus3d.com ";
+
+	PSRC_SHOW_LINES		" Show Guides";
+	PSRC_LINE_COLOR		"Line Color ";
+
+	PSRC_USE_P		" Position";
+	PSRC_USE_R		" Rotation";
+	PSRC_USE_S		" Scale";
+
+	PSRC_USE_AB_MIX		"Use AB Mixer";
+	PSRC_AB_MIX			"Mix  A<->B";
+	
+	PSRC_LOCAL_PSR		"Local Coordinates";
+	PSRC_STRENGTH		"Strength";
+	
+	PSRC_ID_TARGET		"Target";
+
+	PSRC_ADD_PSR			"  Add   ";
+	PSRC_SUB_PSR			" Delete ";
+
+	PSRC_INTERPOLATION	"Interpolation";
+		PSRC_AVERAGE		"Average";
+		PSRC_SHORTEST	"Shortest";					
+
+}

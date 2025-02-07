@@ -1,0 +1,40 @@
+STRINGTABLE tCDFinger
+{
+	tCDFinger				"Cactus Dan's IK Tools ";
+	
+	FNGR_PURCHASE				" Purchase CD IK Tools  at  www.cactus3d.com ";
+
+	FNGR_IK_SHOW_LINES			"Show Line ";
+	
+	FNGR_LINE_COLOR				"Line Color ";
+
+	FNGR_IK_POLE_AXIS			"RP Solver Axis ";
+		FNGR_IK_POLE_Y			"+Y Axis";
+		FNGR_IK_POLE_X			"+X Axis";
+		FNGR_IK_POLE_NX			"-X Axis";
+		FNGR_IK_POLE_NY			"-Y Axis";
+			
+	FNGR_IK_SOLVER_GROUP			"RP Solver";
+		FNGR_IK_SOLVER_LINK		"RP Solver Object ";
+		FNGR_IK_BONE_LINK		"Root Joint ";
+
+	FNGR_CONTROLLER_GROUP		"Controller";
+		FNGR_BEND_VALUE			"Bend ";
+		FNGR_CURL_VALUE			"Curl ";
+		FNGR_DAMPING_VALUE		"Damping ";
+		FNGR_SPREAD_VALUE		"Spread ";
+		
+	FNGR_LEFT_HAND				"Left Hand";
+	FNGR_CONNECT_BONES			"Keep Bones Connected";
+	FNGR_INCLUDE_TIP				"Include Tip Curl";
+	
+	FNGR_RANGE_GROUP				"Range";
+		FNGR_SPREAD_MIN			"Spread Min ";
+		FNGR_BEND_MIN			"Bend   Min ";
+		FNGR_CURL_MIN			"Curl   Min ";
+		FNGR_SPREAD_MAX			"Max ";
+		FNGR_BEND_MAX			"Max ";
+		FNGR_CURL_MAX			"Max ";
+	
+	
+}

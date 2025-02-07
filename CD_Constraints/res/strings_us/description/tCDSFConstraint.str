@@ -1,0 +1,9 @@
+STRINGTABLE tCDSFConstraint
+{
+	tCDSFConstraint				"Cactus Dan's Constraints ";
+	
+	SFC_PURCHASE				" Purchase CD Constraints  at  www.cactus3d.com ";
+
+	SFC_TARGET					"Target";
+	SFC_ALIGN_NORMAL			"Align to Surface";
+}

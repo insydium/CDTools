@@ -1,0 +1,79 @@
+CONTAINER tCDFinger
+{
+	NAME tCDFinger;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON FNGR_PURCHASE {}
+	}
+	INCLUDE Texpression;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 2;
+
+			BOOL FNGR_IK_SHOW_LINES { }
+
+			LONG FNGR_IK_POLE_AXIS
+			{
+				CYCLE
+				{
+					FNGR_IK_POLE_X;
+					FNGR_IK_POLE_Y;
+					FNGR_IK_POLE_NX;
+					FNGR_IK_POLE_NY;
+				}
+			
+			}
+		}
+		
+		GROUP
+		{
+			COLUMNS 1;
+			
+			COLOR FNGR_LINE_COLOR {}
+			BOOL FNGR_LEFT_HAND { }
+			BOOL FNGR_CONNECT_BONES { }
+			BOOL FNGR_INCLUDE_TIP { }
+		}
+
+	}
+
+	GROUP FNGR_IK_SOLVER_GROUP
+	{
+		DEFAULT	1;
+		
+		GROUP 
+		{ 
+			LINK FNGR_IK_SOLVER_LINK
+			{ 
+				ANIM MIX; ACCEPT { Obase; } 
+				REFUSE { Osky; Oforeground; } 
+			} 
+		}
+	}
+
+	GROUP FNGR_CONTROLLER_GROUP
+	{
+		DEFAULT	1;
+		
+	}
+	GROUP FNGR_RANGE_GROUP
+	{
+		GROUP 
+		{ 
+			COLUMNS 2;
+
+			REAL FNGR_SPREAD_MIN { UNIT DEGREE;}
+			REAL FNGR_SPREAD_MAX { UNIT DEGREE;}
+			REAL FNGR_BEND_MIN { UNIT DEGREE;}
+			REAL FNGR_BEND_MAX { UNIT DEGREE;}
+			REAL FNGR_CURL_MIN { UNIT DEGREE;}
+			REAL FNGR_CURL_MAX { UNIT DEGREE;}
+		}
+	}
+}

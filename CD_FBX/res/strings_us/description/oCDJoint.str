@@ -1,0 +1,42 @@
+STRINGTABLE oCDJoint
+{
+	oCDJoint				"Cactus Dan's Joints & Skin ";
+	
+	JNT_PURCHASE				" Purchase CD Joints & Skin  at  www.cactus3d.com ";
+
+	JNT_PRIORITY		"Priority";
+		JNT_INITIAL		"Initial";
+		JNT_ANIMATION		"Animation";
+		JNT_EXPRESSION	"Expression";
+		JNT_DYNAMICS		"Dynamics";
+		JNT_GENERATORS	"Generators";
+	
+	JNT_PRTY_CAM		"Camera Dependent";
+	
+	JNT_JOINT_RADIUS		"Radius";
+	JNT_CONNECTED			"Connected to Parent";
+	JNT_SHOW_LOCAL_AXIS		"Display Local Axis";
+	JNT_SHOW_XRAY			"Draw in front";
+	JNT_JOINT_ORIENTATION	"Joint Orientation";
+	JNT_ORIENT_JOINT		"Orient Joint";
+
+	JNT_ID_TRANSFORM		"Joint Transformation" "Trans.";
+	JNT_ZERO_COORDS			"Zero Transformation";
+	JNT_RETURN_TO_ZERO		"Return to Zero";
+	JNT_LOCK_ZERO_TRANS		"Keep Local Zero Tranformation";
+
+	JNT_TRANS_POS			"T.Position" "TP";
+	JNT_TRANS_SCA			"T.Scale" "TS";
+	JNT_TRANS_ROT			"T.Rotation" "TR";
+
+	JNT_ID_ENVELOPE			"Envelope";
+	JNT_SHOW_ENVELOPE		"Use Envelope";
+	JNT_SHOW_PROXY			"Show Proxy";
+	JNT_ROOT_OFFSET			"Root Offset";
+	JNT_MID_OFFSET			"Mid Offset";
+	JNT_TIP_OFFSET			"Tip Offset";
+	JNT_SKEW_RX				"Skew RX";
+	JNT_SKEW_RY				"Skew RY";
+	JNT_SKEW_TX				"Skew TX";
+	JNT_SKEW_TY				"Skew TY";
+}

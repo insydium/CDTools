@@ -1,0 +1,30 @@
+STRINGTABLE tCDSConstraint
+{
+	tCDSConstraint				"Cactus Dan's Constraints ";
+	
+	SC_PURCHASE				" Purchase CD Constraints  at  www.cactus3d.com ";
+
+	SC_OFFSETS			"Constraint Offset";
+	
+	SC_TARGET_A		"Target A ";
+	SC_TARGET_B		"Target B ";
+	SC_USE_AB_MIX		"Use AB Mixer";
+	SC_AB_MIX			"Mix  A<->B";
+
+	SC_AXIS_X			"X ";
+	SC_OFFSET_X		"Offset ";
+	SC_AXIS_Y			"Y ";
+	SC_OFFSET_Y		"Offset ";
+	SC_AXIS_Z			"Z ";
+	SC_OFFSET_Z		"Offset ";
+
+	SC_STRENGTH		"Strength ";
+
+	SC_SHOW_LINES		" Show Guides";
+	SC_LINE_COLOR		"Line Color ";
+
+	SC_ID_TARGET		"Target";
+
+	SC_ADD_SCA			"  Add   ";
+	SC_SUB_SCA			" Delete ";
+}

@@ -1,0 +1,11 @@
+STRINGTABLE tCDTranSel
+{
+	tCDTranSel				"CD Transfer Tools ";
+	
+	TRNSEL_PURCHASE				" Purchase CD Transfer Tools  at  www.cactus3d.com ";
+
+	TRNSEL_TRANSFER_ON				"Transfer On";
+	TRNSEL_TARGET					"Target";
+	
+	TRNSEL_USE_BUTTON				"Transfer to Button";
+}

@@ -1,0 +1,162 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_CDSPRNGKYS					"CD Springy Keys";
+	
+	IDS_ABOUT_CDSPRK				"About CD Springy Keys";
+
+	IDS_POS_FORCES					"Position Forces";
+	IDS_SCA_FORCES					"Scale Forces";
+	IDS_ROT_FORCES					"Rotation Forces";
+	
+	IDS_STIFFNESS					"Stiffness";
+	IDS_DAMPING						"Damping";
+	IDS_MASS						"Mass";
+
+	C_SYMBOL						"\u00A9";
+	
+
+	MD_PLEASE_REGISTER				"Please register your copy of CD Springy Keys.";
+	MD_INVALID_NUMBER				"That number is invalid. Check the number and try again.";
+	MD_THANKYOU						"Thank you for registering your plugin. \u000D To use the plugin you must quit and restart Cinema 4D.";
+
+	IDS_WEB_SITE					"http://www.cactus3d.com/Plugins.html";
+
+	IDC_CDSK_AGREE					"Agree";
+	IDC_CDSK_DISAGREE				"Disagree";
+	
+	IDC_CDSK_EULA					"SOFTWARE LICENSING AGREEMENT
+
+IMPORTANT Ð READ CAREFULLY: THIS LICENSING AGREEMENT (AGREEMENT)
+IS A LEGAL AGREEMENT BETWEEN YOU, AN INDIVIDUAL OR A SINGLE ENTERPRISE
+ENTITY, AND D. K. LIBISCH DBA CACTUS DAN (HEREINAFTER THE LICENSOR).
+
+BY DOWNLOADING THE PRODUCT, OR USING THE EQUIPMENT THAT CONTAINS THIS 
+PRODUCT, YOU ARE CONSENTING TO BE BOUND BY THIS AGREEMENT. IF YOU DO NOT 
+AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, DO NOT DOWNLOAD THE PRODUCT.
+
+
+LICENSE GRANT
+
+Licensor hereby grants to You, and You accept, a non-exclusive license to use
+the software, including the software contained therein in object-code-only
+form (Software), and Documentation, only as authorized in this License.
+The Software may be used only on a single computer or local area network (System)
+owned, leased, or otherwise controlled by You; or, in the event of the inoperability
+of that system, on a backup system selected by You. You agree that You will not
+assign, sub-license, transfer, pledge, lease, rent, or share Your rights under this
+License, except as set forth herein.  Specifically, it is understood that You may
+use the Software to create files (such as a character for animation) that are
+transferred to another individual or entity and which may require access to a version
+of this Software with limited functionality that is inherently transferred therewith
+(such as character rigging made using the software).
+
+
+COPYING
+
+You may make one (1) archival copy of the Software, provided You affix to such copy
+all copyright, confidentiality, and proprietary notices that appear on the original.
+
+EXCEPT AS EXPRESSLY AUTHORIZED ABOVE, YOU SHALL NOT: COPY, IN WHOLE OR
+IN PART, SOFTWARE OR DOCUMENTATION; MODIFY THE SOFTWARE; REVERSE COMPILE
+OR REVERSE ASSEMBLE ALL OR ANY PORTION OF THE SOFTWARE; OR RENT, LEASE,
+DISTRIBUTE, SELL, OR CREATE DERIVATIVE WORKS OF THE SOFTWARE.
+
+LICENSOR'S RIGHTS
+
+You acknowledge and agree that the Software and Documentation consists of
+proprietary, published and unpublished property of Licensor, protected under
+United States copyright law and trade secret laws of general applicability.
+You further acknowledge and agree that all right, title, and interest in and
+to the Software and Documentation are and shall remain with Licensor.
+This License does not convey to you an interest in or to the Software and
+Documentation, but only a limited right of use revocable in accordance with
+the terms of this License.  With the exception of the laws specifically prescribed
+by the Digital Millennium Act, you are not to reverse engineer the software for
+any purpose.
+
+LICENSE FEES
+
+The license fees paid by You are paid in consideration of the licenses granted
+under this License.
+
+SOFTWARE INSTALLATION
+
+It shall be Your sole responsibility to install and make operational the Software
+on Your system.  In the event you need installation assistance, such services may
+be available from Licensor at an additional cost to You.
+
+TERM
+
+This License is effective upon Your installing the software on any machine, and
+shall continue until terminated. You may terminate all copies of the software
+that may be located on any systems owned or controlled by You or upon which You
+know a copy of the Software has been placed.  Licensor may terminate this License
+upon the breach by You of any term hereof.  Upon such termination by Licensor, You
+agree to erase all copies of the Software that may be located on any systems owned
+or controlled by You or upon which You know a copy of the Software has been placed.
+
+LIMITED WARRANTY
+
+Licensor warrants, for Your benefit alone, that the Software shall, for a period of
+ninety (90) days from the date of Your purchase of the Software (referred to as the
+Warranty Period), be free from defects in material and workmanship.  Licensor
+further warrants, for Your benefit alone, that during the Warranty Period the
+Software shall operate substantially in accordance with the Documentation.
+If, during the Warranty Period, a defect in the Software appears, You may contact
+Licensor to arrange for replacement.
+
+YOU AGREE THAT THE FOREGOING CONSTITUTES YOUR SOLE AND EXCLUSIVE REMEDY
+FOR BREACH BY LICENSOR OF ANY WARRANTIES MADE UNDER THIS LICENSE.  EXCEPT
+FOR THE WARRANTIES SET FORTH ABOVE, THE SOFTWARE AND DOCUMENTATION ARE
+LICENSED AS IS, AND LICENSOR DISCLAIMS ANY AND ALL OTHER WARRANTIES,
+WHETHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY AND ALL
+IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR
+PURPOSE.
+
+LIMITATION OF LIABILITY
+
+LICENSOR'S CUMULATIVE LIABILITY TO YOU OR ANY OTHER PARTY FOR ANY LOSS OR 
+DAMAGES RESULTING FROM ANY CLAIMS, DEMANDS, OR ACTIONS ARISING OUT OF OR 
+RELATING TO THIS LICENSE OR THE USE OF THE SOFTWARE SHALL BE LIMITED TO 
+REPLACEMENT OF THE SOFTWARE AND, IN ANY EVENT, SHALL NOT EXCEED THE
+LICENSE FEE PAID TO LICENSOR FOR THE USE OF THE SOFTWARE.  IN NO EVENT
+SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL,
+SPECIAL, OR EXEMPLARY DAMAGES OR LOST PROFITS OR ANY SIMILAR CLAIMS, EVEN
+IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  BECAUSE
+SOME STATES/JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF
+LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION
+MAY NOT APPLY TO YOU.
+
+GOVERNING LAW
+
+This License shall be construed and governed in accordance with the laws of the
+State of Utah.  Any dispute arising out of or with respect to this License between
+You and Licensor shall be solely adjudicated by the competent Federal or State
+court situated in Salt Lake City, Utah.  You and Licensor consent to the venue
+and jurisdiction of such court for purposes of any such dispute.
+
+
+SEVERABILITY
+
+Should any term of this License be declared void or unenforceable by any court
+of competent jurisdiction, such declaration shall have no effect on the
+remaining terms hereof.
+
+SOVEREIGN IMMUNITY
+
+Where you are an agency or instrumentality of a state foreign to the United States
+of America, You hereby waive, with respect to actions relating to the subject matter
+of this License any immunity from the personal and subject matter jurisdiction of
+courts of the United States of America or of the several states thereof, and any
+immunity from attachment in aid of execution or from execution upon its property.
+
+
+NO WAIVER
+
+The failure of Licensor to enforce any rights hereunder or to take action against
+You in the event of any breach hereunder shall not be deemed a waiver by Licensor
+as to subsequent enforcement of rights or subsequent actions in the event
+of future breach.";}

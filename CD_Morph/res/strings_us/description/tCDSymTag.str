@@ -1,0 +1,26 @@
+STRINGTABLE tCDSymTag
+{
+	tCDSymTag					"Cactus Dan's Morph ";
+	
+	SYM_PURCHASE				" Purchase CD Morph  at  www.cactus3d.com ";
+	
+	SYM_USE_SYMMETRY				"Use Symmetry";
+	SYM_SET_SYMMETRY				"Set Symmetry";
+	SYM_RELEASE_SYMMETRY			"Release Symmetry";
+	SYM_TOLERANCE				"Tolerance";
+	
+	SYM_SYMMETRY_AXIS				"Mirror Axis";
+		SYM_MX					" X ";
+		SYM_MY					" Y ";
+		SYM_MZ					" Z ";
+
+	SYM_RESTRICT_SYM			"Restrict Symmetry";
+		SYM_POSITIVE			"Positive";
+		SYM_NEGATIVE			"Negative";
+	
+	SYM_SHOW_GUIDE				"Show Guide";
+	SYM_GUIDE_SIZE				"Guide Size";
+	SYM_GUIDE_COLOR				"Guide Color";
+	
+	SYM_LOCK_CENTER				"Lock Center Points";
+}

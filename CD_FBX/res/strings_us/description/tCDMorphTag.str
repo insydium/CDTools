@@ -1,0 +1,45 @@
+STRINGTABLE tCDMorphTag
+{
+	tCDMorphTag					"Cactus Dan's Morph ";
+	
+	MT_PURCHASE				" Purchase CD Morph  at  www.cactus3d.com ";
+	
+	MT_DEST_LINK			"Destination ";
+	
+	MT_SET_SELECTION			"   Set Selection   ";
+	MT_SET_OFFSET				"    Set Offset    ";
+	MT_RESTORE_SELECTION		" Restore Selection ";
+	MT_EDIT_OFFSET				"    Edit Offset    ";
+	MT_EDIT_SELECTION			"  Edit Selection  ";
+	MT_HIDE_UNSELECTED			"    Hide Others    ";
+	MT_UNHIDE_ALL				"    Unhide All     ";
+	MT_ERASE_OFFSET			"   Erase Offset    ";
+	MT_SELECT_POINTS			"   Select Points   ";
+	
+	MT_USE_MIDPOINT			"Use Spherical Morph";
+	MT_SET_MIDPOINT			"    Set Midpoint   ";
+	MT_EDIT_MIDPOINT			"   Edit Midpoint   ";
+	MT_ERASE_MIDPOINT			"   Erase Midpoint  ";
+	
+	MT_SHOW_GUIDE				" Show Guides ";
+	MT_SELECTED_ONLY			" Show Selected Only ";
+	MT_GUIDE_COLOR				"Guide color";
+	MT_USE_SLIDERS				"Use Sliders";
+	MT_MID_WIDTH				"Midpoint Width";
+	MT_MID_OFFSET				"Midpint Offset";
+	
+	MT_ID_CONTROLLER				"Controller";
+	MT_MIX_SLIDER				"Morph Mixer";
+	
+	MT_USE_BONE_ROTATION		"Morph using Object Rotation";
+	
+	MT_ROTATION_AXIS			"Rotation Axis";
+		MT_ROTATION_H			" H ";
+		MT_ROTATION_P			" P ";
+		MT_ROTATION_B			" B ";
+
+	MT_MIN_VALUE				"Min ";
+	MT_MAX_VALUE				"Max ";
+	MT_CLAMP_MIN				"Clamp Min";
+	MT_CLAMP_MAX				"Clamp Max";
+}

@@ -1,0 +1,128 @@
+CONTAINER tCDMechIK
+{
+	NAME tCDMechIK;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON MCHIK_PURCHASE {}
+	}
+	INCLUDE Texpression;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL MCHIK_USE { }
+			REAL MCHIK_BLEND { UNIT PERCENT; MIN 0.0; MAX 100.0; CUSTOMGUI REALSLIDER;}
+		}	
+		SEPARATOR { LINE; }
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BOOL MCHIK_SHOW_LINES { }
+			
+		}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			COLOR MCHIK_LINE_COLOR {}
+		}
+		SEPARATOR { LINE; }
+		GROUP
+		{
+			COLUMNS 2;
+			
+			LONG MCHIK_POLE_AXIS
+			{
+				CYCLE
+				{
+					MCHIK_POLE_X;
+					MCHIK_POLE_Y;
+					MCHIK_POLE_NX;
+					MCHIK_POLE_NY;
+				}
+			
+			}
+			REAL MCHIK_TWIST { UNIT DEGREE;}
+		}	
+		SEPARATOR {}
+		GROUP
+		{
+			COLUMNS 2;
+
+			BOOL MCHIK_DAMPING_ON { }
+			REAL MCHIK_DAMPING_VALUE { UNIT PERCENT; MIN 0.0; MAX 100.0;}
+		}
+		GROUP
+		{
+			COLUMNS 2;
+
+			BOOL MCHIK_CONNECT_BONES { }
+			BOOL MCHIK_CONNECT_NEXT { }
+		}
+		SEPARATOR { LINE; }
+		GROUP
+		{
+			COLUMNS 1;
+
+			BOOL MCHIK_LOCK_UPPER { }
+		}
+		GROUP
+		{
+			COLUMNS 2;
+			
+			REAL MCHIK_ROOT_ANGLE { UNIT DEGREE;}
+			BOOL MCHIK_ROOT_FLIP { }
+			
+		}	
+		SEPARATOR {}
+		GROUP
+		{
+			COLUMNS 1;
+
+			BOOL MCHIK_LOWER_SLIDE { }
+		}
+		GROUP
+		{
+			COLUMNS 2;
+
+			REAL MCHIK_SLIDE_MIN { UNIT REAL; MIN 0.0; }
+			REAL MCHIK_SLIDE_MAX { UNIT REAL; MIN 0.0; }
+		}
+		SEPARATOR {}
+	}
+	GROUP MCHIK_SOLVER_GROUP
+	{
+		DEFAULT	1;
+		
+		GROUP 
+		{ 
+			LINK MCHIK_SOLVER_LINK
+			{ 
+				ANIM MIX; ACCEPT { Obase; } 
+				REFUSE { Osky; Oforeground; } 
+			} 
+		}
+	}
+	GROUP MCHIK_GOAL_GROUP
+	{
+		DEFAULT	1;
+		
+		GROUP 
+		{ 
+			BOOL MCHIK_GOAL_TO_BONE { }
+			LINK MCHIK_GOAL_LINK
+			{ 
+				ANIM MIX; ACCEPT { Obase; } 
+				REFUSE { Osky; Oforeground; } 
+			} 
+		}
+	}
+
+}

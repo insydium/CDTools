@@ -1,0 +1,1 @@
+DIALOGSTRINGS DLG_CDM_ABOUT{  CDM_TITLE 			"About CD Morph";  CDM_PLUGININFO 		"Version 0.00 (c) 2004 Cactus Dan Libisch";  WEBINFO				"www.cactus3d.com";  CDMORPH_SERIAL		"Serial Number";  CDM_UPDATE			"Check News for Updates";}

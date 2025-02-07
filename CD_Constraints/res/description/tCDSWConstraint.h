@@ -1,0 +1,31 @@
+#ifndef _tCDSWConstraint_H_
+#define _tCDSWConstraint_H_
+
+enum
+{
+	SWC_PURCHASE				= 1000,
+	
+	SWC_SHOW_LINES				= 1020,
+	SWC_LINE_COLOR				= 1021,
+
+	SWC_ADD_SPC					= 1030,
+	SWC_SUB_SPC					= 1031,
+	SWC_LINK_GROUP				= 1032,
+	
+	SWC_USE_START_FRAME			= 1100,
+	SWC_SET_START_FRAME			= 1101,
+	SWC_RELEASE_START_FRAME		= 1102,
+	
+	SWC_TARGET					= 2000,
+	SWC_SPC_MIX					= 3000,
+	
+	SWC_COORD_SPACE				= 5000,
+		SWC_OBJECT				= 5001,
+		SWC_PARENT				= 5002,
+
+	SWC_ID_TARGET				= 6000,
+	
+	SWC_REF						= 7000
+};
+
+#endif

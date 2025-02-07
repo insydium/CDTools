@@ -1,0 +1,35 @@
+#ifndef _tCDDConstraint_H_
+#define _tCDDConstraint_H_
+
+enum
+{
+	DC_PURCHASE			= 1000,
+	
+	DC_STRENGTH			= 1012,
+	DC_SHOW_LINES			= 1013,
+	DC_LINE_COLOR			= 1014,
+	
+	DC_ADD_DIST			= 1031,
+	DC_SUB_DIST			= 1032,
+	
+	DC_ID_TARGET			= 1050,
+	
+	DC_LINK_GROUP			= 2000,
+	DC_LINE_ADD			= 2100,
+	DC_CLAMP_GROUP			= 2200,
+
+	DC_TARGET				= 2300,
+	DC_DIST_MIX			= 2400,
+	DC_DISTANCE			= 2500,
+	
+	DC_CLAMP_DISTANCE		= 3100,
+		DC_CLAMP_MIN		= 3200,
+		DC_CLAMP_MAX		= 3300,
+		DC_CLAMP_BOTH		= 3400
+
+};
+
+#endif
+
+
+

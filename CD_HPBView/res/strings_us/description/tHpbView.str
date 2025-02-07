@@ -1,0 +1,7 @@
+STRINGTABLE tHpbView
+{
+	tHpbView			"CD HPB View";
+
+	GUIDE_SHOW			"Show Guides";
+	GUIDE_SIZE			"Guide Size";
+}

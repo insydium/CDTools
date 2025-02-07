@@ -1,0 +1,36 @@
+#ifndef _tCDFootIK_H_
+#define _tCDFootIK_H_
+
+enum
+{
+	FT_PURCHASE			= 1000,
+	
+	FT_IK_USE				= 10002,
+	FT_IK_SHOW_LINES		= 10001,
+
+	FT_IK_POLE_AXIS		= 10003,
+		FT_IK_POLE_Y		= 10004,
+		FT_IK_POLE_X		= 10005,
+
+	FT_IK_SOLVER_LINK		= 10006,
+
+	FT_IK_GOAL_A_LINK		= 10007,
+	FT_IK_GOAL_B_LINK		= 10008,
+	
+	FT_IK_SOLVER_GROUP		= 10014,
+	FT_IK_GOAL_GROUP		= 10015,
+	FT_IK_POLE_NX			= 10016,
+	FT_IK_POLE_NY			= 10017,
+	
+	FT_LINE_COLOR			= 10050,
+
+	FT_CONNECT_BONES		= 20000,
+	
+	FT_IK_BLEND			= 20002
+
+};
+
+#endif
+
+
+

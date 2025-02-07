@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{0a5179de-f769-4971-a335-edc2f5341ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\command">
+      <UniqueIdentifier>{bfeeb2f9-4227-4991-820e-8554d64b7e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\global">
+      <UniqueIdentifier>{04d15bac-da7a-4cbb-809e-000f8ab3f84d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\gui">
+      <UniqueIdentifier>{468d1a2a-e7a9-4fd5-a3c3-524df836c59e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\message">
+      <UniqueIdentifier>{c75823bf-802e-4eb5-ad8b-04624821a632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\tag">
+      <UniqueIdentifier>{af91906a-881d-431f-92a3-9e9a7f703760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{f1764a45-e569-4a19-a8f1-91fa05913b89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAboutTR.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddTransSl.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddZTrans.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDCoordinates.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDFreezeTrans.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDLinkObjects.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDSelectAllSame.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDSetZeroHome.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDTAlign.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDTMirror.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDTransAnim.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDTransAxes.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDTransferCom.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDTransLinks.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDTransSelCom.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDTransUD.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDTReplace.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDTSwap.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDUnLinkObjects.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\ZeroGRot.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\ZeroLRot.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\CDTSerial.cpp">
+      <Filter>Source Code\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\message\CDTransMessage.cpp">
+      <Filter>Source Code\message</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDTransSelTag.cpp">
+      <Filter>Source Code\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDZeroTrans.cpp">
+      <Filter>Source Code\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDaabb.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDGeneral.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDQuaternion.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDSelLog.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\R10Animation.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDCompatibility.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDTagData.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDUserArea.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\cdtransfer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\CDaabb.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\CDMessages.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\CDQuaternion.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\R10Animation.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

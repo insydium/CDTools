@@ -1,0 +1,51 @@
+#ifndef _tCDPConstraint_H_
+#define _tCDPConstraint_H_
+
+enum
+{
+	PC_PURCHASE			= 1000,
+	
+	PC_OFFSETS				= 1009,
+	
+	PC_AB_MIX				= 1012,
+	
+	PC_AXIS_X				= 1013,
+	PC_OFFSET_X			= 1014,
+	PC_AXIS_Y				= 1015,
+	PC_OFFSET_Y			= 1016,
+	PC_AXIS_Z				= 1017,
+	PC_OFFSET_Z			= 1018,
+	
+	PC_STRENGTH			= 1019,
+	PC_SHOW_LINES			= 1020,
+	PC_LINE_COLOR			= 1021,
+	
+	PC_LOCAL_POS			= 1022,
+	PC_USE_AB_MIX			= 1023,
+	PC_LOCAL_OFFSET		= 1024,
+
+	PC_ADD_POS				= 1031,
+	PC_SUB_POS				= 1032,
+	
+	PC_ID_TARGET			= 1050,
+
+	PC_LINK_GROUP			= 2000,
+	PC_LINE_ADD			= 3000,
+
+	PC_TARGET				= 4000,
+	PC_POS_MIX				= 5000,
+
+	PC_PNP_GROUP			= 6000,
+	PC_CHK_GROUP			= 6100,
+	PC_SET_GROUP			= 6200,
+	PC_USE_POINT			= 7000,
+	PC_USE_NORMAL			= 8000,
+	PC_P_INDEX				= 9000,
+	PC_SET_P_SEL			= 10000
+
+};
+
+#endif
+
+
+

@@ -1,0 +1,68 @@
+CONTAINER tCDAConstraint
+{
+	NAME tCDAConstraint;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON AC_PURCHASE {}
+	}
+	INCLUDE Texpression;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BOOL AC_SHOW_LINES {}
+			LONG AC_POLE_AXIS
+			{
+				CYCLE
+				{
+					AC_POLE_OFF;
+					AC_POLE_X;
+					AC_POLE_Y;
+					AC_POLE_NX;
+					AC_POLE_NY;
+				}
+			}
+		}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			COLOR AC_LINE_COLOR {}
+		}
+		SEPARATOR {}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			REAL AC_STRENGTH { UNIT PERCENT; MIN 0.0; MAX 100.0; CUSTOMGUI REALSLIDER;}
+		}
+		SEPARATOR {}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL AC_USE_AB_MIX {}
+			REAL AC_AB_MIX { UNIT PERCENT; MIN 0.0; MAX 100.0; CUSTOMGUI REALSLIDER;}
+		}
+	}
+	GROUP AC_ID_TARGET
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BUTTON AC_ADD_AIM {}
+			BUTTON AC_SUB_AIM {}
+		}
+		SEPARATOR { LINE; }
+	}
+
+}

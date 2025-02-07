@@ -1,0 +1,11 @@
+DIALOGSTRINGS DLG_CDFBX_REGISTER
+{
+  CDFBX_TITLE			"Register CD FBX";
+  CDFBX_SDK_INFO		"Autodesk Fbx Sdk v";
+  CDFBX_PLUGININFO		"Version 0.00 (c) 2010 Cactus Dan Libisch";
+  WEBINFO				"www.cactus3d.com";
+  CDFBX_SERIAL			"Serial Number";
+  CDFBX_CANCEL			"Cancel";
+  CDFBX_REGISTER		"Register";
+  CDFBX_PURCHASE		"Purchase";
+}

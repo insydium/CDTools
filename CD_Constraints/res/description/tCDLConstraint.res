@@ -1,0 +1,84 @@
+CONTAINER tCDLConstraint
+{
+	NAME tCDLConstraint;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON LC_PURCHASE {}
+	}
+	INCLUDE Texpression;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BOOL LC_SHOW_LINES {}
+			REAL LC_BOX_SIZE { UNIT REAL; MIN 0.0; }
+		}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			COLOR LC_LINE_COLOR {}
+		}
+	}
+	GROUP LC_ID_LOCK
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL LC_LOCK_ENABLE { }
+			REAL LC_LOCK_BLEND { UNIT PERCENT; MIN 0.0; MAX 100.0; CUSTOMGUI REALSLIDER; }
+		}
+		SEPARATOR { LINE;}
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BOOL LC_GLOBAL_COORDS { }
+			BOOL LC_USE_ORIENTATION { }
+		}
+		SEPARATOR {}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL LC_USE_CUR_POS { }
+		}
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BOOL LC_P_LOCK_X { }
+			REAL LC_POSITION_X { UNIT METER; }
+			BOOL LC_P_LOCK_Y { }
+			REAL LC_POSITION_Y { UNIT METER; }
+			BOOL LC_P_LOCK_Z { }
+			REAL LC_POSITION_Z { UNIT METER; }
+		}
+		SEPARATOR { }
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL LC_A_LOCK_ALL { }
+			BOOL LC_A_LOCK_X { }
+			BOOL LC_A_LOCK_Y { }
+			BOOL LC_A_LOCK_Z { }
+		}
+		SEPARATOR { }
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL LC_LOCK_POINTS { }
+		}
+	}
+}

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{e6e224ee-753c-49a7-ba9a-fad28ab0c32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\command">
+      <UniqueIdentifier>{268bd557-3d50-4f4f-bd4e-e9b6c7e97812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\global">
+      <UniqueIdentifier>{4eb02691-ea0f-455f-95b9-b0e1778e0ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\gui">
+      <UniqueIdentifier>{035601a8-4110-4def-8e62-98c048260cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\message">
+      <UniqueIdentifier>{bc0cd725-fca0-4401-9b32-7947c5f1849a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\tool">
+      <UniqueIdentifier>{99495234-1a51-4fca-86cc-3948c214f54b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\tag">
+      <UniqueIdentifier>{6c4e6c33-c545-4fb6-822e-06622107b7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\object">
+      <UniqueIdentifier>{6c15294b-1af1-47a7-b182-5931097c0de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{347e3679-fae3-499b-902a-660af1378f47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\command\CDAboutSym.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDActivateN.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDActivateP.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddSymObj.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDAddSymTag.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDMakeSym.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDMirSelection.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDSymSelect.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDSymToTag.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDUpdateSym.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\CDSymSerial.cpp">
+      <Filter>Source Code\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\message\CDSymMsg.cpp">
+      <Filter>Source Code\message</Filter>
+    </ClCompile>
+    <ClCompile Include="source\object\CDDynSym.cpp">
+      <Filter>Source Code\object</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDCLTag.cpp">
+      <Filter>Source Code\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDSymTag.cpp">
+      <Filter>Source Code\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tool\CDSymAssign.cpp">
+      <Filter>Source Code\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDaabb.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDGeneral.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDSelLog.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\R10Animation.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDCompatibility.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDObjectData.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDTagData.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDToolData.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDUserArea.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CDSymFuncLib.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\CDSymmetry.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CDSymmetryTag.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\CDaabb.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\CDEdgeCutArray.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\CDGeneral.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\CDMatrixArray.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\CDMessages.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\CDSellog.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CD_Globals\R10Animation.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,75 @@
+CONTAINER tCDMConstraint
+{
+	NAME tCDMConstraint;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON MC_PURCHASE {}
+	}
+	INCLUDE Texpression;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL MC_SHOW_LINES {}
+			COLOR MC_LINE_COLOR {}
+		}
+		SEPARATOR {}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			REAL MC_STRENGTH { UNIT PERCENT; MIN 0.0; MAX 100.0; CUSTOMGUI REALSLIDER;  }
+		}
+		SEPARATOR {}
+	}
+	GROUP MC_ID_TARGET
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 1;
+			
+			LINK  MC_TARGET { ANIM ON; ACCEPT { Obase; } }
+		}
+		SEPARATOR {}
+		GROUP
+		{
+			COLUMNS 2;
+			
+			REAL MC_STRENGTH { UNIT PERCENT; MIN 0.0; MAX 100.0; CUSTOMGUI REALSLIDER;  }
+			LONG MC_MIRROR_AXIS
+			{
+				CYCLE
+				{
+					MC_X_AXIS;
+					MC_Y_AXIS;
+					MC_Z_AXIS;
+				}
+			}
+			LONG MC_MIR_CENTER
+			{
+				CYCLE
+				{
+					MC_GLOBAL;
+					MC_LOCAL;
+					MC_OBJECT;
+				}
+			}
+		}
+		SEPARATOR {}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			LINK  MC_OBJECT_LINK { ANIM ON; ACCEPT { Obase; } }
+		}
+	}
+
+}

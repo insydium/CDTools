@@ -1,0 +1,27 @@
+STRINGTABLE tCDSPLConstraint
+{
+	tCDSPLConstraint				"Cactus Dan's Constraints ";
+	
+	SPLC_PURCHASE		" Purchase CD Constraints  at  www.cactus3d.com ";
+
+	SPLC_TARGET			"Spline";
+	SPLC_UP_VECTOR		"Up Vector";
+	
+	SPLC_TANGENT			"Tangential";
+	
+	SPLC_ALIGN_CHILDREN	"Hierarchal Constraint";
+	SPLC_CHILD_OFFSET	"Offset";
+
+	
+	SPLC_FORCE_POS		"Force Position";
+	SPLC_POSITION		"Position";
+	SPLC_SEGMENT			"Segment";
+
+	SPLC_ALIGN_AXIS			"Axis";
+		SPLC_ALIGN_X			" +X ";
+		SPLC_ALIGN_NX		" -X ";
+		SPLC_ALIGN_Y			" +Y ";
+		SPLC_ALIGN_NY		" -Y ";
+		SPLC_ALIGN_Z			" +Z ";
+		SPLC_ALIGN_NZ		" -Z ";
+}

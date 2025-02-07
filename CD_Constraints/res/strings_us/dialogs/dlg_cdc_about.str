@@ -1,0 +1,1 @@
+DIALOGSTRINGS DLG_CDC_ABOUT{  CDC_TITLE 			"About CD Constraints";  CDC_PLUGININFO 		"Version 0.00 (c) 2005 Cactus Dan Libisch";  WEBINFO				"www.cactus3d.com";  CDC_SERIAL			"Serial Number";  CDC_UPDATE			"Check News for Updates";}

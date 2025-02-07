@@ -1,0 +1,35 @@
+#ifndef _tCDTAConstraint_H_
+#define _tCDTAConstraint_H_
+
+enum
+{
+	TAC_PURCHASE			= 1000,
+	
+	TAC_SHOW_LINES			= 1000,
+	TAC_LINE_COLOR			= 1001,
+	
+	TAC_LENGTH				= 1002,
+	TAC_HEIGHT				= 1003,
+	TAC_SPEED				= 1004,
+
+	TAC_RESET_POSITION		= 1005,
+	TAC_OVERSTEP			= 1006,
+		
+	TAC_TARGET				= 1010,
+	TAC_STRENGTH			= 1011,
+	
+	TAC_HEIGHT_SPLINE		= 1500,
+	
+	TAC_ID_TARGET				= 2000,
+	TAC_USE_START_FRAME			= 2001,
+	TAC_SET_START_FRAME			= 2002,
+	TAC_RELEASE_START_FRAME		= 2003,
+	
+	TAC_ID_STRIDE				= 3000
+
+};
+
+#endif
+
+
+

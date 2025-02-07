@@ -1,0 +1,15 @@
+STRINGTABLE tCDCConstraint
+{
+	tCDCConstraint			"Cactus Dan's Constraints ";
+	
+	CC_PURCHASE				" Purchase CD Constraints  at  www.cactus3d.com ";
+
+	CC_SHOW_LINES			" Show Guide";
+	CC_LINE_COLOR			"Line Color ";
+	CC_BOX_SIZE				"Size ";
+
+	CC_ID_TARGET			"Target";
+
+	CC_ADD_CLAMP			"  Add   ";
+	CC_SUB_CLAMP			" Delete ";
+}

@@ -1,0 +1,33 @@
+STRINGTABLE tCDCluster
+{
+	tCDCluster				"Cactus Dan's Joints & Skin ";
+	
+	CLST_PURCHASE				" Purchase CD Joints & Skin  at  www.cactus3d.com ";
+
+	CLST_DEST_LINK				"Target Object";
+	CLST_BIND_POINTS			"Bind Points";
+	CLST_UNBIND_POINTS			"Unbind Points";
+	CLST_LOCAL_TRANS			"Use Local Transformation";
+	
+	CLST_MIX_PREVIOUS			" Mix with Skin";
+	
+	CLST_ID_CLUSTERBLEND		"Blend";
+	CLST_BLEND_ROTATION			" Blend with Rotation";
+	CLST_ROT_MIX				"Blend ";
+	
+	CLST_ATTACH_CHILD			" Blend with Attachment";
+	CLST_ATTACH_EXTERNAL		" Use External Attachment";
+	CLST_SHOW_GUIDE				" Show Guides";
+	CLST_GUIDE_SIZE				"Guide Size";
+	CLST_LINE_COLOR				"Line Color ";
+	CLST_JOINT_OFFSET			"Joint Offset";
+	CLST_ENABLE_PIVOT			" Enable Pivot";
+	CLST_PIVOT_OFFSET			"Pivot Offset";
+	CLST_CHILD_OFFSET			"Child Offset";
+	CLST_RESTRICT_TO_Z			" Restrict to Z Axis";
+	CLST_POS_MIX				"Mix Position";
+
+	CLST_SCALE					" Scale with Joint Movement";
+	CLST_STRENGTH				"Scale Strength ";
+	
+}

@@ -1,0 +1,42 @@
+STRINGTABLE tCDMechIK
+{
+	tCDMechIK					"Cactus Dan's IK Tools ";
+	
+	MCHIK_PURCHASE				" Purchase CD IK Tools  at  www.cactus3d.com ";
+
+	MCHIK_SHOW_LINES			"Show Lines ";
+	MCHIK_USE					"Use IK ";
+	
+	MCHIK_LINE_COLOR			"Line Color ";
+
+	MCHIK_ROOT_ANGLE			"Root Angle";
+	MCHIK_ROOT_FLIP				"Root Flip";
+		
+	MCHIK_LOCK_UPPER			"Lock Upper Limb";
+	MCHIK_LOWER_SLIDE			"Enable Lower Limb Slide";
+	MCHIK_SLIDE_MIN				"Min";
+	MCHIK_SLIDE_MAX				"Max";
+
+	MCHIK_TWIST					"Twist";
+	
+	MCHIK_POLE_AXIS				"RP Solver Axis ";
+		MCHIK_POLE_Y			"+Y Axis";
+		MCHIK_POLE_X			"+X Axis";
+		MCHIK_POLE_NX			"-X Axis";
+		MCHIK_POLE_NY			"-Y Axis";
+	
+	MCHIK_SOLVER_GROUP			"RP Solver";
+		MCHIK_SOLVER_LINK		"RP Solver Object ";
+		MCHIK_LOCK_S_POSITION	"Lock FK Position ";
+
+	MCHIK_GOAL_GROUP			"IK Goal";
+		MCHIK_GOAL_TO_BONE		"Orient Goal to Bone";
+		MCHIK_GOAL_LINK			"Goal Object   ";
+	
+	MCHIK_DAMPING_ON			"Snap Damping";
+	MCHIK_DAMPING_VALUE			"SD Value";
+	MCHIK_CONNECT_BONES			"Keep Bones Connected";
+	MCHIK_CONNECT_NEXT			"Keep Next Connected";
+	MCHIK_BLEND					"IK Blend";
+
+}

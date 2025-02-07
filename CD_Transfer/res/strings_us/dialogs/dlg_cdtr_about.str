@@ -1,0 +1,1 @@
+DIALOGSTRINGS DLG_CDTR_ABOUT{  CDTR_TITLE 			"About CD Transfer Tools";  CDTR_PLUGININFO 		"Version 0.00 (c) 2008 Cactus Dan Libisch";  WEBINFO				"www.cactus3d.com";  CDTRANSFER_SERIAL		"Serial Number";  CDTR_UPDATE			"Check News for Updates";}

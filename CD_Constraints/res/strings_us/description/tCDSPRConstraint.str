@@ -1,0 +1,39 @@
+STRINGTABLE tCDSPRConstraint
+{
+	tCDSPRConstraint		"Cactus Dan's Constraints ";
+	
+	SPRC_PURCHASE				" Purchase CD Constraints  at  www.cactus3d.com ";
+
+	SPRC_SHOW_LINES				" Show Spring";
+	SPRC_SHOW_GRAVITY			" Show Gravity";
+	SPRC_LINE_COLOR				"Line Color ";
+
+	SPRC_TARGET					"Anchor";
+	SPRC_ATTACHMENT				"Attachment";
+	
+	SPRC_ID_SPRING				"Spring";
+	SPRC_USE_POSITION			"Position Spring";
+	SPRC_P_OFFSET				"P Offset";
+	SPRC_USE_ROTATION			"Rotation Spring";
+	SPRC_R_OFFSET				"R Offset";
+	SPRC_STRENGTH				"Strength";
+	SPRC_USE_START_FRAME			"Start Frame";
+	SPRC_SET_START_FRAME			"  Set  ";
+	SPRC_RELEASE_START_FRAME		"Release";
+
+	SPRC_ID_FORCES				"Forces";
+	SPRC_STIFFNESS				"Stiffness ";
+	SPRC_DAMPING					"Drag      ";
+	SPRC_LENGTH					"Length    ";
+	SPRC_OFF_CENTER				"Off Center";
+
+	SPRC_GRAVITY					"Gravity";
+	SPRC_MASS					"Mass";
+	SPRC_GRAV_TARGET				"Attractor";
+	SPRC_GRAVITY_MIX				"Mix";
+
+	SPRC_COLLISION				"Collide with CD Clamp";
+	SPRC_DEFLECTION				"Deflection";
+	SPRC_BOUNCE					"Bounce";
+	SPRC_FRICTION				"Friction";
+}

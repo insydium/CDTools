@@ -1,0 +1,34 @@
+#ifndef _tCDHand_H_
+#define _tCDHand_H_
+
+enum
+{
+	HND_ADD_FINGER					= 1000,
+	HND_SUB_FINGER					= 1001,
+	
+	HND_FINGER_GROUP				= 1021,
+	
+	HND_PURCHASE					= 1030,
+	HND_LEFT_HAND					= 1031,
+	
+	HND_USE_MIXER					= 1051,
+
+	HND_CONTROLLER_GROUP			= 1500,	
+	
+	HND_POSE_ADD					= 6000,
+	HND_POSE_SUB					= 6001,
+	HND_POSE_GROUP					= 6002,
+	HND_POSE_SUBGROUP				= 6003,
+
+	HND_POSE_NAME					= 6050,
+	
+	HND_POSE_SET					= 6200,
+	HND_POSE_EDIT					= 6300,
+	
+	HND_POSE_RESTORE				= 6500
+};
+
+#endif
+
+
+

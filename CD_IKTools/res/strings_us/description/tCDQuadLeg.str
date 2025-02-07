@@ -1,0 +1,58 @@
+STRINGTABLE tCDQuadLeg
+{
+	tCDQuadLeg					"Cactus Dan's IK Tools ";
+	
+	QDIK_PURCHASE				" Purchase CD IK Tools  at  www.cactus3d.com ";
+
+	QDIK_SHOW_LINES				"Show Lines ";
+	QDIK_USE					"Use IK ";
+	
+	QDIK_LINE_COLOR				"Line Color ";
+
+	QDIK_LINE_TARGET			"RP Solver ";
+		QDIK_LINE_ROOT			"Target Root";
+		QDIK_LINE_TIP			"Target Tip";
+		
+	QDIK_TWIST					"Twist";
+	QDIK_POLE_AXIS				"RP Solver Axis ";
+		QDIK_POLE_Y				"+Y Axis";
+		QDIK_POLE_X				"+X Axis";
+		QDIK_POLE_NX			"-X Axis";
+		QDIK_POLE_NY			"-Y Axis";
+	
+	QDIK_SOLVER_GROUP			"RP Solver";
+		QDIK_SOLVER_LINK		"RP Solver Object ";
+		QDIK_LOCK_S_POSITION	"Lock FK Position ";
+
+	QDIK_GOAL_GROUP				"IK Goal";
+		QDIK_GOAL_TO_BONE		"Orient Goal to Bone";
+		QDIK_GOAL_LINK			"Goal Object   ";
+	
+	QDIK_DAMPING_ON				"Snap Damping";
+	QDIK_DAMPING_VALUE			"SD Value";
+	QDIK_CONNECT_BONES			"Keep Bones Connected";
+	QDIK_CONNECT_NEXT			"Keep Next Connected";
+	QDIK_BLEND					"IK Blend";
+	QDIK_LOWER_ANGLE			"Lower IK Angle";
+
+	QDIK_STRETCH_GROUP			"Stretch";
+	QDIK_SET_LENGTH				"Set Length";
+	QDIK_CLEAR_LENGTH			"Clear Length";
+	QDIK_RESET_LENGTH			"Reset Length";
+	
+	QDIK_SQUASH_N_STRETCH		"Squash & Stretch";
+	QDIK_CHANGE_VOLUME			"Change Skin Volume (CD Joints & Skin Only)";
+	QDIK_VOLUME_STRENGTH		"Skin Volume";
+
+	QDIK_USE_BIAS_CURVE			"Use Curve";
+	QDIK_BIAS_CURVE				"S&S Curve";
+	
+	QDIK_CLAMP_SQUASH			"Clamp Squash";
+	QDIK_SQUASH_DIST			"Distance";
+	QDIK_SET_SQUASH_DIST		" Set ";
+	QDIK_CLAMP_STRETCH			"Clamp Stretch";
+	QDIK_STRETCH_DIST			"Distance";
+	QDIK_SET_STRETCH_DIST		" Set ";
+	QDIK_MIX_SQ_CLAMP			" Mix.sq";
+	QDIK_MIX_ST_CLAMP			" Mix.st";
+}

@@ -1,0 +1,49 @@
+CONTAINER tCDSWConstraint
+{
+	NAME tCDSWConstraint;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON SWC_PURCHASE {}
+	}
+	INCLUDE Texpression;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL SWC_SHOW_LINES {}
+			COLOR SWC_LINE_COLOR {}
+		}
+		SEPARATOR { }
+		GROUP
+		{
+			COLUMNS 1;
+			LONG SWC_COORD_SPACE { CYCLE {} }
+		}
+		SEPARATOR { }
+		GROUP
+		{
+			COLUMNS 3;
+			
+			BOOL SWC_USE_START_FRAME {}
+			BUTTON SWC_SET_START_FRAME {}
+			BUTTON SWC_RELEASE_START_FRAME {}
+		}
+	}
+	GROUP SWC_ID_TARGET
+	{
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BUTTON SWC_ADD_SPC {}
+			BUTTON SWC_SUB_SPC {}
+		}
+		SEPARATOR { LINE; }
+	}
+}

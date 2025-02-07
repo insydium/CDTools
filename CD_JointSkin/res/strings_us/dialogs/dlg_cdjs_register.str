@@ -1,0 +1,10 @@
+DIALOGSTRINGS DLG_CDJS_REGISTER
+{
+  CDJS_TITLE 		"Register CD Joints & Skin";
+  CDJS_PLUGININFO 	"Version 0.00 (c) 2005 Cactus Dan Libisch";
+  WEBINFO			"www.cactus3d.com";
+  CDJS_SERIAL		"Serial Number";
+  CDJS_CANCEL		"Cancel";
+  CDJS_REGISTER		"Register";
+  CDJS_PURCHASE		"Purchase";
+}

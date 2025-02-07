@@ -1,0 +1,10 @@
+DIALOGSTRINGS DLG_CDC_REGISTER
+{
+  CDC_TITLE 			"About CD Constraints";
+  CDC_PLUGININFO 		"Version 0.00 (c) 2005 Cactus Dan Libisch";
+  WEBINFO				"www.cactus3d.com";
+  CDC_SERIAL			"Serial Number";
+  CDC_CANCEL			"Cancel";
+  CDC_REGISTER			"Register";
+  CDC_PURCHASE			"Purchase";
+}

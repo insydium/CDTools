@@ -1,0 +1,139 @@
+CONTAINER tCDDualTarget
+{
+	NAME tCDDualTarget;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON DT_PURCHASE {}
+	}
+	INCLUDE Texpression;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		COLUMNS 2;
+		
+		BOOL DT_IK_SHOW_LINES { }
+			
+		LONG DT_IK_POLE_AXIS
+		{
+			CYCLE
+			{
+				DT_IK_POLE_OFF;
+				DT_IK_POLE_X;
+				DT_IK_POLE_Y;
+				DT_IK_POLE_NX;
+				DT_IK_POLE_NY;
+			}
+		}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			COLOR DT_LINE_COLOR {}
+			REAL DT_STRENGTH { UNIT PERCENT; MIN 0.0; MAX 100.0; CUSTOMGUI REALSLIDER;}
+		}
+	}
+
+	GROUP DT_AB_TARGET_GROUP
+	{
+		DEFAULT	1;
+		
+		GROUP 
+		{ 
+			LINK DT_TARGET_A_LINK
+			{ 
+				ANIM MIX; ACCEPT { Obase; } 
+				REFUSE { Osky; Oforeground; } 
+			} 
+			LINK DT_TARGET_B_LINK
+			{ 
+				ANIM MIX; ACCEPT { Obase; } 
+				REFUSE { Osky; Oforeground; } 
+			} 
+		}
+	}
+
+	GROUP DT_IK_STRETCH_GROUP
+	{
+		GROUP
+		{
+			COLUMNS 3;
+			
+			BUTTON DT_SET_LENGTH {}
+			BUTTON DT_CLEAR_LENGTH {}
+			BUTTON DT_RESET_LENGTH {}
+		}
+		SEPARATOR { LINE; } 
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL DT_SQUASH_N_STRETCH { }
+			BOOL DT_CHANGE_VOLUME { }
+			
+		}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			REAL DT_VOLUME_STRENGTH { UNIT PERCENT; MIN 0.0; MAXSLIDER 100.0; CUSTOMGUI REALSLIDER;}
+			
+		}
+		SEPARATOR {} 
+		GROUP
+		{
+			COLUMNS 3;
+			
+			BOOL DT_CLAMP_SQUASH { }
+			REAL DT_SQUASH_DIST { UNIT REAL; MIN 0.0; }
+			BUTTON DT_SET_SQUASH_DIST {}
+			BOOL DT_CLAMP_STRETCH { }
+			REAL DT_STRETCH_DIST { UNIT REAL; MIN 0.0; }
+			BUTTON DT_SET_STRETCH_DIST {}
+		}
+		SEPARATOR {} 
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BOOL DT_USE_BIAS_CURVE { }
+			BOOL DT_MIX_VOLUME { }
+		}
+		SEPARATOR {} 
+		GROUP
+		{
+			COLUMNS 1;
+			
+			SPLINE DT_BIAS_CURVE
+			{ 
+				SHOWGRID_H; 
+				SHOWGRID_V; 
+
+				GRIDSIZE_H 8; 
+				GRIDSIZE_V 8; 
+
+				HAS_PRESET_BTN; 
+
+				MINSIZE_H 120;
+				MINSIZE_V 80; 
+
+				EDIT_H; 
+				EDIT_V; 
+
+				LABELS_H; 
+				LABELS_V; 
+
+				HAS_ROUND_SLIDER;
+
+				X_MIN 0; 
+				X_MAX 1.00; 
+
+				Y_MIN 0; 
+				Y_MAX 1.00; 
+
+				X_STEPS 0.1; 
+				Y_STEPS 0.1;
+			}	
+		}
+	}
+}

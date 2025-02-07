@@ -1,0 +1,1 @@
+DIALOGSTRINGS DLG_CDJS_ABOUT{  CDJS_TITLE 			"About CD Joints & Skin";  CDJS_PLUGININFO 		"Version 0.00 (c) 2004 Cactus Dan Libisch";  WEBINFO				"www.cactus3d.com";  CDJS_SERIAL			"Serial Number";  CDJS_UPDATE			"Check News for Updates";}

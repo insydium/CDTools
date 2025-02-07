@@ -1,0 +1,24 @@
+STRINGTABLE tCDClothTag
+{
+	tCDClothTag				"Cactus Dan's Cloth ";
+	
+	CL_PURCHASE				" Purchase CD Cloth  at  www.cactus3d.com ";
+
+	CL_DAMPING				"Damping";
+	CL_TIME_STEP			"Time Step";
+	CL_ITERATIONS			"Iterations";
+	CL_STIFFNESS			"Stiffness";
+
+	CL_USE_GRAVITY			"Use Gravity";
+	
+	CL_WIND_GROUP			"Wind Forces" "Wind";
+	CL_WIND_DIRECTION		"Direction";
+	CL_WIND_STRENGTH		"Strength";
+	
+	CL_USE_TURBULENCE			"Enable Turbulence";
+	CL_TURBULENCE_FREQUENCY		"Frequency";
+	CL_TURBULENCE_AMPLITUDE		"Amplitude";
+	CL_TURBULENCE_SPEED			"Speed";
+	
+	CL_DEBUG_DRAW			"Debug Draw";
+}

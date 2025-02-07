@@ -1,0 +1,8 @@
+DIALOGSTRINGS DLG_CDSY_ABOUT
+{
+  CDSY_TITLE 			"About CD Symmetry Tools";
+  CDSY_PLUGININFO 		"Version 0.00 (c) 2008 Cactus Dan Libisch";
+  WEBINFO				"www.cactus3d.com";
+  CDSYANSFER_SERIAL		"Serial Number";
+  CDSY_UPDATE			"Check News for Updates";
+}

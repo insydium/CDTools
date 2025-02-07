@@ -1,0 +1,43 @@
+STRINGTABLE tCDThumb
+{
+	tCDThumb				"Cactus Dan's IK Tools ";
+	
+	TMB_PURCHASE				" Purchase CD IK Tools  at  www.cactus3d.com ";
+
+	TMB_IK_SHOW_LINES			"Show Line ";
+	
+	TMB_LINE_COLOR				"Line Color ";
+
+	TMB_IK_POLE_AXIS			"RP Solver Axis ";
+		TMB_IK_POLE_Y			"+Y Axis";
+		TMB_IK_POLE_X			"+X Axis";
+		TMB_IK_POLE_NX			"-X Axis";
+		TMB_IK_POLE_NY			"-Y Axis";
+			
+	TMB_IK_SOLVER_GROUP			"RP Solver";
+		TMB_IK_SOLVER_LINK		"RP Solver Object ";
+		TMB_IK_BONE_LINK		"Root Bone ";
+
+	TMB_CONTROLLER_GROUP		"Controller";
+		TMB_GRIP_VALUE			"Grip ";
+		TMB_TWIST_VALUE			"Twist ";
+		TMB_SPREAD_VALUE		"Spread ";
+		TMB_BEND_VALUE			"Bend ";
+		TMB_CURL_VALUE			"Curl ";
+		
+	TMB_LEFT_HAND				"Left Hand";
+	TMB_CONNECT_BONES			"Keep Bones Connected";
+	TMB_INCLUDE_TIP				"Include Tip Curl";
+		
+	TMB_RANGE_GROUP				"Range";
+		TMB_GRIP_MIN			"Grip   Min ";
+		TMB_TWIST_MIN			"Twist  Min ";
+		TMB_SPREAD_MIN			"Spread Min ";
+		TMB_BEND_MIN			"Bend   Min ";
+		TMB_CURL_MIN			"Curl   Min ";
+		TMB_GRIP_MAX			"Max ";
+		TMB_TWIST_MAX			"Max ";
+		TMB_SPREAD_MAX			"Max ";
+		TMB_BEND_MAX			"Max ";
+		TMB_CURL_MAX			"Max ";
+}

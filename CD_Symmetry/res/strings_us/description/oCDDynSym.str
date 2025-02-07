@@ -1,0 +1,27 @@
+STRINGTABLE oCDDynSym
+{
+	oCDDynSym					"CD Symmetry Tools ";
+	
+	DS_PURCHASE					" Purchase CD Symmetry Tools  at  www.cactus3d.com ";
+	
+	DS_SHOW_GUIDE				"Show Guide";
+	DS_GUIDE_SIZE				"Guide Size";
+	DS_GUIDE_COLOR				"Guide Color";
+	
+	DS_SYMMETRY_AXIS			"Mirror Axis";
+		DS_MX					" X ";
+		DS_MY					" Y ";
+		DS_MZ					" Z ";
+
+	DS_ACTIVE_SYMMETRY			"Active";
+		DS_POSITIVE				"Positive";
+		DS_NEGATIVE				"Negative";
+	
+	DS_TOLERANCE				"Tolerance";
+	
+	DS_LOCK_CENTER				"Lock Center Points";
+	
+	DS_AUTO_UPDATE				"Auto Update Mesh";
+	DS_KEEP_SEL					"Preserve Selections";
+	DS_KEEP_UVW					"Preserve UVWs";
+}

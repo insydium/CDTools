@@ -1,0 +1,41 @@
+#ifndef _tCDCConstraint_H_
+#define _tCDCConstraint_H_
+
+enum
+{
+	CC_PURCHASE			= 1000,
+	
+	CC_SHOW_LINES			= 1001,
+	CC_LINE_COLOR			= 1002,
+	CC_BOX_SIZE			= 1003,
+	
+	CC_ADD_CLAMP			= 1004,
+	CC_SUB_CLAMP			= 1005,
+
+	CC_TARGET				= 1010,
+	CC_STRENGTH			= 1020,
+	
+	CC_CLAMP_AXIS			= 1030,
+		CC_CLAMP_X			= 1040,
+		CC_CLAMP_Y			= 1050,
+		CC_CLAMP_Z			= 1060,
+		CC_CLAMP_NX		= 1070,
+		CC_CLAMP_NY		= 1080,
+		CC_CLAMP_NZ		= 1090,
+		
+	
+	CC_OFFSET				= 1110,
+	CC_LOCAL_AXIS			= 1120,
+	CC_SURFACE_CLAMP		= 1130,
+		
+	CC_LINK_GROUP			= 2010,
+	CC_AXIS_GROUP			= 2020,
+	CC_LINE_ADD			= 2030,
+	CC_ID_TARGET			= 2040
+
+};
+
+#endif
+
+
+

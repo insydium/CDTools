@@ -1,0 +1,40 @@
+#ifndef _tCDRotator_H_
+#define _tCDRotator_H_
+
+enum
+{
+	RTR_PURCHASE					= 1000,
+	
+	RTR_LINE_COLOR					= 1500,
+
+	RTR_SNAP_ON						= 10010,
+	
+	RTR_SNAP_TO						= 10011,
+	
+	RTR_LOCK_CONTROLLER				= 10012,
+
+	RTR_LOCK_BONE					= 10013,
+
+	RTR_SHOW_LINES				= 10014,
+
+	RTR_LINE_TARGET				= 10015,
+		RTR_LINE_ROOT			= 10016,
+		RTR_LINE_TIP				= 10017,
+		
+	RTR_BONES_IN_GROUP				= 10018,
+	
+	RTR_USE_BIAS_CURVE				= 10020,
+	RTR_BIAS_CURVE					= 10021,
+	RTR_CURVE_SCALE					= 10022,
+
+	RTR_CONTROLLER_LINK				= 10030,
+		
+	RTR_CONTROLLER_GROUP		= 20000,
+	RTR_CONNECT_BONES,
+	RTR_CONNECT_NEXT
+};
+
+#endif
+
+
+

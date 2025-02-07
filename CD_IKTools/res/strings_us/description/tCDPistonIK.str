@@ -1,0 +1,25 @@
+STRINGTABLE tCDPistonIK
+{
+	tCDPistonIK					"Cactus Dan's IK Tools ";
+	
+	PSTIK_PURCHASE				" Purchase CD IK Tools  at  www.cactus3d.com ";
+
+	PSTIK_SHOW_LINES			"Show Lines ";
+	PSTIK_LINE_COLOR			"Line Color ";
+
+	PSTIK_BONES_IN_GROUP		"No. of Bones ";
+	PSTIK_POLE_AXIS				"Pole Axis ";
+		PSTIK_POLE_Y			"+Y Axis";
+		PSTIK_POLE_X			"+X Axis";
+		PSTIK_POLE_NX			"-X Axis";
+		PSTIK_POLE_NY			"-Y Axis";
+	
+	PSTIK_MIX_GROUP				"Position Mix";
+	
+	PSTIK_POLE_GROUP			"Pole";
+		PSTIK_POLE_LINK			"Pole Object ";
+
+	PSTIK_GOAL_GROUP			"Goal";
+		PSTIK_GOAL_LINK			"Goal Object   ";
+	
+}

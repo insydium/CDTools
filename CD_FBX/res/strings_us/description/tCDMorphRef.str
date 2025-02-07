@@ -1,0 +1,10 @@
+STRINGTABLE tCDMorphRef
+{
+	tCDMorphRef					"Cactus Dan's Morph ";
+	
+	MR_PURCHASE				" Purchase CD Morph  at  www.cactus3d.com ";
+	
+	MR_EDIT_MESH				"Edit Reference";
+	MR_RESET_REF				"Reset Reference";
+
+}

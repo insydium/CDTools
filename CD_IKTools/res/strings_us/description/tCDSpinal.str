@@ -1,0 +1,64 @@
+STRINGTABLE tCDSpinal
+{
+	tCDSpinal				"Cactus Dan's IK Tools ";
+	
+	SPN_PURCHASE				" Purchase CD IK Tools  at  www.cactus3d.com ";
+
+	SPN_USE					"Use IK";
+	SPN_BLEND				"IK Blend";
+	
+	SPN_BONES_IN_GROUP			"No. of Bones ";
+	
+	SPN_POLE_AXIS			"Spinal Axis ";
+		SPN_POLE_X			"+X Axis";
+		SPN_POLE_Y			"+Y Axis";
+		SPN_POLE_Z			"+Z Axis";
+		SPN_POLE_NX			"-X Axis";
+		SPN_POLE_NY			"-Y Axis";
+		SPN_POLE_NZ			"-Z Axis";
+		
+	SPN_SHOW_LINES			"Show Lines";
+	SPN_LINE_COLOR				"Line Color ";
+
+	SPN_CONTROL_GROUP		"Controllers";
+		SPN_USE_TARGET_TWIST	"Use Controller Twist";
+		SPN_INCLUDE_TIP_TWIST	"Include Tip Twist";
+		SPN_BASE_LINK			"Base  ";
+		SPN_BASE_DEPTH			"Base Depth ";
+		SPN_BASE_TWIST			"Base Twist ";
+		SPN_TIP_LINK			"Tip   ";
+		SPN_TIP_DEPTH			"Tip Depth ";
+		SPN_TIP_TWIST			"Tip Twist ";
+
+	SPN_INTERPOLATION			"Interpolation";
+		SPN_AVERAGE				"Average";
+		SPN_SHORTEST			"Shortest";
+		SPN_LONGEST				"Longest";					
+
+	SPN_CONNECT_BONES			"Keep Bones Connected";
+		SPN_CONNECT_NEXT		"Keep Next Connected";
+
+	SPN_STRETCH_GROUP		"Stretch";
+	SPN_SET_LENGTH				"Set Length";
+	SPN_CLEAR_LENGTH			"Clear Length";
+	SPN_RESET_LENGTH			"Reset Length";
+	
+	SPN_SQUASH_N_STRETCH		"Squash & Stretch";
+	SPN_CHANGE_VOLUME			"Change Skin Volume (CD Joints & Skin Only)";
+	SPN_VOLUME_STRENGTH			"Skin Volume";
+	
+	SPN_USE_BIAS_CURVE			"Use Curve";
+	SPN_BIAS_CURVE				"S&S Curve";
+	SPN_MIX_VOLUME				"Mix Curve Volume";
+
+	SPN_CLAMP_SQUASH			"Clamp Squash";
+	SPN_SQUASH_DIST				"Distance";
+	SPN_SET_SQUASH_DIST			" Set ";
+	SPN_CLAMP_STRETCH			"Clamp Stretch";
+	SPN_STRETCH_DIST			"Distance";
+	SPN_SET_STRETCH_DIST		" Set ";
+	SPN_DEPTH_S_N_S				"Include Controller Depth";
+	SPN_SQUASH_DEPTH			"Squash";
+	SPN_STRETCH_DEPTH			"Stretch";
+
+}

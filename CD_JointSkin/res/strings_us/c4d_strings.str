@@ -1,0 +1,313 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	D_WP_RADIUS				"Radius";
+	D_WP_VISIBLE_ONLY		"Only Modify Visible Elements";
+	D_WP_STRENGTH			"Strength";
+	D_WP_CONTRAST			"Display Contrast";
+	
+	D_WP_MODE				"Mode";
+		D_WP_MODE_SET		"Set";
+		D_WP_MODE_ADD		"Add/Subtract";
+		D_WP_MODE_BLEND		"Smooth";
+	
+	D_WP_DYN_TITLE			"Joints";
+	D_WP_JCOLORS			"Use Joint Colors";
+	D_WP_SOFT_EDGES			"Enable Soft Edges";
+	D_WP_SOFTNESS			"Softness";
+	D_WP_NORMALIZED			"Normalize Weights";
+	
+	D_JT_AUTO_SIZE			"Auto Size Joints";
+	D_JT_JOINT_SIZE			"Joint Size";
+	
+	DLG_CDJS_OPTIONS		"Options";
+
+	IDS_ABOUT_CDJS			"About CD Joints & Skin";
+	
+	IDS_HLP_CNTRL_CLICK		" - Control click command to open options dialog.";
+	IDS_HLP_CDJOINTTOOL		" - Control click to split joint. Shift click to contstain joint.";
+	IDS_HLP_SKINWTTOOL		" - Control drag to erase weight. Shift on mouse rollover to display weight";
+
+	IDC_SKELETON_ROOT		"Select Skeleton Root";
+	IDC_INFLUENCE			"Joint Influence";
+	IDC_ENVELOPE			" Use Joint Envelope";
+	IDC_JOINT_NUMBER		"No. Joints ";
+	IDC_FALLOFF				"Falloff Rate";
+	IDC_OPENPAINTTOOL		" Open Skin Weight tool     ";
+	IDC_NORMALIZE_P_WT		" Normalized Weight Painting";
+	IDC_AUTO_SEL_CHILDREN	" Include Child Joints      ";
+	IDC_ADDBINDPOSETAG		" Add CD Bind Pose tag";
+	IDC_INCLUDE_TIP			" Include Joint Chain Tip   ";
+
+	IDS_CDCLUSTERTAG		"CD Skin Cluster";
+	IDS_CDJOINTOBJECT		"CD Joint";
+	IDS_CDJOINTTOOL			"CD Joint Tool";
+	IDS_CDRIGGUIDE			"CD Rig Guide";
+	IDS_SKINCOM				"CD Bind Skin";
+	IDS_SKINWTTOOL			"CD Paint Skin Weight";
+	IDS_CDSKIN				"CD Skin";
+	IDS_CDBINDPOSE			"CD Bind Pose";
+	IDS_CDMIRRORSCTAG		"CD Mirror Skin Cluster";
+	IDS_CDBTOJ				"CD Convert to CDJoints";
+	IDS_CDJTOB				"CD Convert From CDJoints";
+	IDS_CDCNVTOCDSKIN		"CD Convert To CD Skin";
+	IDS_CDCNVFRMCDSKIN		"CD Convert From CD Skin";
+	IDS_CDFTRANS			"CD Freeze Transformation";
+	IDS_CDLINK				"CD Link Objects";
+	IDS_CDUNLINK			"CD Unlink Object";
+	IDS_CDJXRAYTOG			"CD Show Joints X-Ray";
+	IDS_CDCOLORJOINT		"CD Colorize Joints";
+	IDS_ADDCLUSTER			"CD Add Skin Cluster";
+	IDS_CDJPROXYTOG			"CD Show Joints Proxy";
+	IDS_CDJTOP				"CD Joints to Polygons";
+	IDS_CDUNSKIN			"CD Remove Skin";
+	IDS_CDJMASSIGN			"CD Joint Mirror Assign";
+	IDS_CDNORMWT			"CD Normalize All Weights";
+	IDS_CDTOGLPNT			"CD Toggle Paint Mode";
+	IDS_CDMERGE				"CD Merge Skin";
+	IDS_CDFRZSKIN			"CD Freeze Skin State";
+	IDS_CDJENVTOG			"CD Joint Envelope Toggle";
+	IDS_CDREROOT			"CD Reroot Objects";
+	IDS_CDSKINTRANS			"CD Transfer Skin";
+	IDS_CDRGUIDE			"CD Rig Guide";
+	
+	IDS_POSE				"Pose";
+	IDS_POSE_SET			"Set";
+	IDS_POSE_EDIT			"Edit";
+	IDS_POSE_RESTORE		"Restore";
+	IDS_POSE_MIRROR			"Mirror";
+	
+	IDC_COLOR_TYPE			"Color";
+	IDS_COLOR_SUBCHAINS		"Sub Chains";
+	IDS_COLOR_INDIVIDUAL	"Individual Joints";
+
+	IDS_CLUSTER_RADIUS		"Radius";
+	IDS_MAXWEIGHT			"       Max Weight";
+	
+	IDC_MIN_WEIGHT			"Min Weight";
+	
+	IDS_CDJDISPLAY			"CD Joint Display";
+	IDC_JOINT_SIZE			"Joint Size";
+	IDC_J_SIZE_RESET		"   Reset   ";
+	IDC_SELECTED_JOINT		"Resize Selected Joints";
+
+	IDS_CDJMIRROR			"CD Joint Mirror";
+	D_MIRROR_AXIS			"Mirror Axis";
+	M_X						"X Axis   ";
+	M_Y						"Y Axis   ";
+	M_Z						"Z Axis   ";
+	M_GLOBAL				"Global Axis   ";
+	M_LOCAL					"Local Axis";
+	D_MIRROR				"Mirror";
+	
+	IDC_MIRROR_DIRECTION	"Mirror Direction";
+	M_NEG					"Negative -> Positive";
+	M_POS					"Positive -> Negative";
+	
+	D_MIRROR_RENAME			"Rename Joints";
+	D_MIRROR_C_RENAME		"Rename Skin Cluster";
+	IDC_OLD_NAME			"Replace";
+	IDC_NEW_NAME			"With";
+	
+	IDS_CDSKINREF			"CD Skin Reference";
+	IDS_CDJORIENT			"CD Orient Joints";
+	IDS_CDJADD				"CD Add Joints";
+	IDC_CDADDJ_AUTO_WT		"Autoweight Added Joints";
+	IDC_CDADDJ_AUTO_BIND	"Rebind Skin";
+	IDS_CDJDELETE			"CD Remove Joints";
+	IDC_RESET_ORIGINAL		"Reset Original Mesh";
+	
+	D_AD_JOINT_ERR			"You must select a skeleton Joint and a Skin tag";
+	D_AD_CHILDREN			"Do you want sub-objects to be included?";
+	D_UNBIND_FIRST			"You must first Unbind Skin";
+	
+	IDS_CDMIRRORSW			"CD Mirror Skin Weight";
+	D_J_NOT_IN_LIST			"The selected Joint is not bound to the Skin";
+	
+	D_MIRROR_AXIS			"Mirror Direction";
+	M_X						"X Axis   ";
+	M_Y						"Y Axis   ";
+	M_Z						"Z Axis   ";
+	D_P_TOLERANCE			"Point";
+	D_J_TOLERANCE			"Joint";
+	D_TOLERANCE				"Tolerance";
+	
+	IDS_JOINTS				"Joints";
+	IDS_BONES				"Bones";
+	IDS_CAWEIGHTS			"CA Weights   ";
+	IDS_CBWEIGHTS			"Claude Bonet";
+	
+	C_SYMBOL				"\u00A9";
+	IDS_CDCLTAG				"CD Cloth Tag";
+	IDS_CDRPTAG				"CD Rope Tag";
+
+	
+	CDJS_FREEZE				"Freeze";
+	CDJS_FRZ_PRIM			"Convert Primitives";
+	CDJS_FRZ_CHILD			"Include Children";
+	CDJS_POS				"Enable Position   ";
+	CDJS_SCA				"Enable Scale";
+	CDJS_ROT				"Enable Rotation";
+	
+	NOT_SYMMETRICAL			"Not all of the weights were mirrored because some Points and Joints were not symmetrical. Try adjusting the tolerances.";
+	NOT_SYMMETRICAL_J		"Not all of the weights were mirrored because some Joints were not symmetrical. Try adjusting the Joint tolerance.";
+	NOT_SYMMETRICAL_P		"Not all of the weights were mirrored because some Points were not symmetrical. Try adjusting the Point tolerance.";
+	UNBIND_TO_EDIT			"Adding or deleting points while the mesh is bound is not recommended. Please undo your edit, then unbind the skin."; 
+	A_SELECT_OBJECT			"You must select an object to which the mirrored tag will be assigned.";
+	A_NO_TAG				"No CD Skin Cluster tag is selected.";
+	A_SEL_OBJ_CB			"Select an object that has Claude Bonet weights";
+	A_SEL_OBJ_CA			"Select an object that has CA weights";
+	A_SEL_OBJ_SKIN			"Select an object that has a CD Skin tag";
+	A_SEL_OBJ_BONE			"Select a Bone hierarchy";
+	A_SEL_OBJ_JOINT			"Select a Joint hierarchy";
+	A_SEL_OBJ_CDJOINT		"Select a CDJoint hierarchy";
+	MD_TOO_MANY_OBJECTS		"Too many objects are selected";
+	
+	MD_PLEASE_REGISTER		"Please register your copy of CD Joints & Skin.";
+	MD_INVALID_NUMBER		"That number is invalid. Check the number and try again.";
+	MD_THANKYOU				"Thank you for registering your plugin. To use the plugin you must quit and restart Cinema 4D.";
+	MD_MODEL_TOOL_SCALE		"When scaling a skinned character with the Model tool active, you must be in reference editing mode. \u000D \u000DOtherwise please switch to the Object tool";
+	MD_MIRROR_SKINNED_MESH	"When mirroring a skinned model, you must first return to the bind pose and unbind the skin.";
+	MD_MERGE_UNBIND_MESH	"Before merging skinned meshes, you must first return to the bind pose and unbind the skin."; 
+
+	IDC_CDJS_AGREE			"Agree";
+	IDC_CDJS_DISAGREE		"Disagree";
+	
+	IDS_WEB_SITE					"http://www.cactus3d.com/Plugins.html";
+
+	IDC_CDJS_EULA					"SOFTWARE LICENSING AGREEMENT
+
+IMPORTANT – READ CAREFULLY: THIS LICENSING AGREEMENT (AGREEMENT)
+IS A LEGAL AGREEMENT BETWEEN YOU, AN INDIVIDUAL OR A SINGLE ENTERPRISE
+ENTITY, AND D. K. LIBISCH DBA CACTUS DAN (HEREINAFTER THE LICENSOR).
+
+BY DOWNLOADING THE PRODUCT, OR USING THE EQUIPMENT THAT CONTAINS THIS 
+PRODUCT, YOU ARE CONSENTING TO BE BOUND BY THIS AGREEMENT. IF YOU DO NOT 
+AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, DO NOT DOWNLOAD THE PRODUCT.
+
+
+LICENSE GRANT
+
+Licensor hereby grants to You, and You accept, a non-exclusive license to use
+the software, including the software contained therein in object-code-only
+form (Software), and Documentation, only as authorized in this License.
+The Software may be used only on a single computer or local area network (System)
+owned, leased, or otherwise controlled by You; or, in the event of the inoperability
+of that system, on a backup system selected by You. You agree that You will not
+assign, sub-license, transfer, pledge, lease, rent, or share Your rights under this
+License, except as set forth herein.  Specifically, it is understood that You may
+use the Software to create files (such as a character for animation) that are
+transferred to another individual or entity and which may require access to a version
+of this Software with limited functionality that is inherently transferred therewith
+(such as character rigging made using the software).
+
+
+COPYING
+
+You may make one (1) archival copy of the Software, provided You affix to such copy
+all copyright, confidentiality, and proprietary notices that appear on the original.
+
+EXCEPT AS EXPRESSLY AUTHORIZED ABOVE, YOU SHALL NOT: COPY, IN WHOLE OR
+IN PART, SOFTWARE OR DOCUMENTATION; MODIFY THE SOFTWARE; REVERSE COMPILE
+OR REVERSE ASSEMBLE ALL OR ANY PORTION OF THE SOFTWARE; OR RENT, LEASE,
+DISTRIBUTE, SELL, OR CREATE DERIVATIVE WORKS OF THE SOFTWARE.
+
+LICENSOR'S RIGHTS
+
+You acknowledge and agree that the Software and Documentation consists of
+proprietary, published and unpublished property of Licensor, protected under
+United States copyright law and trade secret laws of general applicability.
+You further acknowledge and agree that all right, title, and interest in and
+to the Software and Documentation are and shall remain with Licensor.
+This License does not convey to you an interest in or to the Software and
+Documentation, but only a limited right of use revocable in accordance with
+the terms of this License.  With the exception of the laws specifically prescribed
+by the Digital Millennium Act, you are not to reverse engineer the software for
+any purpose.
+
+LICENSE FEES
+
+The license fees paid by You are paid in consideration of the licenses granted
+under this License.
+
+SOFTWARE INSTALLATION
+
+It shall be Your sole responsibility to install and make operational the Software
+on Your system.  In the event you need installation assistance, such services may
+be available from Licensor at an additional cost to You.
+
+TERM
+
+This License is effective upon Your installing the software on any machine, and
+shall continue until terminated. You may terminate all copies of the software
+that may be located on any systems owned or controlled by You or upon which You
+know a copy of the Software has been placed.  Licensor may terminate this License
+upon the breach by You of any term hereof.  Upon such termination by Licensor, You
+agree to erase all copies of the Software that may be located on any systems owned
+or controlled by You or upon which You know a copy of the Software has been placed.
+
+LIMITED WARRANTY
+
+Licensor warrants, for Your benefit alone, that the Software shall, for a period of
+ninety (90) days from the date of Your purchase of the Software (referred to as the
+Warranty Period), be free from defects in material and workmanship.  Licensor
+further warrants, for Your benefit alone, that during the Warranty Period the
+Software shall operate substantially in accordance with the Documentation.
+If, during the Warranty Period, a defect in the Software appears, You may contact
+Licensor to arrange for replacement.
+
+YOU AGREE THAT THE FOREGOING CONSTITUTES YOUR SOLE AND EXCLUSIVE REMEDY
+FOR BREACH BY LICENSOR OF ANY WARRANTIES MADE UNDER THIS LICENSE.  EXCEPT
+FOR THE WARRANTIES SET FORTH ABOVE, THE SOFTWARE AND DOCUMENTATION ARE
+LICENSED AS IS, AND LICENSOR DISCLAIMS ANY AND ALL OTHER WARRANTIES,
+WHETHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY AND ALL
+IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR
+PURPOSE.
+
+LIMITATION OF LIABILITY
+
+LICENSOR'S CUMULATIVE LIABILITY TO YOU OR ANY OTHER PARTY FOR ANY LOSS OR 
+DAMAGES RESULTING FROM ANY CLAIMS, DEMANDS, OR ACTIONS ARISING OUT OF OR 
+RELATING TO THIS LICENSE OR THE USE OF THE SOFTWARE SHALL BE LIMITED TO 
+REPLACEMENT OF THE SOFTWARE AND, IN ANY EVENT, SHALL NOT EXCEED THE
+LICENSE FEE PAID TO LICENSOR FOR THE USE OF THE SOFTWARE.  IN NO EVENT
+SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL,
+SPECIAL, OR EXEMPLARY DAMAGES OR LOST PROFITS OR ANY SIMILAR CLAIMS, EVEN
+IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  BECAUSE
+SOME STATES/JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF
+LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION
+MAY NOT APPLY TO YOU.
+
+GOVERNING LAW
+
+This License shall be construed and governed in accordance with the laws of the
+State of Utah.  Any dispute arising out of or with respect to this License between
+You and Licensor shall be solely adjudicated by the competent Federal or State
+court situated in Salt Lake City, Utah.  You and Licensor consent to the venue
+and jurisdiction of such court for purposes of any such dispute.
+
+
+SEVERABILITY
+
+Should any term of this License be declared void or unenforceable by any court
+of competent jurisdiction, such declaration shall have no effect on the
+remaining terms hereof.
+
+SOVEREIGN IMMUNITY
+
+Where you are an agency or instrumentality of a state foreign to the United States
+of America, You hereby waive, with respect to actions relating to the subject matter
+of this License any immunity from the personal and subject matter jurisdiction of
+courts of the United States of America or of the several states thereof, and any
+immunity from attachment in aid of execution or from execution upon its property.
+
+
+NO WAIVER
+
+The failure of Licensor to enforce any rights hereunder or to take action against
+You in the event of any breach hereunder shall not be deemed a waiver by Licensor
+as to subsequent enforcement of rights or subsequent actions in the event
+of future breach.";
+}

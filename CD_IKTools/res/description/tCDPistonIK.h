@@ -1,0 +1,34 @@
+#ifndef _tCDPistonIK_H_
+#define _tCDPistonIK_H_
+
+enum
+{
+	PSTIK_PURCHASE					= 1000,
+	
+	PSTIK_LINE_COLOR				= 1500,
+	
+	PSTIK_BONES_IN_GROUP			= 1600,
+	
+	PSTIK_SHOW_LINES				= 10001,
+	
+	PSTIK_POLE_AXIS					= 10006,
+		PSTIK_POLE_X				= 10007,
+		PSTIK_POLE_Y				= 10008,
+	
+	PSTIK_POLE_LINK					= 10009,
+	
+	PSTIK_GOAL_LINK					= 10010,
+	
+	PSTIK_POLE_GROUP				= 10011,
+	PSTIK_GOAL_GROUP				= 10012,
+	
+	PSTIK_POLE_NX					= 10019,
+	PSTIK_POLE_NY					= 10020,
+	
+	PSTIK_MIX_GROUP					= 20000
+};
+
+#endif
+
+
+

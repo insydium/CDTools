@@ -1,0 +1,57 @@
+STRINGTABLE tCDLimbIK
+{
+	tCDLimbIK				"Cactus Dan's IK Tools ";
+	
+	LMBIK_PURCHASE				" Purchase CD IK Tools  at  www.cactus3d.com ";
+
+	LMBIK_SHOW_LINES			"Show Lines ";
+	LMBIK_USE					"Use IK ";
+	
+	LMBIK_LINE_COLOR				"Line Color ";
+
+	LMBIK_LINE_TARGET			"RP Solver ";
+		LMBIK_LINE_ROOT		"Target Root";
+		LMBIK_LINE_TIP			"Target Tip";
+		
+	LMBIK_TWIST					"Twist";
+	LMBIK_POLE_AXIS			"RP Solver Axis ";
+		LMBIK_POLE_Y			"+Y Axis";
+		LMBIK_POLE_X			"+X Axis";
+		LMBIK_POLE_NX			"-X Axis";
+		LMBIK_POLE_NY			"-Y Axis";
+	
+	LMBIK_SOLVER_GROUP			"RP Solver";
+		LMBIK_SOLVER_LINK		"RP Solver Object ";
+		LMBIK_LOCK_S_POSITION		"Lock FK Position ";
+
+	LMBIK_GOAL_GROUP			"IK Goal";
+		LMBIK_GOAL_TO_BONE		"Orient Goal to Bone";
+		LMBIK_GOAL_LINK		"Goal Object   ";
+	
+	LMBIK_DAMPING_ON				"Snap Damping";
+	LMBIK_DAMPING_VALUE			"SD Value";
+	LMBIK_CONNECT_BONES			"Keep Bones Connected";
+	LMBIK_CONNECT_NEXT			"Keep Next Connected";
+	LMBIK_BLEND				"IK Blend";
+
+	LMBIK_STRETCH_GROUP		"Stretch";
+	LMBIK_SET_LENGTH				"Set Length";
+	LMBIK_CLEAR_LENGTH			"Clear Length";
+	LMBIK_RESET_LENGTH			"Reset Length";
+	
+	LMBIK_SQUASH_N_STRETCH		"Squash & Stretch";
+	LMBIK_CHANGE_VOLUME			"Change Skin Volume (CD Joints & Skin Only)";
+	LMBIK_VOLUME_STRENGTH			"Skin Volume";
+	
+	LMBIK_USE_BIAS_CURVE			"Use Curve";
+	LMBIK_BIAS_CURVE				"S&S Curve";
+	
+	LMBIK_CLAMP_SQUASH			"Clamp Squash";
+	LMBIK_SQUASH_DIST				"Distance";
+	LMBIK_SET_SQUASH_DIST			" Set ";
+	LMBIK_CLAMP_STRETCH			"Clamp Stretch";
+	LMBIK_STRETCH_DIST			"Distance";
+	LMBIK_SET_STRETCH_DIST		" Set ";
+	LMBIK_MIX_SQ_CLAMP			" Mix.sq";
+	LMBIK_MIX_ST_CLAMP			" Mix.st";
+}

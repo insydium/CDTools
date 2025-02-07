@@ -1,0 +1,14 @@
+CONTAINER tHpbView
+{
+	NAME tHpbView;
+	INCLUDE Texpression;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT 1;
+		COLUMNS 2;
+		
+		BOOL GUIDE_SHOW {}
+		REAL GUIDE_SIZE { UNIT METER; MIN 1.0; STEP 1.0; }
+	}
+}

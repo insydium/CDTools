@@ -1,0 +1,15 @@
+STRINGTABLE tCDKeepPlaner
+{
+	tCDKeepPlaner					"Cactus Dan's IK Tools ";
+	
+	KP_PURCHASE					" Purchase CD IK Tools  at  www.cactus3d.com ";
+
+	KP_SHOW_LINES				"Show Lines ";
+	KP_LINE_COLOR				"Line Color ";
+
+	KP_TARGET_A					"Target A";
+	KP_TARGET_B					"Target B";
+	KP_TARGET_C					"Target C";
+	
+	KP_LENGTH					"Distance";
+}

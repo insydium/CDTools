@@ -1,0 +1,9 @@
+DIALOGSTRINGS DLG_CDFBX_ABOUT
+{
+  CDFBX_TITLE 			"About CD FBX";
+  CDFBX_SDK_INFO		"Autodesk Fbx Sdk v";
+  CDFBX_PLUGININFO 		"Version 0.00 (c) 2010 Cactus Dan Libisch";
+  WEBINFO				"www.cactus3d.com";
+  CDFBX_SERIAL			"Serial Number";
+  CDFBX_UPDATE			"Check News for Updates";
+}

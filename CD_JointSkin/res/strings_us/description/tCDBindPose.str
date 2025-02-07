@@ -1,0 +1,29 @@
+STRINGTABLE tCDBindPose
+{
+	tCDBindPose				"Cactus Dan's Joints & Skin ";
+	
+	BND_PURCHASE				" Purchase CD Joints & Skin  at  www.cactus3d.com ";
+
+	BND_OBJECT_LIST				"Objects";
+	
+	BND_RIG_MIRROR				"Rig Mirror";
+		BND_X_AXIS				"X Axis";
+		BND_Y_AXIS				"Y Axis";
+		BND_Z_AXIS				"Z Axis";
+		
+	BND_LOCAL_CENTER			"Local Center";
+	
+	BND_ASSIGN_MIRROR			"Manual Mirror Assign";
+	
+	BND_POSE_GROUP				"Pose";
+	BND_POSE_ADD				" Add Pose ";
+	BND_POSE_SUB				" Remove Pose ";
+	BND_USE_MIXER				"Use Mixer";
+	
+	BND_POSE_SET				" Set";
+	BND_POSE_EDIT				" Edit";
+	BND_POSE_RESTORE			" Restore";
+	
+	BND_OBJECT_GROUP			"Objects";
+
+}

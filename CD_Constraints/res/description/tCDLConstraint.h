@@ -1,0 +1,42 @@
+#ifndef _tCDLConstraint_H_
+#define _tCDLConstraint_H_
+
+enum
+{
+	LC_PURCHASE			= 1000,
+	
+	LC_GLOBAL_COORDS		= 1010,
+
+	LC_P_LOCK_X			= 1011,
+	LC_POSITION_X			= 1012,
+	LC_P_LOCK_Y			= 1013,
+	LC_POSITION_Y			= 1014,
+	LC_P_LOCK_Z			= 1015,
+	LC_POSITION_Z			= 1016,
+
+	LC_USE_ORIENTATION		= 1018,
+	
+	LC_SHOW_LINES			= 1020,
+	LC_LINE_COLOR			= 1021,
+	LC_BOX_SIZE			= 1022,
+		
+	LC_A_LOCK_X			= 1025,
+	LC_A_LOCK_Y			= 1026,
+	LC_A_LOCK_Z			= 1027,
+	
+	LC_LOCK_ENABLE			= 1028,
+	LC_LOCK_BLEND			= 1029,
+	
+	LC_USE_CUR_POS			= 1030,
+	LC_A_LOCK_ALL			= 1031,
+	
+	LC_LOCK_POINTS			= 1040,
+
+	LC_ID_LOCK				= 2000
+
+};
+
+#endif
+
+
+

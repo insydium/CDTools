@@ -1,0 +1,34 @@
+STRINGTABLE tCDRetarget
+{
+	tCDRetarget					"Cactus Dan's IK Tools ";
+	
+	RTRG_PURCHASE					" Purchase CD IK Tools  at  www.cactus3d.com ";
+
+	RTRG_SHOW_LINES					"Show Lines ";
+	RTRG_LINE_COLOR					"Line Color ";
+
+	RTRG_ROOT_POSITION_ONLY			"Ignore Child Position Tracks";
+	RTRG_MANUAL_JOINT_ASSIGNMENT		"Manual Joint Assignment";
+	
+	RTRG_RETARGET					"Retarget";
+		RTRG_RETARGET_OFF			"Off";
+		
+	RTRG_BIND_NAME					"Bind Pose";
+	RTRG_BIND_SET					" Set";
+	RTRG_BIND_EDIT					" Edit";
+	RTRG_BIND_RESTORE				" Restore";
+	
+	RTRG_ADD_SRC						"  Add   ";
+	RTRG_SUB_SRC						" Delete ";
+	
+	RTRG_ROOT_OFFSET					"Root R.Offset";
+	RTRG_ROOT_SCALE					"Root Scale";
+	
+	RTRG_ROOT_SOURCE_LINK				"Source";
+	
+	RTRG_JOINT_LINK					"Joint";
+
+	RTRG_ID_SOURCE_TARGET_GROUP		"Source";
+	RTRG_ID_JOINT_TARGET_GROUP		"Joints";
+	RTRG_ID_BIND_POSE_GROUP			"Bind";
+}

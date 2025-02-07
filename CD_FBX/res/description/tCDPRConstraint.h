@@ -1,0 +1,26 @@
+#ifndef _tCDPRConstraint_H_
+#define _tCDPRConstraint_H_
+
+enum
+{
+	PRC_PURCHASE			= 1000,
+	
+	PRC_TARGET				= 1010,
+	PRC_EDIT_POSITION		= 1011,
+	PRC_RESET_POSITION		= 1012,
+
+	PRC_SHOW_LINES			= 1014,
+	PRC_TARGET_SCALE		= 1015,
+	PRC_LINE_COLOR			= 1016,
+	PRC_STRENGTH			= 1017,
+
+	PRC_LINEAR_INTERP		= 1019,
+	PRC_TARGET_ID			= 1020,
+
+	PRC_TARGET_ROT			= 1022
+};
+
+#endif
+
+
+

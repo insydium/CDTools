@@ -1,0 +1,38 @@
+#ifndef _tCDMorphSlider_H_
+#define _tCDMorphSlider_H_
+
+enum
+{
+	MS_BOX_POSITION				= 1000,
+	MS_BOX_SIZE_X					= 1001,
+	MS_BOX_SIZE_Y					= 1002,
+	MS_BOX_COLOR					= 1003,
+	MS_SHOW_BOX					= 1004,
+	MS_SHOW_DIAGONAL				= 1005,
+	
+	MS_MORPH_CONTROL				= 1010,
+	MS_HOME_POSITION				= 1011,
+	MS_POS_X_LINK				= 1012,
+	MS_NEG_X_LINK				= 1013,
+	MS_POS_Y_LINK				= 1014,
+	MS_NEG_Y_LINK				= 1015,
+	
+	MS_OUTPUT_VALUES				= 1020,
+	MS_OUTPUT_X					= 1021,
+	MS_OUTPUT_Y					= 1022,
+	MS_POSITIVE_X					= 1023,
+	MS_POSITIVE_Y					= 1024,
+	
+	MS_NEGATIVE_X					= 1026,
+	MS_NEGATIVE_Y					= 1027,
+	
+	MS_MIX_X_Y						= 1033,
+	MS_XPOS_YNEG_LINK			= 1034,
+	MS_XNEG_YNEG_LINK			= 1035,
+	MS_YPOS_XNEG_LINK			= 1036,
+	MS_YNEG_XNEG_LINK			= 1037,
+	
+	MS_PURCHASE				= 1100
+};
+
+#endif

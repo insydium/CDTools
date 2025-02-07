@@ -1,0 +1,52 @@
+#ifndef _tCDIKHandle_H_
+#define _tCDIKHandle_H_
+
+enum
+{	
+	IKH_PURCHASE					= 1000,
+	
+	IKH_USE						= 1010,
+	IKH_BLEND					= 1011,
+	
+	IKH_SHOW_LINES				= 1012,
+
+	IKH_LINE_TARGET				= 1013,
+		IKH_LINE_ROOT			= 1014,
+		IKH_LINE_TIP				= 1015,
+		
+	IKH_LINE_COLOR					= 1016,
+	
+	IKH_POLE_AXIS				= 1017,
+		IKH_POLE_Y				= 1018,
+		IKH_POLE_X				= 1019,
+		IKH_POLE_NX				= 1020,
+		IKH_POLE_NY				= 1021,
+	
+	IKH_BONES_IN_GROUP				= 1022,
+	IKH_CONNECT_BONES				= 1023,
+	IKH_CONNECT_NEXT				= 1024,
+	IKH_TWIST						= 1026,
+	
+	IKH_HANDLE_GROUP				= 2000,
+	
+	IKH_SOLVER					= 2001,
+		IKH_IKRP					= 2002,
+		IKH_IKSC					= 2003,
+		IKH_IKHD					= 2004,
+	
+
+	IKH_UNLOCK_ROOT					= 2005,
+	IKH_RESTORE_REST				= 2006,
+	
+	IKH_POLE_LINK				= 2010,
+	IKH_GOAL_LINK				= 2011,
+	
+	IKH_IKSC_POLE_VECTOR			= 2014,
+	
+	IKH_POLE_GROUP				= 2015
+};
+
+#endif
+
+
+

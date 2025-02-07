@@ -1,0 +1,8 @@
+DIALOGSTRINGS DLG_CDIK_ABOUT
+{
+  TITLE 				"About CD IK Tools";
+  CDIK_PLUGININFO 		"Version 0.00 (c) 2004 Cactus Dan Libisch";
+  WEBINFO				"www.cactus3d.com";
+  CDIKTOOLS_SERIAL		"Serial Number";
+  CDIK_UPDATE			"Check News for Updates";
+}

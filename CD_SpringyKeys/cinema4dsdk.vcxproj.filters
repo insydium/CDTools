@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{caea22e1-8948-4152-ae68-d0c200a4a143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\command">
+      <UniqueIdentifier>{f4265381-43ac-472b-8b79-19e7372958a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\global">
+      <UniqueIdentifier>{f1006833-cef0-4c9e-ba98-21a873f0da8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\gui">
+      <UniqueIdentifier>{5513f99d-bc09-4d9d-9035-568403379518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\tag">
+      <UniqueIdentifier>{51d903b8-8802-4f45-b92c-4bb9af114f2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\command\CDSprKsAbout.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\CDSprKsSerial.cpp">
+      <Filter>Source Code\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDSpringyKeys.cpp">
+      <Filter>Source Code\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDaabb.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDGeneral.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDQuaternion.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDRungeKutta.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\R10Animation.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDCompatibility.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDTagData.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDUserArea.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

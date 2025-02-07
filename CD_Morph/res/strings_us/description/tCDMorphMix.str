@@ -1,0 +1,11 @@
+STRINGTABLE tCDMorphMix
+{
+	tCDMorphMix					"Cactus Dan's Morph ";
+	
+	MM_PURCHASE					" Purchase CD Morph  at  www.cactus3d.com ";
+	
+	MM_M_TAG_LIST					"Morph Tags";
+	MM_EDIT_M_TAG					" Edit Morph Tag ";
+	
+	MM_MIXER_GROUP					"Mixers";
+}

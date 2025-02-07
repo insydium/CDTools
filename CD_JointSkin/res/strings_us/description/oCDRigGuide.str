@@ -1,0 +1,13 @@
+STRINGTABLE oCDRigGuide
+{
+	oCDRigGuide					"Cactus Dan's Joints & Skin ";
+	
+	RG_PURCHASE					" Purchase CD Joints & Skin  at  www.cactus3d.com ";
+
+	RG_SHOW_LINES				" Show Guides";
+	RG_LINE_COLOR				"Line Color ";
+	RG_RADIUS					"Radius";
+
+	RG_ADJUST					"Adjust";
+	RG_SET						"Set";
+}

@@ -1,0 +1,24 @@
+CONTAINER tCDSFConstraint
+{
+	NAME tCDSFConstraint;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON SFC_PURCHASE {}
+	}
+	INCLUDE Texpression;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 1;
+			
+			LINK  SFC_TARGET { ANIM ON; ACCEPT { Obase; } }
+			BOOL SFC_ALIGN_NORMAL { }
+		}
+	}
+
+}

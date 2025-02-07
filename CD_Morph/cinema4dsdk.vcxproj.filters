@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{913d5391-2d5b-4da8-adf4-853192428487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\command">
+      <UniqueIdentifier>{1fd61034-5a25-4843-bc3e-9aa3c628ae2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\global">
+      <UniqueIdentifier>{7b36abd6-3460-4a00-80e6-864ae60f01a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\gui">
+      <UniqueIdentifier>{27ab08de-196b-42b1-a094-017dae5eb03d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\message">
+      <UniqueIdentifier>{753a073c-479c-4454-9426-66fa913dbcec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\tag">
+      <UniqueIdentifier>{526c7f44-6444-48e9-89f6-26a8dc021e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\scene">
+      <UniqueIdentifier>{da95dd81-a968-46d7-850e-eac8d2da805a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{6ee8725d-eb86-4955-9b2b-388f7aeb4074}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\command\CDCreateMTag.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDMAbout.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDMirrorMTag.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDMMixSub.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDMMixToObj.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDMMixToTag.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDMorphConv.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDMorphSplit.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDMTagToObj.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\SetMorphSel.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\SliderHome.cpp">
+      <Filter>Source Code\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDaabb.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDGeneral.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDSelLog.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\R10Animation.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\CDMSerial.cpp">
+      <Filter>Source Code\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\message\CDMMessage.cpp">
+      <Filter>Source Code\message</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scene\CDMSceneHook.cpp">
+      <Filter>Source Code\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDMorphMix.cpp">
+      <Filter>Source Code\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDMorphRef.cpp">
+      <Filter>Source Code\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDMorphSlider.cpp">
+      <Filter>Source Code\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDMorphTag.cpp">
+      <Filter>Source Code\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDSymTag.cpp">
+      <Filter>Source Code\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDCompatibility.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDTagData.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDUserArea.cpp">
+      <Filter>Source Code\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_JointSkin1.5\source\CDJSFuncLib.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CDMorphFuncLib.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Symmetry1.0\source\CDSymFuncLib.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\CDMorph.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CDMorphRef.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CDMorphTag.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CDMStructures.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

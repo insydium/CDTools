@@ -1,0 +1,43 @@
+CONTAINER tCDCConstraint
+{
+	NAME tCDCConstraint;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON CC_PURCHASE {}
+	}
+	INCLUDE Texpression;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BOOL CC_SHOW_LINES {}
+			REAL CC_BOX_SIZE { UNIT REAL; MIN 0.0; }
+		}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			COLOR CC_LINE_COLOR {}
+		}
+	}
+	GROUP CC_ID_TARGET
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BUTTON CC_ADD_CLAMP {}
+			BUTTON CC_SUB_CLAMP {}
+		}
+		SEPARATOR { }
+	}
+
+}

@@ -1,0 +1,69 @@
+STRINGTABLE tCDSplineIK
+{
+	tCDSplineIK						"Cactus Dan's IK Tools ";
+	
+	SPLIK_PURCHASE					" Purchase CD IK Tools  at  www.cactus3d.com ";
+
+	SPLIK_STRETCH_GROUP				"Stretch";
+	SPLIK_SET_LENGTH				"Set Length";
+	SPLIK_CLEAR_LENGTH				"Clear Length";
+	SPLIK_RESET_LENGTH				"Reset Length";
+	SPLIK_LENGTH_BIAS				"Length Bias";
+	
+	SPLIK_SQUASH_N_STRETCH			"Squash & Stretch";
+	SPLIK_CHANGE_VOLUME				"Change Skin Volume (CD Joints & Skin Only)";
+	SPLIK_VOLUME_STRENGTH			"Skin Volume";
+	
+	SPLIK_USE_BIAS_CURVE			"Use Curve";
+	SPLIK_BIAS_CURVE				"S&S Curve";
+	SPLIK_MIX_VOLUME				"Mix Curve Volume";
+	
+	SPLIK_CLAMP_SQUASH				"Clamp Squash";
+	SPLIK_SQUASH_DIST				"Distance";
+	SPLIK_SET_SQUASH_DIST			" Set ";
+	SPLIK_CLAMP_STRETCH				"Clamp Stretch";
+	SPLIK_STRETCH_DIST				"Distance";
+	SPLIK_SET_STRETCH_DIST			" Set ";
+	
+	SPLIK_USE						"Use IK ";
+	SPLIK_BLEND						"IK Blend";
+
+	SPLIK_SHOW_LINES				"Show Line ";
+		SPLIK_LINE_COLOR			"Line Color ";
+		
+	SPLIK_POLE_AXIS					"RP Solver Axis ";
+		SPLIK_POLE_Y				"+Y Axis";
+		SPLIK_POLE_X				"+X Axis";
+		SPLIK_POLE_NX				"-X Axis";
+		SPLIK_POLE_NY				"-Y Axis";
+
+	SPLIK_BONES_IN_GROUP			"No. of Bones ";
+	
+	SPLIK_CONNECT_BONES				"Keep Bones Connected";
+		SPLIK_CONNECT_NEXT			"Keep Next Connected";
+
+	SPLIK_TRUE_SPLINE_IK			"Use True Spline IK";
+
+	SPLIK_SOLUTION					"Banking ";
+		SPLIK_USE_SOLVER			"Use RP Solver";
+		SPLIK_USE_ROTATION			"Use Rotation";
+		SPLIK_USE_TARGETS			"Use Targets";
+		
+	SPLIK_SPLINE_GROUP				"Spline";
+		SPLIK_SPLINE_LINK			"Spline Object ";
+
+	SPLIK_SOLVER_GROUP				"RP Solver";
+		SPLIK_SOLVER_LINK			"RP Solver Object ";
+		
+	SPLIK_USE_EXTRN_CONT			"Use External Control";
+
+	SPLIK_CONTROL_GROUP				"Targets";
+		SPLIK_ADD_GOAL				" Add Goal ";
+		SPLIK_SUB_GOAL				" Sub Goal ";
+
+	SPLIK_INTERPOLATION				"Interpolation";
+		SPLIK_AVERAGE				"Average";
+		SPLIK_SHORTEST				"Shortest";
+		SPLIK_LONGEST				"Longest";					
+			
+}

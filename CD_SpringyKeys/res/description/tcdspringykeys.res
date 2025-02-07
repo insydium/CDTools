@@ -1,0 +1,46 @@
+CONTAINER tCDSpringyKeys
+{
+	NAME tCDSpringyKeys;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON SPK_PURCHASE {}
+	}
+	INCLUDE Texpression;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 3;
+			
+			BOOL SPK_USE_POSITION { }
+			BOOL SPK_USE_SCALE { }
+			BOOL SPK_USE_ROTATION { }
+		}
+		SEPARATOR { }
+		GROUP
+		{
+			COLUMNS 1;
+			
+			REAL SPK_STRENGTH { UNIT PERCENT; MIN 0.0; MAX 100.0; CUSTOMGUI REALSLIDER;}
+		}
+	}
+	GROUP SPK_ID_FORCES
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL SPK_SPLIT_FORCES { }
+		}
+		SEPARATOR { }
+		GROUP SPK_ID_SPLIT
+		{
+		}
+	}
+}

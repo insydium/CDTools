@@ -1,0 +1,23 @@
+STRINGTABLE tCDSpringyKeys
+{
+	tCDSpringyKeys				"Cactus Dan's Springy Keys ";
+	
+	SPK_PURCHASE				" Purchase CD Springy Keys  at  www.cactus3d.com ";
+
+	SPK_USE_POSITION			"Use Position";
+	SPK_USE_SCALE				"Use Scale";
+	SPK_USE_ROTATION			"Use Rotation";
+
+	SPK_SPLIT_FORCES			"Separate Forces";
+	SPK_POS_CONST				"Position";
+	SPK_SCA_CONST				"Scale";
+	SPK_ROT_CONST				"Rotation";
+	
+	SPK_STRENGTH				"Strength";
+
+	SPK_ID_FORCES				"Forces";
+	
+	SPK_P_STIFFNESS				"Stiffness ";
+	SPK_P_DAMPING				"Drag      ";
+	SPK_P_MASS					"Mass      ";
+}

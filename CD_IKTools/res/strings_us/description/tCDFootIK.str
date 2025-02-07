@@ -1,0 +1,27 @@
+STRINGTABLE tCDFootIK
+{
+	tCDFootIK				"Cactus Dan's IK Tools ";
+	
+	FT_PURCHASE				" Purchase CD IK Tools  at  www.cactus3d.com ";
+
+	FT_IK_POLE_AXIS			"RP Solver Axis ";
+		FT_IK_POLE_Y			"+Y Axis";
+		FT_IK_POLE_X			"+X Axis";
+		FT_IK_POLE_NX			"-X Axis";
+		FT_IK_POLE_NY			"-Y Axis";
+	
+	FT_IK_SHOW_LINES			"Show Lines ";
+	FT_IK_USE					"Use IK ";
+	FT_IK_BLEND				"IK Blend";
+	
+	FT_LINE_COLOR				"Line Color ";
+
+	FT_IK_SOLVER_GROUP			"RP Solver";
+		FT_IK_SOLVER_LINK		"RP Solver Object ";
+
+	FT_IK_GOAL_GROUP			"IK Goals";
+		FT_IK_GOAL_A_LINK		"Bone 1 Target ";
+		FT_IK_GOAL_B_LINK		"Bone 2 Target ";
+
+	FT_CONNECT_BONES			"Keep Bones Connected";
+}

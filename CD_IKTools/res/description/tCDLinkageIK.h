@@ -1,0 +1,31 @@
+#ifndef _tCDLinkageIK_H_
+#define _tCDLinkageIK_H_
+
+enum
+{
+	LNKIK_PURCHASE					= 1000,
+	
+	LNKIK_LINE_COLOR				= 1500,
+	
+	LNKIK_SHOW_LINES				= 10001,
+	
+	LNKIK_POLE_AXIS					= 10006,
+		LNKIK_POLE_X				= 10007,
+		LNKIK_POLE_Y				= 10008,
+	
+	LNKIK_POLE_LINK					= 10009,
+	
+	LNKIK_GOAL_LINK					= 10010,
+	
+	LNKIK_POLE_GROUP				= 10011,
+	LNKIK_GOAL_GROUP				= 10012,
+	
+	LNKIK_POLE_NX					= 10019,
+	LNKIK_POLE_NY					= 10020,
+	
+	LNKIK_CONNECT_BONES				= 20000,
+	LNKIK_CONNECT_NEXT				= 20001
+	
+};
+
+#endif

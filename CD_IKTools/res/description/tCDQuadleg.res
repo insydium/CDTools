@@ -1,0 +1,201 @@
+CONTAINER tCDQuadLeg
+{
+	NAME tCDQuadLeg;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON QDIK_PURCHASE {}
+	}
+	INCLUDE Texpression;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL QDIK_USE { }
+			REAL QDIK_BLEND { UNIT PERCENT; MIN 0.0; MAX 100.0; CUSTOMGUI REALSLIDER;}
+		}	
+		SEPARATOR { LINE; }
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BOOL QDIK_SHOW_LINES { }
+			
+			LONG QDIK_LINE_TARGET
+			{
+				CYCLE
+				{
+					QDIK_LINE_ROOT;
+					QDIK_LINE_TIP;
+				}
+			}
+		}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			COLOR QDIK_LINE_COLOR {}
+		}
+		SEPARATOR { LINE; }
+		GROUP
+		{
+			COLUMNS 2;
+			
+			LONG QDIK_POLE_AXIS
+			{
+				CYCLE
+				{
+					QDIK_POLE_X;
+					QDIK_POLE_Y;
+					QDIK_POLE_NX;
+					QDIK_POLE_NY;
+				}
+			
+			}
+			REAL QDIK_TWIST { UNIT DEGREE;}
+		}	
+		SEPARATOR {}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			REAL QDIK_LOWER_ANGLE { UNIT DEGREE; MIN -100.0; MAX 60.0;}
+		}
+		GROUP
+		{
+			COLUMNS 2;
+
+			BOOL QDIK_DAMPING_ON { }
+			REAL QDIK_DAMPING_VALUE { UNIT PERCENT; MIN 0.0; MAX 100.0;}
+			BOOL QDIK_CONNECT_BONES { }
+			BOOL QDIK_CONNECT_NEXT { }
+		}
+	}
+	GROUP QDIK_STRETCH_GROUP
+	{
+		GROUP
+		{
+			COLUMNS 3;
+			
+			BUTTON QDIK_SET_LENGTH {}
+			BUTTON QDIK_CLEAR_LENGTH {}
+			BUTTON QDIK_RESET_LENGTH {}
+		}
+		SEPARATOR { LINE; } 
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL QDIK_SQUASH_N_STRETCH { }
+			BOOL QDIK_CHANGE_VOLUME { }
+		}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			REAL QDIK_VOLUME_STRENGTH { UNIT PERCENT; MIN 0.0; MAXSLIDER 100.0; CUSTOMGUI REALSLIDER;}
+		}
+		SEPARATOR {} 
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL QDIK_CLAMP_SQUASH { }
+		}
+		GROUP
+		{
+			COLUMNS 3;
+			
+			REAL QDIK_SQUASH_DIST { UNIT REAL; MIN 0.0; }
+			BUTTON QDIK_SET_SQUASH_DIST {}
+			REAL QDIK_MIX_SQ_CLAMP { UNIT PERCENT; MIN 0.0; MAX 100.0; }
+		}
+		SEPARATOR {} 
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL QDIK_CLAMP_STRETCH { }
+		}
+		GROUP
+		{
+			COLUMNS 3;
+			
+			REAL QDIK_STRETCH_DIST { UNIT REAL; MIN 0.0; }
+			BUTTON QDIK_SET_STRETCH_DIST {}
+			REAL QDIK_MIX_ST_CLAMP { UNIT PERCENT; MIN 0.0; MAX 100.0; }
+		}
+		SEPARATOR {} 
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL QDIK_USE_BIAS_CURVE { }
+			SPLINE QDIK_BIAS_CURVE
+			{ 
+				SHOWGRID_H; 
+				SHOWGRID_V; 
+
+				GRIDSIZE_H 8; 
+				GRIDSIZE_V 8; 
+
+				HAS_PRESET_BTN; 
+
+				MINSIZE_H 120;
+				MINSIZE_V 80; 
+
+				EDIT_H; 
+				EDIT_V; 
+
+				LABELS_H; 
+				LABELS_V; 
+
+				HAS_ROUND_SLIDER;
+
+				X_MIN 0; 
+				X_MAX 1.00; 
+
+				Y_MIN 0; 
+				Y_MAX 1.00; 
+
+				X_STEPS 0.1; 
+				Y_STEPS 0.1;
+			}	
+		}
+	}
+	GROUP QDIK_SOLVER_GROUP
+	{
+		DEFAULT	1;
+		
+		GROUP 
+		{ 
+			LINK QDIK_SOLVER_LINK
+			{ 
+				ANIM MIX; ACCEPT { Obase; } 
+				REFUSE { Osky; Oforeground; } 
+			} 
+		}
+	}
+
+	GROUP QDIK_GOAL_GROUP
+	{
+		DEFAULT	1;
+		
+		GROUP 
+		{ 
+			COLUMNS 1;
+			
+			LINK QDIK_GOAL_LINK
+			{ 
+				ANIM MIX; ACCEPT { Obase; } 
+				REFUSE { Osky; Oforeground; } 
+			} 
+		}
+	}
+
+}

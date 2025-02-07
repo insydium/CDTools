@@ -1,0 +1,23 @@
+STRINGTABLE tCDHand
+{
+	tCDHand					"Cactus Dan's IK Tools ";
+	
+	HND_PURCHASE				" Purchase CD IK Tools  at  www.cactus3d.com ";
+
+	HND_ADD_FINGER				" Add Finger ";
+	HND_SUB_FINGER				" Sub Finger ";
+	
+	
+	HND_CONTROLLER_GROUP		"Controllers";
+	HND_LEFT_HAND				"Left Hand";
+	
+	HND_POSE_GROUP				"Pose";
+	HND_POSE_ADD				" Add Pose ";
+	HND_POSE_SUB				" Remove Pose ";
+	HND_USE_MIXER				"Use Mixer";
+	
+	HND_POSE_NAME				"Base Pose";
+	HND_POSE_SET				" Set";
+	HND_POSE_EDIT				" Edit";
+	HND_POSE_RESTORE			" Restore";
+}

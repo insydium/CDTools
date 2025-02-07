@@ -1,0 +1,10 @@
+DIALOGSTRINGS DLG_CDSY_REGISTER
+{
+  CDSY_TITLE 			"Register CD Symmetry Tools";
+  CDSY_PLUGININFO 		"Version 0.00 (c) 2005 Cactus Dan Libisch";
+  WEBINFO				"www.cactus3d.com";
+  CDSYANSFER_SERIAL		"Serial Number";
+  CDSY_CANCEL			"Cancel";
+  CDSY_REGISTER			"Register";
+  CDSY_PURCHASE			"Purchase";
+}

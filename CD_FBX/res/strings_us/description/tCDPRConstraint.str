@@ -1,0 +1,17 @@
+STRINGTABLE tCDPRConstraint
+{
+	tCDPRConstraint		"Cactus Dan's Constraints ";
+	
+	PRC_PURCHASE				" Purchase CD Constraints  at  www.cactus3d.com ";
+
+	PRC_TARGET				"Target";
+	PRC_EDIT_POSITION		" Edit Position ";
+	PRC_RESET_POSITION		" Reset Position ";
+	PRC_SHOW_LINES			" Show Guides";
+	PRC_TARGET_ROT			" Use Target Rotation";
+	PRC_TARGET_SCALE		" Use Target Scale";
+	PRC_LINE_COLOR			"Line Color ";
+	PRC_STRENGTH			"Strength ";
+	PRC_LINEAR_INTERP		" Linear Interpolation";
+
+}

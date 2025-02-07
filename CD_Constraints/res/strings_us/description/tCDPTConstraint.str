@@ -1,0 +1,16 @@
+STRINGTABLE tCDPTConstraint
+{
+	tCDPTConstraint				"Cactus Dan's Constraints ";
+	
+	PTC_PURCHASE				" Purchase CD Constraints  at  www.cactus3d.com ";
+
+	PTC_SHOW_LINES		" Show Guides";
+	PTC_LINE_COLOR		"Line Color ";
+	PTC_STRENGTH		"Strength ";
+	
+	PTC_ADD_PT			"  Add   ";
+	PTC_SUB_PT			" Delete ";
+	
+	PTC_ID_POINTS		"Points";
+
+}

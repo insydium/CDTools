@@ -1,0 +1,15 @@
+STRINGTABLE tCDZeroTrans
+{
+	tCDZeroTrans				"CD Transfer Tools ";
+	
+	ZT_PURCHASE				" Purchase CD Transfer Tools  at  www.cactus3d.com ";
+
+	ZT_ZERO_COORDS			"Zero Transformation";
+	ZT_RETURN_TO_ZERO		"Return to Zero";
+	ZT_LOCK_ZERO_TRANS		"Lock Zero Tranformation";
+	
+	ZT_TRANS_POS			"T.Position" "TP";
+	ZT_TRANS_SCA			"T.Scale" "TS";
+	ZT_TRANS_ROT			"T.Rotation" "TR";
+	
+}

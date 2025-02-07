@@ -1,0 +1,26 @@
+STRINGTABLE tCDMConstraint
+{
+	tCDMConstraint				"Cactus Dan's Constraints ";
+	
+	MC_PURCHASE				" Purchase CD Constraints  at  www.cactus3d.com ";
+
+	MC_TARGET			"Target ";
+	MC_STRENGTH			"Strength ";
+	
+	MC_MIRROR_AXIS		"Mirror ";
+		MC_X_AXIS		"YZ (X Axis)";
+		MC_Y_AXIS		"XZ (Y Axis)";
+		MC_Z_AXIS		"XY (Z Axis)";
+
+	MC_SHOW_LINES		" Show Guides";
+	MC_LINE_COLOR		"Line Color ";
+	
+	MC_MIR_CENTER		"Center";
+		MC_GLOBAL		"Global";
+		MC_LOCAL		"Local";
+		MC_OBJECT		"Object";
+
+	MC_OBJECT_LINK		"Center Object";	
+
+	MC_ID_TARGET		"Target";
+}

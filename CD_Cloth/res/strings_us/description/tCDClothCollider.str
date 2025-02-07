@@ -1,0 +1,29 @@
+STRINGTABLE tCDClothCollider
+{
+	tCDClothCollider			"Cactus Dan's Cloth ";
+	
+	CLD_PURCHASE				" Purchase CD Cloth  at  www.cactus3d.com ";
+
+	CLD_COLLIDER_TYPE			"Collider Type";
+		CLD_PLANE				"Planer";
+		CLD_SPHERE				"Spherical";
+		CLD_JOINT				"CD Joint";
+		CLD_POLYGON				"Polygonal";
+
+
+	CLD_RADIUS					"Radius";
+	CLD_OFFSET					"Offset";
+	
+	CLD_PLANE_NORM				"Plane Normal";
+		CLD_NORM_XP				"+X";
+		CLD_NORM_XN				"-X";
+		CLD_NORM_YP				"+Y";
+		CLD_NORM_YN				"-Y";
+		CLD_NORM_ZP				"+Z";
+		CLD_NORM_ZN				"-Z";
+	
+	CLD_SELECTION_GROUP			"Polygon Selection";
+	CLD_SET_SELECTION			"Set Selection";
+	CLD_EDIT_SELECTION			"Edit Selection";
+	CLD_RESTORE_SELECTION		"Restore Selection";
+}

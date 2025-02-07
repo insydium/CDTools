@@ -1,0 +1,8 @@
+DIALOGSTRINGS DLG_CDCL_ABOUT
+{
+  CDCL_TITLE 			"About CD Cloth";
+  CDCL_PLUGININFO 		"Version 0.00 (c) 2005 Cactus Dan Libisch";
+  WEBINFO				"www.cactus3d.com";
+  CDCL_SERIAL			"Serial Number";
+  CDCL_UPDATE			"Check News for Updates";
+}

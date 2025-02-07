@@ -1,0 +1,25 @@
+STRINGTABLE tCDTAConstraint
+{
+	tCDTAConstraint				"Cactus Dan's Constraints ";
+	
+	TAC_PURCHASE				" Purchase CD Constraints  at  www.cactus3d.com ";
+
+	TAC_SHOW_LINES			" Show Guides";
+	TAC_LINE_COLOR			"Line Color ";
+	TAC_STRENGTH			"Strength ";
+	
+	TAC_ID_TARGET					"Target";
+	TAC_TARGET					"Target ";
+	TAC_RESET_POSITION			"Reset Position";
+	
+	TAC_ID_STRIDE				"Stride";
+	TAC_LENGTH				"Length";
+	TAC_HEIGHT				"Height";
+	TAC_SPEED				"Speed";
+	TAC_OVERSTEP			"Overstep ";
+	TAC_HEIGHT_SPLINE		"Height Curve";
+	TAC_USE_START_FRAME			"Start Frame";
+	TAC_SET_START_FRAME			"  Set  ";
+	TAC_RELEASE_START_FRAME		"Release";
+
+}

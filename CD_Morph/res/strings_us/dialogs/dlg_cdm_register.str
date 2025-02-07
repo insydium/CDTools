@@ -1,0 +1,10 @@
+DIALOGSTRINGS DLG_CDM_REGISTER
+{
+  CDM_TITLE 		"Register CD Morph";
+  CDM_PLUGININFO 	"Version 0.00 (c) 2005 Cactus Dan Libisch";
+  WEBINFO			"www.cactus3d.com";
+  CDM_SERIAL		"Serial Number";
+  CDM_CANCEL		"Cancel";
+  CDM_REGISTER		"Register";
+  CDM_PURCHASE		"Purchase";
+}

@@ -1,0 +1,76 @@
+CONTAINER tCDPConstraint
+{
+	NAME tCDPConstraint;
+	DEFAULT 1;
+	GROUP
+	{
+		BUTTON PC_PURCHASE {}
+	}
+	INCLUDE Texpression;
+
+	GROUP ID_TAGPROPERTIES
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL PC_SHOW_LINES {}
+			COLOR PC_LINE_COLOR {}
+		}
+		SEPARATOR { LINE; }
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL PC_LOCAL_POS {}
+		}
+		SEPARATOR {}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			REAL PC_STRENGTH { UNIT PERCENT; MIN 0.0; MAX 100.0; CUSTOMGUI REALSLIDER;}
+		}
+		SEPARATOR {}
+		GROUP
+		{
+			COLUMNS 1;
+			
+			BOOL PC_USE_AB_MIX {}
+			REAL PC_AB_MIX { UNIT PERCENT; MIN 0.0; MAX 100.0; CUSTOMGUI REALSLIDER;}
+		}
+		SEPARATOR {}
+		GROUP PC_OFFSETS
+		{
+			COLUMNS 1;
+			
+			BOOL PC_LOCAL_OFFSET {}
+			GROUP 
+			{
+				COLUMNS 2;
+				
+				BOOL PC_AXIS_X { }
+				REAL PC_OFFSET_X { UNIT METER; }
+				BOOL PC_AXIS_Y { }
+				REAL PC_OFFSET_Y { UNIT METER; }
+				BOOL PC_AXIS_Z { }
+				REAL PC_OFFSET_Z { UNIT METER; }
+			}
+		}
+	}
+	GROUP PC_ID_TARGET
+	{
+		DEFAULT	1;
+		
+		GROUP
+		{
+			COLUMNS 2;
+			
+			BUTTON PC_ADD_POS {}
+			BUTTON PC_SUB_POS {}
+		}
+		SEPARATOR { LINE; }
+	}
+}

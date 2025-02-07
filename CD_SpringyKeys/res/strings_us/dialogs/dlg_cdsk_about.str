@@ -1,0 +1,1 @@
+DIALOGSTRINGS DLG_CDSK_ABOUT{  CDSK_TITLE 			"About CD Springy Keys";  CDSK_PLUGININFO 		"Version 0.00 (c) 2005 Cactus Dan Libisch";  WEBINFO				"www.cactus3d.com";  CDSK_SERIAL			"Serial Number";  CDSK_UPDATE			"Check News for Updates";}

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="command">
+      <UniqueIdentifier>{7b821c32-8460-41df-bdde-3f4c46e6bca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="global">
+      <UniqueIdentifier>{3d1c58ba-0cf5-4ea0-a738-9bcc2be2d28e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{7df6da34-1d77-4546-9f1f-2a9203d1e89f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{b2e8b131-42ed-4e0c-b46a-040c3690db09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="message">
+      <UniqueIdentifier>{4b955b74-7514-483c-bd3c-eae081161490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{ef940b52-8e8a-4208-96f7-842a6eabf745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{284f16b8-8f30-42e5-b97e-caeadd2fca0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tag">
+      <UniqueIdentifier>{0a2134f4-3b5a-4f09-aea8-758edb0765ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\command\CDExportFBX.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDFBXAbout.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDImportFBX.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command\CDTransAxes.cpp">
+      <Filter>command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDaabb.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDGeneral.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDQuaternion.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\CDSelLog.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\R10Animation.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Globals\R12Compatibility.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gui\CDFBXSerial.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_JointSkin1.5\source\message\CDJSMessage.cpp">
+      <Filter>message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Morph 1.5\source\message\CDMMessage.cpp">
+      <Filter>message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_JointSkin1.5\source\object\CDJoint.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_JointSkin1.5\source\scene\CDJSSceneHook.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_JointSkin1.5\source\tag\CDCluster.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_JointSkin1.5\source\tag\CDSkin.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_JointSkin1.5\source\tag\CDSkinRef.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Morph 1.5\source\tag\CDMorphRef.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Morph 1.5\source\tag\CDMorphTag.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_IKTools1.5\source\tag\CDIKHandle.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Constraints1.5\source\tag\CDAConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Constraints1.5\source\tag\CDPConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Constraints1.5\source\tag\CDPRConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Constraints1.5\source\tag\CDRConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CD_Constraints1.5\source\tag\CDSConstraint.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDKeepPlaner.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDNDisplay.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\tag\CDRetarget.cpp">
+      <Filter>tag</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CommonFbx.cpp" />
+    <ClCompile Include="source\Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\CDFBX.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CommonFbx.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MaterialNode.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\NgonUVW.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ObjectNode.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ShapeNode.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TakeNode.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

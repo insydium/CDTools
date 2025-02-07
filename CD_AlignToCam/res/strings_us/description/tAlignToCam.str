@@ -1,0 +1,4 @@
+STRINGTABLE tAlignToCam
+{
+	tAlignToCam			"CD Align To Camera";
+}

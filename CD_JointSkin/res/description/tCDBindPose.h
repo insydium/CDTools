@@ -1,0 +1,35 @@
+#ifndef _tCDBindPose_H_
+#define _tCDBindPose_H_
+
+enum
+{
+	BND_PURCHASE				= 1000,
+	
+	BND_LOCAL_CENTER			= 1001,
+	
+	BND_OBJECT_GROUP			= 1100,
+	BND_OBJECT_LIST				= 1101,
+	
+	BND_RIG_MIRROR				= 1200,
+	BND_MIRROR_AXIS				= 1201,
+		BND_X_AXIS				= 1202,
+		BND_Y_AXIS				= 1203,
+		BND_Z_AXIS				= 1204,
+	
+	BND_ASSIGN_MIRROR			= 1300,
+	
+	BND_POSE_GROUP				= 2000,
+	BND_POSE_ADD				= 2001,
+	BND_POSE_SUB				= 2002,
+	BND_POSE_SUBGROUP			= 2003,
+	
+	BND_POSE_NAME				= 2100,
+	BND_POSE_SET				= 2200,
+	BND_POSE_EDIT				= 2300,
+	BND_POSE_RESTORE			= 2400
+};
+
+#endif
+
+
+

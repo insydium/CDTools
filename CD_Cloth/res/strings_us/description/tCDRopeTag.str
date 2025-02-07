@@ -1,0 +1,23 @@
+STRINGTABLE tCDRopeTag
+{
+	tCDRopeTag				"Cactus Dan's Cloth ";
+	
+	RP_PURCHASE				" Purchase CD Cloth  at  www.cactus3d.com ";
+
+	RP_DAMPING				"Damping";
+	RP_TIME_STEP			"Time Step";
+	RP_ITERATIONS			"Iterations";
+	RP_STIFFNESS			"Stiffness";
+
+	RP_USE_GRAVITY			"Use Gravity";
+	RP_KEEP_SHAPE			"Keep Shape";
+	
+	RP_WIND_GROUP			"Wind Forces" "Wind";
+	RP_WIND_DIRECTION		"Direction";
+	RP_WIND_STRENGTH		"Strength";
+	
+	RP_USE_TURBULENCE			"Enable Turbulence";
+	RP_TURBULENCE_FREQUENCY		"Frequency";
+	RP_TURBULENCE_AMPLITUDE		"Amplitude";
+	RP_TURBULENCE_SPEED			"Speed";
+}

@@ -1,0 +1,35 @@
+STRINGTABLE tCDRotator
+{
+	tCDRotator					"Cactus Dan's IK Tools ";
+	
+	RTR_PURCHASE					" Purchase CD IK Tools  at  www.cactus3d.com ";
+
+	RTR_SNAP_ON						"Enable Snap";
+	
+	RTR_SNAP_TO						"Snap to ";
+	
+	RTR_LOCK_CONTROLLER				"Bone";
+	
+	RTR_LOCK_BONE					"Controller";
+
+	RTR_SHOW_LINES				"Show Line ";
+	
+	RTR_LINE_COLOR					"Line Color ";
+
+	RTR_LINE_TARGET				"Line ";
+		RTR_LINE_ROOT			"Target Root";
+		RTR_LINE_TIP				"Target Tip";
+		
+	RTR_BONES_IN_GROUP				"No. of Bones";
+	
+	RTR_USE_BIAS_CURVE				"Use Curve";
+	RTR_CURVE_SCALE					"Curve Scale";
+	RTR_BIAS_CURVE					"Curve";
+	
+	RTR_CONTROLLER_GROUP			"Controller";
+		RTR_CONTROLLER_LINK			"Control Object ";
+		
+	RTR_CONNECT_BONES				"Keep Bones Connected";
+	RTR_CONNECT_NEXT				"Keep Next Connected";
+
+}
