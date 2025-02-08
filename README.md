@@ -42,3 +42,14 @@ If you'd like to contribute:
 2. **Clone Your Fork**:
    ```sh
    git clone https://github.com/your-username/CDTools.git
+
+## 📥 Downloads
+
+### 📖 CD Tools Manuals
+[Download the manuals](https://insydium.ltd/site/assets/files/downloads/CD_Manuals.zip)
+
+### 🔧 Plugin Binaries
+Download the full set of CD Tools plugins (Cinema 4D R14):
+[Download CD Tools](https://insydium.ltd/site/assets/files/downloads/CD_Tools.zip)
+
+These are provided **as-is** for the community in memory of Cactus Dan.
