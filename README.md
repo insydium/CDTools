@@ -1,5 +1,7 @@
 # CD Tools – Cinema 4D Plugins by Cactus Dan
 
+<img src="https://insydium.ltd/site/assets/files/1708/cactus-dan.jpg" width=50%>
+
 This repository contains the source files for **CD Tools**, a collection of Cinema 4D plugins created by **Daniel K. Libisch** (Cactus Dan). These plugins were widely used for character rigging in **Cinema 4D R14**.
 
 ## About Cactus Dan
